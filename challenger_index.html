@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>League of Legends Challenger Tracker</h1>
+            <p class="subtitle">Tracking all players who have reached Challenger this season</p>
+            <div class="last-update">Last updated: <span id="lastUpdate">Loading...</span></div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="totalPlayers">-</div>
+                <div class="stat-label">Total Challengers (All Time)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="currentPlayers">-</div>
+                <div class="stat-label">Current Challengers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgDays">-</div>
+                <div class="stat-label">Avg. Days in Challenger</div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by summoner name or tag...">
+        </div>
+
+        <div class="table-container">
+            <table id="playerTable">
+                <thead>
+                    <tr>
+                        <th data-sort="rank" class="sortable">#</th>
+                        <th data-sort="summonerName" class="sortable">Summoner Name</th>
+                        <th data-sort="daysInChallenger" class="sortable">Days in Challenger</th>
+                        <th data-sort="avgRank" class="sortable">Average Rank</th>
+                        <th data-sort="currentRank" class="sortable">Current Rank</th>
+                        <th data-sort="lp" class="sortable">LP</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="playerTableBody">
+                    <tr>
+                        <td colspan="7" class="loading">Loading player data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
