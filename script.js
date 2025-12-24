@@ -4,9 +4,21 @@ let currentSort = { column: 'rank', direction: 'asc' };
 // Load player data
 async function loadData() {
     try {
+        console.log('Starting to load data...');
         const response = await fetch('data/players.json');
+        console.log('Response status:', response.status);
         const data = await response.json();
+        console.log('Data loaded:', data);
+        console.log('Number of players:', data.players.length);
+        
         players = data.players;
+        
+        if (players.length === 0) {
+            console.warn('No players in data!');
+            document.getElementById('playerTableBody').innerHTML = 
+                '<tr><td colspan="7" class="loading">No player data available yet. Run the update workflow.</td></tr>';
+            return;
+        }
         
         updateStats(data);
         renderTable();
