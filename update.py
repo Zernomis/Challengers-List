@@ -82,10 +82,8 @@ def update_player_data():
                 player['isActive'] = True
                 player['currentRank'] = idx + 1
                 
-                # Update days in challenger if they're currently active
-                if 'firstSeenDate' in player:
-                    first_seen = datetime.fromisoformat(player['firstSeenDate'])
-                    player['daysInChallenger'] = (datetime.now(timezone.utc) - first_seen).days
+                # Add 1 day every time we see them in Challenger (they've been here for at least 24h)
+                player['daysInChallenger'] = player.get('daysInChallenger', 0) + 1
                 
                 # Update average rank
                 if 'rankHistory' in player:
@@ -95,7 +93,7 @@ def update_player_data():
                     player['rankHistory'] = [idx + 1]
                     player['avgRank'] = idx + 1
             else:
-                # Add new player
+                # Add new player (first time seeing them = 1 day in Challenger)
                 player_map[puuid] = {
                     'puuid': puuid,
                     'summonerName': game_name,
@@ -104,7 +102,7 @@ def update_player_data():
                     'wins': entry['wins'],
                     'losses': entry['losses'],
                     'firstSeenDate': current_date,
-                    'daysInChallenger': 0,
+                    'daysInChallenger': 1,
                     'currentRank': idx + 1,
                     'avgRank': idx + 1,
                     'rankHistory': [idx + 1],
