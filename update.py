@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 
 # Configuration
 API_KEY = os.environ.get('RIOT_API_KEY')
-REGION = 'na1'  # Change to your region: na1, euw1, kr, etc.
-ROUTING = 'americas'  # Change based on region: americas, europe, asia
+REGION = 'euw1'  # Change to your region: na1, euw1, kr, etc.
+ROUTING = 'europe'  # Change based on region: americas, europe, asia
 DATA_FILE = 'data/players.json'
 
 def get_challenger_league():
