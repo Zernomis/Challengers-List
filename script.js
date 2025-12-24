@@ -1,7 +1,7 @@
 let players = [];
 let currentSort = { column: 'rank', direction: 'asc' };
 
-// Load player data
+// Load player data 
 async function loadData() {
     try {
         console.log('Starting to load data...');
