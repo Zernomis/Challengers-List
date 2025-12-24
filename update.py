@@ -68,8 +68,10 @@ def update_player_data():
             # Get Riot ID (gameName#tagLine)
             game_name, tag_line = get_account_info(puuid)
             
-            # Add small delay to respect rate limits (20 requests per second)
-            time.sleep(0.05)
+            # Rate limiting: 100 requests per 2 minutes
+            # 301 total requests needs ~6 minutes to stay under limit
+            # 1.2 seconds per request = safe rate
+            time.sleep(1.2)
             
             if puuid in player_map:
                 # Update existing player
