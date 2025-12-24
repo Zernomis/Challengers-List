@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from datetime import datetime, timezone
 
 # Configuration
@@ -18,24 +19,19 @@ def get_challenger_league():
     response.raise_for_status()
     return response.json()
 
-def get_puuid(summoner_id):
-    """Get PUUID from summoner ID"""
-    url = f'https://{REGION}.api.riotgames.com/lol/summoner/v4/summoners/{summoner_id}'
-    headers = {'X-Riot-Token': API_KEY}
-    
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()['puuid']
-
 def get_account_info(puuid):
     """Get account info (riot ID) from PUUID"""
     url = f'https://{ROUTING}.api.riotgames.com/riot/account/v1/accounts/by-puuid/{puuid}'
     headers = {'X-Riot-Token': API_KEY}
     
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    data = response.json()
-    return data['gameName'], data['tagLine']
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        return data['gameName'], data['tagLine']
+    except Exception as e:
+        print(f"Error fetching account info for PUUID {puuid}: {e}")
+        return "Unknown", "0000"
 
 def load_existing_data():
     """Load existing player data"""
@@ -65,12 +61,15 @@ def update_player_data():
     
     for idx, entry in enumerate(league_data['entries']):
         try:
-            # Get PUUID
-            puuid = get_puuid(entry['summonerId'])
+            # PUUID is directly in the entry now!
+            puuid = entry['puuid']
             current_puuids.add(puuid)
             
-            # Get Riot ID
+            # Get Riot ID (gameName#tagLine)
             game_name, tag_line = get_account_info(puuid)
+            
+            # Add small delay to respect rate limits (20 requests per second)
+            time.sleep(0.05)
             
             if puuid in player_map:
                 # Update existing player
@@ -112,12 +111,12 @@ def update_player_data():
                     'isActive': True
                 }
             
-            # Rate limiting - be nice to Riot API
-            if (idx + 1) % 10 == 0:
+            # Progress update
+            if (idx + 1) % 50 == 0:
                 print(f"Processed {idx + 1}/{len(league_data['entries'])} players...")
                 
         except Exception as e:
-            print(f"Error processing player {entry.get('summonerName', 'Unknown')}: {e}")
+            print(f"Error processing player at index {idx}: {e}")
             continue
     
     # Mark players who are no longer in Challenger as inactive
@@ -158,4 +157,6 @@ if __name__ == '__main__':
         update_player_data()
     except Exception as e:
         print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
         exit(1)
