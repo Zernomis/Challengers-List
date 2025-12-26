@@ -87,13 +87,17 @@ def update_player_data():
                 # Add 1 day every time we see them in Challenger (they've been here for at least 24h)
                 player['daysInChallenger'] = player.get('daysInChallenger', 0) + 1
                 
-                # Update average rank
+                # Update average rank (only if 50+ players in league for accuracy)
                 if 'rankHistory' in player:
                     player['rankHistory'].append(idx + 1)
-                    player['avgRank'] = sum(player['rankHistory']) / len(player['rankHistory'])
+                    # Only calculate average if league has 50+ players
+                    if len(league_data['entries']) >= 50:
+                        player['avgRank'] = sum(player['rankHistory']) / len(player['rankHistory'])
+                    else:
+                        player['avgRank'] = None
                 else:
                     player['rankHistory'] = [idx + 1]
-                    player['avgRank'] = idx + 1
+                    player['avgRank'] = idx + 1 if len(league_data['entries']) >= 50 else None
             else:
                 # Add new player (first time seeing them = 1 day in Challenger)
                 player_map[puuid] = {
