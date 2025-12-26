@@ -1,7 +1,7 @@
 let players = [];
 let currentSort = { column: 'rank', direction: 'asc' };
 
-// Load player data 
+// Load player data
 async function loadData() {
     try {
         console.log('Starting to load data...');
@@ -55,11 +55,11 @@ function renderTable(filteredPlayers = players) {
     tbody.innerHTML = filteredPlayers.map((player, index) => `
         <tr>
             <td>${index + 1}</td>
-            <td><strong>${player.summonerName}</strong>#${player.tagLine}</td>
+            <td><strong><a href="https://xdx.gg/${player.summonerName}-${player.tagLine}" target="_blank" rel="noopener noreferrer">${player.summonerName}</a></strong>#${player.tagLine}</td>
             <td>${player.daysInChallenger}</td>
-            <td>${player.avgRank ? player.avgRank.toFixed(1) : 'N/A'}</td>
-            <td>${player.currentRank || 'N/A'}</td>
-            <td>${player.leaguePoints !== null ? player.leaguePoints : 'N/A'}</td>
+            <td>${player.avgRank ? player.avgRank.toFixed(1) : '-'}</td>
+            <td>${player.currentRank || '-'}</td>
+            <td>${player.leaguePoints !== null ? player.leaguePoints : '-'}</td>
             <td>
                 <span class="status-badge ${player.isActive ? 'status-active' : 'status-inactive'}">
                     ${player.isActive ? 'Active' : 'Inactive'}
