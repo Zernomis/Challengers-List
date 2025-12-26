@@ -52,21 +52,28 @@ function renderTable(filteredPlayers = players) {
         return;
     }
     
-    tbody.innerHTML = filteredPlayers.map((player, index) => `
-        <tr>
-            <td>${index + 1}</td>
-            <td><strong><a href="https://xdx.gg/${player.summonerName}-${player.tagLine}" target="_blank" rel="noopener noreferrer">${player.summonerName}</a></strong>#${player.tagLine}</td>
-            <td>${player.daysInChallenger}</td>
-            <td>${player.avgRank ? player.avgRank.toFixed(1) : '-'}</td>
-            <td>${player.currentRank || '-'}</td>
-            <td>${player.leaguePoints !== null ? player.leaguePoints : '-'}</td>
-            <td>
-                <span class="status-badge ${player.isActive ? 'status-active' : 'status-inactive'}">
-                    ${player.isActive ? 'Active' : 'Inactive'}
-                </span>
-            </td>
-        </tr>
-    `).join('');
+    tbody.innerHTML = filteredPlayers.map((player, index) => {
+        const profileUrl = `https://xdx.gg/${player.summonerName}-${player.tagLine}`;
+        const avgRank = player.avgRank ? player.avgRank.toFixed(1) : '-';
+        const currentRank = player.currentRank ? player.currentRank : '-';
+        const lp = player.leaguePoints !== null && player.leaguePoints !== undefined ? player.leaguePoints : '-';
+        
+        return `
+            <tr>
+                <td>${index + 1}</td>
+                <td><strong><a href="${profileUrl}" target="_blank" rel="noopener noreferrer">${player.summonerName}</a></strong>#${player.tagLine}</td>
+                <td>${player.daysInChallenger}</td>
+                <td>${avgRank}</td>
+                <td>${currentRank}</td>
+                <td>${lp}</td>
+                <td>
+                    <span class="status-badge ${player.isActive ? 'status-active' : 'status-inactive'}">
+                        ${player.isActive ? 'Active' : 'Inactive'}
+                    </span>
+                </td>
+            </tr>
+        `;
+    }).join('');
 }
 
 // Sort table
