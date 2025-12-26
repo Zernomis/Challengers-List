@@ -151,6 +151,54 @@ th.sortable.desc::after {
     opacity: 1;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+.tooltip:hover {
+    opacity: 1;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: rgba(26, 32, 44, 0.95);
+    color: #e0e6ed;
+    text-align: left;
+    border-radius: 8px;
+    padding: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -125px;
+    font-size: 0.85rem;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    border: 1px solid rgba(249, 212, 35, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(26, 32, 44, 0.95) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 tbody tr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     transition: background-color 0.2s;
@@ -163,6 +211,17 @@ tbody tr:hover {
 td {
     padding: 16px;
     color: #e0e6ed;
+}
+
+td a {
+    color: #f9d423;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+td a:hover {
+    color: #ffd700;
+    text-decoration: underline;
 }
 
 .status-badge {
