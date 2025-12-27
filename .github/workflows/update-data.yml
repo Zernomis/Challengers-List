@@ -1,14 +1,15 @@
-name: Update Challenger Data
+name: Update Challenger Data - All Regions
 
 on:
   schedule:
-    # Run daily at 00:00 UTC (15 minutes after ladder updates)
+    # Run daily at 00:30 UTC (30 minutes after ladder updates at 00:00 UTC)
     - cron: '0 0 * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 45  # Allow up to 45 minutes for all regions
     
     permissions:
       contents: write
@@ -26,7 +27,7 @@ jobs:
         run: |
           pip install requests
       
-      - name: Run update script
+      - name: Run multi-region update script
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
         run: |
@@ -36,5 +37,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/players.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Challenger data - $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
+          git add data/*_players.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Challenger data for all regions - $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
