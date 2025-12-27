@@ -1,12 +1,37 @@
 let players = [];
 let currentSort = { column: 'rank', direction: 'asc' };
+let currentRegion = 'euw1'; // Default region
 
-// Load player data
-async function loadData() {
+// Region configuration
+const REGIONS = {
+    'euw1': { name: 'Europe West', profileUrl: 'https://xdx.gg' },
+    'na1': { name: 'North America', profileUrl: 'https://xdx.gg' },
+    'kr': { name: 'Korea', profileUrl: 'https://xdx.gg' },
+    'eun1': { name: 'Europe Nordic & East', profileUrl: 'https://xdx.gg' },
+    'br1': { name: 'Brazil', profileUrl: 'https://xdx.gg' },
+    'la1': { name: 'Latin America North', profileUrl: 'https://xdx.gg' },
+    'la2': { name: 'Latin America South', profileUrl: 'https://xdx.gg' },
+    'vn2': { name: 'Vietnam', profileUrl: 'https://xdx.gg' },
+    'ph2': { name: 'Philippines', profileUrl: 'https://xdx.gg' },
+    'tw2': { name: 'Taiwan', profileUrl: 'https://xdx.gg' },
+    'sg2': { name: 'Singapore', profileUrl: 'https://xdx.gg' },
+    'tr1': { name: 'Turkey', profileUrl: 'https://xdx.gg' },
+    'oc1': { name: 'Oceania', profileUrl: 'https://xdx.gg' },
+    'jp1': { name: 'Japan', profileUrl: 'https://xdx.gg' },
+    'ru': { name: 'Russia', profileUrl: 'https://xdx.gg' }
+};
+
+// Load player data for a specific region
+async function loadData(regionCode) {
     try {
-        console.log('Starting to load data...');
-        const response = await fetch('data/players.json');
+        console.log(`Loading data for region: ${regionCode}`);
+        const response = await fetch(`data/${regionCode}_players.json`);
         console.log('Response status:', response.status);
+        
+        if (!response.ok) {
+            throw new Error(`Failed to fetch data for ${regionCode}`);
+        }
+        
         const data = await response.json();
         console.log('Data loaded:', data);
         console.log('Number of players:', data.players.length);
@@ -16,7 +41,7 @@ async function loadData() {
         if (players.length === 0) {
             console.warn('No players in data!');
             document.getElementById('playerTableBody').innerHTML = 
-                '<tr><td colspan="7" class="loading">No player data available yet. Run the update workflow.</td></tr>';
+                '<tr><td colspan="7" class="loading">No player data available yet. The tracker will update daily.</td></tr>';
             return;
         }
         
@@ -28,7 +53,7 @@ async function loadData() {
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('playerTableBody').innerHTML = 
-            '<tr><td colspan="7" class="loading">Error loading data. Please try again later.</td></tr>';
+            `<tr><td colspan="7" class="loading">Error loading data for ${REGIONS[regionCode].name}. This region may not have data yet.</td></tr>`;
     }
 }
 
@@ -36,7 +61,9 @@ async function loadData() {
 function updateStats(data) {
     const totalPlayers = players.length;
     const currentPlayers = players.filter(p => p.isActive).length;
-    const avgDays = (players.reduce((sum, p) => sum + p.daysInChallenger, 0) / totalPlayers).toFixed(1);
+    const avgDays = totalPlayers > 0 
+        ? (players.reduce((sum, p) => sum + p.daysInChallenger, 0) / totalPlayers).toFixed(1)
+        : '0';
     
     document.getElementById('totalPlayers').textContent = totalPlayers;
     document.getElementById('currentPlayers').textContent = currentPlayers;
@@ -52,8 +79,10 @@ function renderTable(filteredPlayers = players) {
         return;
     }
     
+    const regionConfig = REGIONS[currentRegion];
+    
     tbody.innerHTML = filteredPlayers.map((player, index) => {
-        const profileUrl = `https://xdx.gg/${player.summonerName}-${player.tagLine}`;
+        const profileUrl = `${regionConfig.profileUrl}/${player.summonerName}-${player.tagLine}`;
         const avgRank = player.avgRank ? player.avgRank.toFixed(1) : '-';
         const currentRank = player.currentRank ? player.currentRank : '-';
         const lp = player.leaguePoints !== null && player.leaguePoints !== undefined ? player.leaguePoints : '-';
@@ -118,6 +147,22 @@ function updateSortIndicators() {
     });
 }
 
+// Region selector change
+document.getElementById('regionSelect').addEventListener('change', (e) => {
+    currentRegion = e.target.value;
+    console.log(`Region changed to: ${currentRegion}`);
+    
+    // Reset search
+    document.getElementById('searchInput').value = '';
+    
+    // Reset sort
+    currentSort = { column: 'rank', direction: 'asc' };
+    updateSortIndicators();
+    
+    // Load new region data
+    loadData(currentRegion);
+});
+
 // Search functionality
 document.getElementById('searchInput').addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
@@ -135,5 +180,5 @@ document.querySelectorAll('th.sortable').forEach(th => {
     });
 });
 
-// Initialize
-loadData();
+// Initialize with default region
+loadData(currentRegion);
