@@ -154,7 +154,7 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    overflow: hidden;
+    overflow: visible;
     border-radius: 12px;
 }
 
