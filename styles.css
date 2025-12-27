@@ -40,6 +40,51 @@ h1 {
     font-size: 1.1rem;
 }
 
+.region-selector {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.region-selector label {
+    display: block;
+    margin-bottom: 8px;
+    color: #a0aec0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#regionSelect {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(249, 212, 35, 0.3);
+    border-radius: 8px;
+    color: #e0e6ed;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#regionSelect:hover {
+    border-color: rgba(249, 212, 35, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#regionSelect:focus {
+    outline: none;
+    border-color: #f9d423;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#regionSelect option {
+    background: #1a2942;
+    color: #e0e6ed;
+    padding: 8px;
+}
+
 .last-update {
     margin-top: 15px;
     font-size: 0.9rem;
@@ -109,10 +154,14 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 thead {
     background: rgba(249, 212, 35, 0.1);
+    position: relative;
+    z-index: 10;
 }
 
 th {
@@ -123,6 +172,8 @@ th {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    position: relative;
+    overflow: visible;
 }
 
 th.sortable {
@@ -256,6 +307,10 @@ td a:hover {
 
     .stats {
         grid-template-columns: 1fr;
+    }
+
+    #regionSelect {
+        max-width: 100%;
     }
 
     .table-container {
