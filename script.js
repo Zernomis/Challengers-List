@@ -12,13 +12,13 @@ const REGIONS = {
     'la1': { name: 'Latin America North', profileUrl: 'https://xdx.gg' },
     'la2': { name: 'Latin America South', profileUrl: 'https://xdx.gg' },
     'vn2': { name: 'Vietnam', profileUrl: 'https://xdx.gg' },
-    'ph2': { name: 'Philippines', profileUrl: 'https://xdx.gg' },
+    'sg2': { name: 'Southeast Asia', profileUrl: 'https://xdx.gg' },
     'tw2': { name: 'Taiwan', profileUrl: 'https://xdx.gg' },
-    'sg2': { name: 'Singapore', profileUrl: 'https://xdx.gg' },
     'tr1': { name: 'Turkey', profileUrl: 'https://xdx.gg' },
     'oc1': { name: 'Oceania', profileUrl: 'https://xdx.gg' },
     'jp1': { name: 'Japan', profileUrl: 'https://xdx.gg' },
-    'ru': { name: 'Russia', profileUrl: 'https://xdx.gg' }
+    'ru': { name: 'Russia', profileUrl: 'https://xdx.gg' },
+    'me1': { name: 'Middle East', profileUrl: 'https://xdx.gg' }
 };
 
 // Load player data for a specific region
