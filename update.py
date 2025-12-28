@@ -24,11 +24,11 @@ ROUTING_DISTRIBUTION = {
         ('la2', 'Latin America South', 200),
         ('vn2', 'Vietnam', 300),
         ('oc1', 'Oceania', 50),
+        ('me1', 'Middle East', 50),
     ],
     'asia': [
-        ('ph2', 'Philippines', 300),
         ('tw2', 'Taiwan', 200),
-        ('sg2', 'Singapore', 200),
+        ('sg2', 'Southeast Asia', 200),
         ('tr1', 'Turkey', 200),
     ]
 }
