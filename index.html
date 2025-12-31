@@ -62,9 +62,15 @@
                         <th data-sort="summonerName" class="sortable">Summoner Name</th>
                         <th data-sort="daysInChallenger" class="sortable">Days in Challenger</th>
                         <th data-sort="avgRank" class="sortable">
-                            Average Rank
+                            Avg Rank (Filtered)
                             <span class="tooltip">ⓘ
-                                <span class="tooltiptext">Average rank is only calculated when the ladder has 50+ players. Early season data may be skewed due to smaller ladder sizes.</span>
+                                <span class="tooltiptext">Average rank calculated only when ladder has 15%+ of max slots (45+ players). More accurate but may exclude early season data.</span>
+                            </span>
+                        </th>
+                        <th data-sort="avgRankAll" class="sortable">
+                            Avg Rank (All)
+                            <span class="tooltip">ⓘ
+                                <span class="tooltiptext">Average rank using all available data, including when ladder had fewer players. May be less accurate for early season.</span>
                             </span>
                         </th>
                         <th data-sort="currentRank" class="sortable">Current Rank</th>
@@ -74,7 +80,7 @@
                 </thead>
                 <tbody id="playerTableBody">
                     <tr>
-                        <td colspan="7" class="loading">Loading player data...</td>
+                        <td colspan="8" class="loading">Loading player data...</td>
                     </tr>
                 </tbody>
             </table>
