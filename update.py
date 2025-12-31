@@ -9,27 +9,28 @@ from datetime import datetime, timezone
 API_KEY = os.environ.get('RIOT_API_KEY')
 
 # Optimally distributed routing configuration for parallel processing
+# Format: (platform_id, display_name, max_challenger_slots)
 ROUTING_DISTRIBUTION = {
     'americas': [
         ('na1', 'North America', 300),
         ('br1', 'Brazil', 200),
-        ('kr', 'Korea', 300),
+        ('tw2', 'Taiwan', 200),
         ('eun1', 'Europe Nordic & East', 200),
         ('jp1', 'Japan', 50),
         ('ru', 'Russia', 50),
     ],
     'europe': [
         ('euw1', 'Europe West', 300),
-        ('la1', 'Latin America North', 200),
-        ('la2', 'Latin America South', 200),
+        ('tr1', 'Turkey', 200),
         ('vn2', 'Vietnam', 300),
         ('oc1', 'Oceania', 50),
         ('me1', 'Middle East', 50),
     ],
     'asia': [
-        ('tw2', 'Taiwan', 200),
-        ('sg2', 'Southeast Asia', 200),
-        ('tr1', 'Turkey', 200),
+        ('kr', 'Korea', 300),
+        ('sg2', 'Southeast Asia', 300),
+        ('la1', 'Latin America North', 200),
+        ('la2', 'Latin America South', 200),
     ]
 }
 
@@ -75,11 +76,11 @@ def save_region_data(region_code, data):
     with open(data_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-def update_region(platform_region, region_name, routing_region):
+def update_region(platform_region, region_name, routing_region, max_slots):
     """Update player data for a single region"""
     print(f"\n{'='*60}")
     print(f"Processing {region_name} ({platform_region})")
-    print(f"Using routing: {routing_region}")
+    print(f"Using routing: {routing_region} | Max Slots: {max_slots}")
     print(f"{'='*60}")
     
     # Fetch Challenger league
@@ -95,8 +96,11 @@ def update_region(platform_region, region_name, routing_region):
     current_date = datetime.now(timezone.utc).isoformat()
     current_puuids = set()
     
-    total_players = len(league_data['entries'])
-    print(f"Found {total_players} Challenger players")
+    # Calculate threshold based on the dynamic max_slots
+    min_players_threshold = int(max_slots * 0.15)
+    total_league_entries = len(league_data['entries'])
+    
+    print(f"Found {total_league_entries} Challenger players (Threshold: {min_players_threshold})")
     
     for idx, entry in enumerate(league_data['entries']):
         try:
@@ -121,28 +125,20 @@ def update_region(platform_region, region_name, routing_region):
                 player['currentRank'] = idx + 1
                 player['daysInChallenger'] = player.get('daysInChallenger', 0) + 1
                 
-               # Update rank history and calculate both average ranks
                 if 'rankHistory' in player:
                     player['rankHistory'].append(idx + 1)
                 else:
                     player['rankHistory'] = [idx + 1]
                 
-                # Calculate average rank (all data)
                 player['avgRankAll'] = sum(player['rankHistory']) / len(player['rankHistory'])
                 
-                # Calculate average rank (only when ladder is 15%+ filled, assumes 300 max slots)
-                max_challenger_slots = 300
-                min_players_threshold = int(max_challenger_slots * 0.15)  # 15% of 300 = 45 players
-                
-                if len(league_data['entries']) >= min_players_threshold:
-                    player['avgRank'] = sum(player['rankHistory']) / len(player['rankHistory'])
+                # Dynamic threshold check
+                if total_league_entries >= min_players_threshold:
+                    player['avgRank'] = player['avgRankAll']
                 else:
                     player['avgRank'] = None
             else:
-                # Add new player (first time seeing them = 1 day in Challenger)
-                max_challenger_slots = 300
-                min_players_threshold = int(max_challenger_slots * 0.15)
-                
+                # Add new player
                 player_map[puuid] = {
                     'puuid': puuid,
                     'summonerName': game_name,
@@ -153,15 +149,14 @@ def update_region(platform_region, region_name, routing_region):
                     'firstSeenDate': current_date,
                     'daysInChallenger': 1,
                     'currentRank': idx + 1,
-                    'avgRank': idx + 1 if len(league_data['entries']) >= min_players_threshold else None,
+                    'avgRank': idx + 1 if total_league_entries >= min_players_threshold else None,
                     'avgRankAll': idx + 1,
                     'rankHistory': [idx + 1],
                     'isActive': True
                 }
             
-            # Progress update
             if (idx + 1) % 50 == 0:
-                print(f"  Progress: {idx + 1}/{total_players} players processed...")
+                print(f"  Progress: {idx + 1}/{total_league_entries} players processed...")
                 
         except Exception as e:
             print(f"  Error processing player at index {idx}: {e}")
@@ -188,18 +183,16 @@ def update_region(platform_region, region_name, routing_region):
     }
     
     save_region_data(platform_region, updated_data)
-    
     print(f"✓ {region_name} completed!")
-    print(f"  Total tracked: {len(sorted_players)}")
-    print(f"  Currently active: {len(current_puuids)}")
 
 def process_routing_group(routing_region, regions):
     """Process all regions assigned to a routing region"""
     print(f"\n🌍 Starting {routing_region.upper()} routing group")
     start_time = time.time()
     
-    for platform_region, region_name, expected_count in regions:
-        update_region(platform_region, region_name, routing_region)
+    # Unpack the 3-tuple from ROUTING_DISTRIBUTION
+    for platform_region, region_name, max_slots in regions:
+        update_region(platform_region, region_name, routing_region, max_slots)
     
     elapsed = time.time() - start_time
     print(f"\n✓ {routing_region.upper()} group completed in {elapsed/60:.1f} minutes")
@@ -215,8 +208,6 @@ def update_all_regions():
         return False
     
     start_time = time.time()
-    
-    # Create threads for each routing region
     threads = []
     for routing_region, regions in ROUTING_DISTRIBUTION.items():
         thread = threading.Thread(
@@ -226,18 +217,13 @@ def update_all_regions():
         threads.append(thread)
         thread.start()
     
-    # Wait for all threads to complete
     for thread in threads:
         thread.join()
     
     elapsed = time.time() - start_time
-    
-    print("\n" + "="*60)
-    print(f"✓ ALL REGIONS COMPLETED!")
-    print(f"  Total time: {elapsed/60:.1f} minutes")
+    print(f"\n✓ ALL REGIONS COMPLETED in {elapsed/60:.1f} minutes")
     print(f"  Timestamp: {datetime.now(timezone.utc).isoformat()}")
     print("="*60)
-    
     return True
 
 if __name__ == '__main__':
