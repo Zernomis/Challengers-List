@@ -121,18 +121,28 @@ def update_region(platform_region, region_name, routing_region):
                 player['currentRank'] = idx + 1
                 player['daysInChallenger'] = player.get('daysInChallenger', 0) + 1
                 
-                # Update rank history
+               # Update rank history and calculate both average ranks
                 if 'rankHistory' in player:
                     player['rankHistory'].append(idx + 1)
-                    if len(league_data['entries']) >= 50:
-                        player['avgRank'] = sum(player['rankHistory']) / len(player['rankHistory'])
-                    else:
-                        player['avgRank'] = None
                 else:
                     player['rankHistory'] = [idx + 1]
-                    player['avgRank'] = idx + 1 if len(league_data['entries']) >= 50 else None
+                
+                # Calculate average rank (all data)
+                player['avgRankAll'] = sum(player['rankHistory']) / len(player['rankHistory'])
+                
+                # Calculate average rank (only when ladder is 15%+ filled, assumes 300 max slots)
+                max_challenger_slots = 300
+                min_players_threshold = int(max_challenger_slots * 0.15)  # 15% of 300 = 45 players
+                
+                if len(league_data['entries']) >= min_players_threshold:
+                    player['avgRank'] = sum(player['rankHistory']) / len(player['rankHistory'])
+                else:
+                    player['avgRank'] = None
             else:
-                # Add new player
+                # Add new player (first time seeing them = 1 day in Challenger)
+                max_challenger_slots = 300
+                min_players_threshold = int(max_challenger_slots * 0.15)
+                
                 player_map[puuid] = {
                     'puuid': puuid,
                     'summonerName': game_name,
@@ -143,7 +153,8 @@ def update_region(platform_region, region_name, routing_region):
                     'firstSeenDate': current_date,
                     'daysInChallenger': 1,
                     'currentRank': idx + 1,
-                    'avgRank': idx + 1,
+                    'avgRank': idx + 1 if len(league_data['entries']) >= min_players_threshold else None,
+                    'avgRankAll': idx + 1,
                     'rankHistory': [idx + 1],
                     'isActive': True
                 }
