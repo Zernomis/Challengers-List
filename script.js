@@ -75,7 +75,7 @@ function renderTable(filteredPlayers = players) {
     const tbody = document.getElementById('playerTableBody');
     
     if (filteredPlayers.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="loading">No players found</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" class="loading">No players found</td></tr>';
         return;
     }
     
@@ -84,6 +84,7 @@ function renderTable(filteredPlayers = players) {
     tbody.innerHTML = filteredPlayers.map((player, index) => {
         const profileUrl = `${regionConfig.profileUrl}/${player.summonerName}-${player.tagLine}`;
         const avgRank = player.avgRank ? player.avgRank.toFixed(1) : '-';
+        const avgRankAll = player.avgRankAll ? player.avgRankAll.toFixed(1) : '-';
         const currentRank = player.currentRank ? player.currentRank : '-';
         const lp = player.leaguePoints !== null && player.leaguePoints !== undefined ? player.leaguePoints : '-';
         
@@ -93,6 +94,7 @@ function renderTable(filteredPlayers = players) {
                 <td><strong><a href="${profileUrl}" target="_blank" rel="noopener noreferrer">${player.summonerName}</a></strong>#${player.tagLine}</td>
                 <td>${player.daysInChallenger}</td>
                 <td>${avgRank}</td>
+                <td>${avgRankAll}</td>
                 <td>${currentRank}</td>
                 <td>${lp}</td>
                 <td>
