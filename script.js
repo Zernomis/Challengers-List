@@ -1,6 +1,8 @@
 let players = [];
 let currentSort = { column: 'rank', direction: 'asc' };
-let currentRegion = 'euw1'; // Default region
+let currentRegion = 'euw1';
+let currentSeason = 'current';
+let availableSeasons = ['current'];
 
 // Region configuration
 const REGIONS = {
@@ -21,11 +23,50 @@ const REGIONS = {
     'me1': { name: 'Middle East', profileUrl: 'https://xdx.gg' }
 };
 
-// Load player data for a specific region
-async function loadData(regionCode) {
+// Load available seasons from archives
+async function loadAvailableSeasons() {
     try {
-        console.log(`Loading data for region: ${regionCode}`);
-        const response = await fetch(`data/${regionCode}_players.json`);
+        // Try to fetch the archives directory listing
+        // This requires a seasons.json file that lists all available seasons
+        const response = await fetch('data/archives/seasons.json');
+        if (response.ok) {
+            const data = await response.json();
+            availableSeasons = ['current', ...data.seasons];
+        }
+    } catch (error) {
+        console.log('No archived seasons found or seasons.json missing');
+    }
+    
+    updateSeasonSelector();
+}
+
+// Update season selector dropdown
+function updateSeasonSelector() {
+    const seasonSelect = document.getElementById('seasonSelect');
+    seasonSelect.innerHTML = availableSeasons.map(season => {
+        if (season === 'current') {
+            return '<option value="current">Current Season</option>';
+        } else {
+            return `<option value="${season}">Season ${season.replace('_', ' - Split ')}</option>`;
+        }
+    }).join('');
+    
+    seasonSelect.value = currentSeason;
+}
+
+// Load player data for a specific region and season
+async function loadData(regionCode, season = 'current') {
+    try {
+        console.log(`Loading data for region: ${regionCode}, season: ${season}`);
+        
+        let dataPath;
+        if (season === 'current') {
+            dataPath = `data/${regionCode}_players.json`;
+        } else {
+            dataPath = `data/archives/${season}/${regionCode}_players.json`;
+        }
+        
+        const response = await fetch(dataPath);
         console.log('Response status:', response.status);
         
         if (!response.ok) {
@@ -40,8 +81,9 @@ async function loadData(regionCode) {
         
         if (players.length === 0) {
             console.warn('No players in data!');
+            const seasonText = season === 'current' ? '' : ` for season ${season}`;
             document.getElementById('playerTableBody').innerHTML = 
-                '<tr><td colspan="7" class="loading">No player data available yet. The tracker will update daily.</td></tr>';
+                `<tr><td colspan="8" class="loading">No player data available${seasonText}.</td></tr>`;
             return;
         }
         
@@ -52,8 +94,9 @@ async function loadData(regionCode) {
             new Date(data.lastUpdate).toLocaleString();
     } catch (error) {
         console.error('Error loading data:', error);
+        const seasonText = season === 'current' ? '' : ` for season ${season}`;
         document.getElementById('playerTableBody').innerHTML = 
-            `<tr><td colspan="7" class="loading">Error loading data for ${REGIONS[regionCode].name}. This region may not have data yet.</td></tr>`;
+            `<tr><td colspan="8" class="loading">Error loading data for ${REGIONS[regionCode].name}${seasonText}.</td></tr>`;
     }
 }
 
@@ -162,7 +205,23 @@ document.getElementById('regionSelect').addEventListener('change', (e) => {
     updateSortIndicators();
     
     // Load new region data
-    loadData(currentRegion);
+    loadData(currentRegion, currentSeason);
+});
+
+// Season selector change
+document.getElementById('seasonSelect').addEventListener('change', (e) => {
+    currentSeason = e.target.value;
+    console.log(`Season changed to: ${currentSeason}`);
+    
+    // Reset search
+    document.getElementById('searchInput').value = '';
+    
+    // Reset sort
+    currentSort = { column: 'rank', direction: 'asc' };
+    updateSortIndicators();
+    
+    // Load new season data
+    loadData(currentRegion, currentSeason);
 });
 
 // Search functionality
@@ -182,5 +241,7 @@ document.querySelectorAll('th.sortable').forEach(th => {
     });
 });
 
-// Initialize with default region
-loadData(currentRegion);
+// Initialize
+loadAvailableSeasons().then(() => {
+    loadData(currentRegion, currentSeason);
+});
