@@ -321,3 +321,72 @@ td a:hover {
         min-width: 800px;
     }
 }
+
+.selector-section {
+    margin-bottom: 20px;
+}
+
+.selector-section label {
+    display: block;
+    margin-bottom: 12px;
+    color: #a0aec0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.season-grid .selector-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    min-width: 150px;
+}
+
+.region-grid .selector-button {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    min-width: 60px;
+}
+
+.selector-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(249, 212, 35, 0.3);
+    border-radius: 8px;
+    color: #e0e6ed;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 600;
+    text-align: center;
+}
+
+.selector-button:hover {
+    border-color: rgba(249, 212, 35, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.selector-button.active {
+    background: rgba(249, 212, 35, 0.2);
+    border-color: #f9d423;
+    color: #f9d423;
+}
+
+@media (max-width: 768px) {
+    .region-grid .selector-button {
+        min-width: 50px;
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .season-grid .selector-button {
+        min-width: 120px;
+        padding: 10px 20px;
+    }
+}
