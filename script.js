@@ -23,6 +23,25 @@ const REGIONS = {
     'me1': { name: 'Middle East', profileUrl: 'https://xdx.gg' }
 };
 
+// Region short codes mapping
+const REGION_SHORT_CODES = {
+    'br1': 'BR',
+    'eun1': 'EUNE',
+    'euw1': 'EUW',
+    'jp1': 'JP',
+    'kr': 'KR',
+    'la1': 'LAN',
+    'la2': 'LAS',
+    'me1': 'ME',
+    'na1': 'NA',
+    'oc1': 'OC',
+    'sg2': 'SEA',
+    'ru': 'RU',
+    'tr1': 'TR',
+    'tw2': 'TW',
+    'vn2': 'VN'
+};
+
 // Load available seasons from archives
 async function loadAvailableSeasons() {
     try {
@@ -40,18 +59,48 @@ async function loadAvailableSeasons() {
     updateSeasonSelector();
 }
 
-// Update season selector dropdown
+// Update season selector buttons
 function updateSeasonSelector() {
-    const seasonSelect = document.getElementById('seasonSelect');
-    seasonSelect.innerHTML = availableSeasons.map(season => {
-        if (season === 'current') {
-            return '<option value="current">Current Season</option>';
-        } else {
-            return `<option value="${season}">Season ${season.replace('_', ' - Split ')}</option>`;
-        }
+    const seasonButtons = document.getElementById('seasonButtons');
+    seasonButtons.innerHTML = availableSeasons.map(season => {
+        const label = season === 'current' ? 'Current Season' : `Season ${season.replace('_', ' - Split ')}`;
+        const activeClass = season === currentSeason ? 'active' : '';
+        return `<button class="selector-button ${activeClass}" data-season="${season}">${label}</button>`;
     }).join('');
     
-    seasonSelect.value = currentSeason;
+    // Add click listeners
+    seasonButtons.querySelectorAll('.selector-button').forEach(button => {
+        button.addEventListener('click', () => {
+            currentSeason = button.dataset.season;
+            updateSeasonSelector();
+            document.getElementById('searchInput').value = '';
+            currentSort = { column: 'rank', direction: 'asc' };
+            updateSortIndicators();
+            loadData(currentRegion, currentSeason);
+        });
+    });
+}
+
+// Create region selector buttons
+function createRegionSelector() {
+    const regionButtons = document.getElementById('regionButtons');
+    regionButtons.innerHTML = Object.keys(REGIONS).map(code => {
+        const shortCode = REGION_SHORT_CODES[code];
+        const activeClass = code === currentRegion ? 'active' : '';
+        return `<button class="selector-button ${activeClass}" data-region="${code}">${shortCode}</button>`;
+    }).join('');
+    
+    // Add click listeners
+    regionButtons.querySelectorAll('.selector-button').forEach(button => {
+        button.addEventListener('click', () => {
+            currentRegion = button.dataset.region;
+            createRegionSelector();
+            document.getElementById('searchInput').value = '';
+            currentSort = { column: 'rank', direction: 'asc' };
+            updateSortIndicators();
+            loadData(currentRegion, currentSeason);
+        });
+    });
 }
 
 // Load player data for a specific region and season
@@ -192,38 +241,6 @@ function updateSortIndicators() {
     });
 }
 
-// Region selector change
-document.getElementById('regionSelect').addEventListener('change', (e) => {
-    currentRegion = e.target.value;
-    console.log(`Region changed to: ${currentRegion}`);
-    
-    // Reset search
-    document.getElementById('searchInput').value = '';
-    
-    // Reset sort
-    currentSort = { column: 'rank', direction: 'asc' };
-    updateSortIndicators();
-    
-    // Load new region data
-    loadData(currentRegion, currentSeason);
-});
-
-// Season selector change
-document.getElementById('seasonSelect').addEventListener('change', (e) => {
-    currentSeason = e.target.value;
-    console.log(`Season changed to: ${currentSeason}`);
-    
-    // Reset search
-    document.getElementById('searchInput').value = '';
-    
-    // Reset sort
-    currentSort = { column: 'rank', direction: 'asc' };
-    updateSortIndicators();
-    
-    // Load new season data
-    loadData(currentRegion, currentSeason);
-});
-
 // Search functionality
 document.getElementById('searchInput').addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
@@ -242,6 +259,7 @@ document.querySelectorAll('th.sortable').forEach(th => {
 });
 
 // Initialize
+createRegionSelector();
 loadAvailableSeasons().then(() => {
     loadData(currentRegion, currentSeason);
 });
