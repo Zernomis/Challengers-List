@@ -173,6 +173,7 @@ def archive_current_data(archive_name):
         if os.path.exists(data_file):
             os.remove(data_file)
     print(f"✓ Data cleared for fresh season start")
+    generate_seasons_list()
 
 def get_account_info(puuid, routing_region):
     """Get account info (riot ID) from PUUID using routing region"""
@@ -356,6 +357,28 @@ def update_all_regions():
     print(f"  Timestamp: {datetime.now(timezone.utc).isoformat()}")
     print("="*60)
     return True
+
+def generate_seasons_list():
+    """Generate a list of all available archived seasons"""
+    archives_dir = 'data/archives'
+    
+    if not os.path.exists(archives_dir):
+        seasons = []
+    else:
+        seasons = sorted([
+            d for d in os.listdir(archives_dir) 
+            if os.path.isdir(os.path.join(archives_dir, d)) and '_' in d
+        ], reverse=True)  # Most recent first
+    
+    seasons_data = {
+        'seasons': seasons,
+        'last_updated': datetime.now(timezone.utc).isoformat()
+    }
+    
+    with open(f'{archives_dir}/seasons.json', 'w') as f:
+        json.dump(seasons_data, f, indent=2)
+    
+    print(f"✓ Generated seasons.json with {len(seasons)} archived seasons")
 
 if __name__ == '__main__':
     try:
