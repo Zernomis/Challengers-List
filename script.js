@@ -181,6 +181,20 @@ function renderTable(filteredPlayers = players) {
         const avgRankAll = player.avgRankAll ? player.avgRankAll.toFixed(1) : '-';
         const currentRank = player.currentRank ? player.currentRank : '-';
         const lp = player.leaguePoints !== null && player.leaguePoints !== undefined ? player.leaguePoints : '-';
+
+        // Format days with streak
+        let daysDisplay = player.daysInChallenger;
+        if (player.isActive && player.currentStreak) {
+            let streakEmoji = '';
+            if (player.currentStreak > 100) {
+                streakEmoji = ' 🔥🔥🔥';
+            } else if (player.currentStreak > 50) {
+                streakEmoji = ' 🔥🔥';
+            } else if (player.currentStreak > 10) {
+                streakEmoji = ' 🔥';
+            }
+            daysDisplay = `${player.daysInChallenger} (${player.currentStreak}${streakEmoji})`;
+        }
         
         return `
             <tr>
