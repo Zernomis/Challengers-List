@@ -241,7 +241,7 @@ td:nth-child(2) {
 
 td a {
     color: #1670c2;
-    text-decoration: underline;
+    text-decoration: none;
     transition: color 0.2s, text-decoration 0.2s;
 }
 
