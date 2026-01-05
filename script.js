@@ -5,22 +5,23 @@ let currentSeason = 'current';
 let availableSeasons = ['current'];
 
 // Region configuration
+
 const REGIONS = {
-    'euw1': { name: 'Europe West', profileUrl: 'https://xdx.gg' },
-    'na1': { name: 'North America', profileUrl: 'https://xdx.gg' },
-    'kr': { name: 'Korea', profileUrl: 'https://xdx.gg' },
-    'eun1': { name: 'Europe Nordic & East', profileUrl: 'https://xdx.gg' },
-    'br1': { name: 'Brazil', profileUrl: 'https://xdx.gg' },
-    'la1': { name: 'Latin America North', profileUrl: 'https://xdx.gg' },
-    'la2': { name: 'Latin America South', profileUrl: 'https://xdx.gg' },
-    'vn2': { name: 'Vietnam', profileUrl: 'https://xdx.gg' },
-    'sg2': { name: 'Southeast Asia', profileUrl: 'https://xdx.gg' },
-    'tw2': { name: 'Taiwan', profileUrl: 'https://xdx.gg' },
-    'tr1': { name: 'Turkey', profileUrl: 'https://xdx.gg' },
-    'oc1': { name: 'Oceania', profileUrl: 'https://xdx.gg' },
-    'jp1': { name: 'Japan', profileUrl: 'https://xdx.gg' },
-    'ru': { name: 'Russia', profileUrl: 'https://xdx.gg' },
-    'me1': { name: 'Middle East', profileUrl: 'https://xdx.gg' }
+    'euw1': { name: 'Europe West', profileUrl: 'https://xdx.gg', maxSlots: 300 },
+    'na1': { name: 'North America', profileUrl: 'https://xdx.gg', maxSlots: 300 },
+    'kr': { name: 'Korea', profileUrl: 'https://xdx.gg', maxSlots: 300 },
+    'eun1': { name: 'Europe Nordic & East', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'br1': { name: 'Brazil', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'la1': { name: 'Latin America North', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'la2': { name: 'Latin America South', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'vn2': { name: 'Vietnam', profileUrl: 'https://xdx.gg', maxSlots: 300 },
+    'sg2': { name: 'Southeast Asia', profileUrl: 'https://xdx.gg', maxSlots: 300 },
+    'tw2': { name: 'Taiwan', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'tr1': { name: 'Turkey', profileUrl: 'https://xdx.gg', maxSlots: 200 },
+    'oc1': { name: 'Oceania', profileUrl: 'https://xdx.gg', maxSlots: 50 },
+    'jp1': { name: 'Japan', profileUrl: 'https://xdx.gg', maxSlots: 50 },
+    'ru': { name: 'Russia', profileUrl: 'https://xdx.gg', maxSlots: 50 },
+    'me1': { name: 'Middle East', profileUrl: 'https://xdx.gg', maxSlots: 50 }
 };
 
 // Region short codes mapping
@@ -95,6 +96,7 @@ function createRegionSelector() {
         button.addEventListener('click', () => {
             currentRegion = button.dataset.region;
             createRegionSelector();
+            updateTooltip(); // Add this line
             document.getElementById('searchInput').value = '';
             currentSort = { column: 'rank', direction: 'asc' };
             updateSortIndicators();
@@ -241,6 +243,16 @@ function updateSortIndicators() {
     });
 }
 
+function updateTooltip() {
+    const maxSlots = REGIONS[currentRegion].maxSlots;
+    const threshold = Math.floor(maxSlots * 0.15);
+    const tooltipText = document.querySelector('.tooltip .tooltiptext');
+    
+    if (tooltipText) {
+        tooltipText.textContent = `Average rank calculated only when ladder has 15%+ of max slots (${threshold}+ players) to avoid a permanent rank 1 by excluding early season data.`;
+    }
+}
+
 // Search functionality
 document.getElementById('searchInput').addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
@@ -260,6 +272,7 @@ document.querySelectorAll('th.sortable').forEach(th => {
 
 // Initialize
 createRegionSelector();
+updateTooltip(); // Add this line
 loadAvailableSeasons().then(() => {
     loadData(currentRegion, currentSeason);
 });
