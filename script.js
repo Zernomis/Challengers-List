@@ -182,11 +182,25 @@ function renderTable(filteredPlayers = players) {
         const currentRank = player.currentRank ? player.currentRank : '-';
         const lp = player.leaguePoints !== null && player.leaguePoints !== undefined ? player.leaguePoints : '-';
         
+        // Format days with streak
+        let daysDisplay = player.daysInChallenger;
+        if (player.isActive && player.currentStreak) {
+            let streakEmoji = '';
+            if (player.currentStreak > 100) {
+                streakEmoji = ' 🔥🔥🔥';
+            } else if (player.currentStreak > 50) {
+                streakEmoji = ' 🔥🔥';
+            } else if (player.currentStreak > 10) {
+                streakEmoji = ' 🔥';
+            }
+            daysDisplay = `${player.daysInChallenger} (${player.currentStreak}${streakEmoji})`;
+        }
+        
         return `
             <tr>
-                <td>${player.rank}</td>
-                <td><a href="${profileUrl}" target="_blank" rel="noopener noreferrer"><strong>${player.summonerName}#${player.tagLine}</strong></a></td>
-                <td>${player.daysInChallenger}</td>
+                <td>${index + 1}</td>
+                <td><strong><a href="${profileUrl}" target="_blank" rel="noopener noreferrer">${player.summonerName}</a></strong>#${player.tagLine}</td>
+                <td>${daysDisplay}</td>
                 <td>${avgRank}</td>
                 <td>${avgRankAll}</td>
                 <td>${currentRank}</td>
