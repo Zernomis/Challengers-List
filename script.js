@@ -184,7 +184,7 @@ function renderTable(filteredPlayers = players) {
         
         return `
             <tr>
-                <td>${index + 1}</td>
+                <td>${player.rank}</td>
                 <td><a href="${profileUrl}" target="_blank" rel="noopener noreferrer"><strong>${player.summonerName}#${player.tagLine}</strong></a></td>
                 <td>${player.daysInChallenger}</td>
                 <td>${avgRank}</td>
