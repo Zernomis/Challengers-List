@@ -244,6 +244,8 @@ def update_region(platform_region, region_name, routing_region, max_slots):
             if puuid in player_map:
                 # Update existing player
                 player = player_map[puuid]
+                was_active = player.get('isActive', False)
+                
                 player['summonerName'] = game_name
                 player['tagLine'] = tag_line
                 player['leaguePoints'] = entry['leaguePoints']
@@ -252,6 +254,18 @@ def update_region(platform_region, region_name, routing_region, max_slots):
                 player['isActive'] = True
                 player['currentRank'] = idx + 1
                 player['daysInChallenger'] = player.get('daysInChallenger', 0) + 1
+                
+                # Update streak
+                if was_active:
+                    # Was active yesterday, still active today - increment streak
+                    if 'currentStreak' in player:
+                        player['currentStreak'] = player['currentStreak'] + 1
+                    else:
+                        # First time seeing streak field, initialize to 1 (will be incremented next day)
+                        player['currentStreak'] = 1
+                else:
+                    # Was inactive, now back - reset streak to 1
+                    player['currentStreak'] = 1
                 
                 if 'rankHistory' in player:
                     player['rankHistory'].append(idx + 1)
@@ -276,6 +290,7 @@ def update_region(platform_region, region_name, routing_region, max_slots):
                     'losses': entry['losses'],
                     'firstSeenDate': current_date,
                     'daysInChallenger': 1,
+                    'currentStreak': 1,  # New player starts with streak of 1
                     'currentRank': idx + 1,
                     'avgRank': idx + 1 if total_league_entries >= min_players_threshold else None,
                     'avgRankAll': idx + 1,
@@ -290,12 +305,13 @@ def update_region(platform_region, region_name, routing_region, max_slots):
             print(f"  Error processing player at index {idx}: {e}")
             continue
     
-    # Mark inactive players
+    # Mark inactive players and reset their streak
     for puuid, player in player_map.items():
         if puuid not in current_puuids:
             player['isActive'] = False
             player['currentRank'] = None
             player['leaguePoints'] = None
+            player['currentStreak'] = 0  # Reset streak when they drop out
     
     # Sort and rank
     sorted_players = sorted(player_map.values(), key=lambda x: x['daysInChallenger'], reverse=True)
