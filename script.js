@@ -193,14 +193,21 @@ function renderTable(filteredPlayers = players) {
             } else if (player.currentStreak > 10) {
                 streakEmoji = ' 🔥';
             }
-            daysDisplay = `${player.daysInChallenger} (${player.currentStreak}${streakEmoji})`;
+            
+            // If days equals streak, show just "days 🔥" (never demoted)
+            if (player.daysInChallenger === player.currentStreak) {
+                daysDisplay = `${player.daysInChallenger}${streakEmoji}`;
+            } else {
+                // Otherwise show "days (streak🔥)" (demoted at least once)
+                daysDisplay = `${player.daysInChallenger} (${player.currentStreak}${streakEmoji})`;
+            }
         }
         
         return `
             <tr>
                 <td>${player.rank}</td>
                 <td><a href="${profileUrl}" target="_blank" rel="noopener noreferrer"><strong>${player.summonerName}#${player.tagLine}</strong></a></td>
-                <td>${player.daysInChallenger}</td>
+                <td>${daysDisplay}</td>
                 <td>${avgRank}</td>
                 <td>${avgRankAll}</td>
                 <td>${currentRank}</td>
