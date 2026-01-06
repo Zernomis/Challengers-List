@@ -260,7 +260,8 @@ function updateSortIndicators() {
 function updateTooltip() {
     const maxSlots = REGIONS[currentRegion].maxSlots;
     const threshold = Math.floor(maxSlots * 0.15);
-    const tooltipText = document.querySelector('.tooltip .tooltiptext');
+    const avgFHeader = document.querySelector('[data-sort="avgRank"]');
+    const tooltipText = avgFHeader?.querySelector('.tooltiptext');
     
     if (tooltipText) {
         tooltipText.textContent = `Average rank calculated only when ladder has 15%+ of max slots (${threshold}+ players) to avoid a permanent rank 1 by excluding early season data.`;
