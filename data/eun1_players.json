@@ -1,6 +1,26 @@
 {
   "region": "Europe Nordic & East",
   "regionCode": "eun1",
-  "players": [],
-  "lastUpdate": "2026-01-09T02:22:49.571377+00:00"
+  "players": [
+    {
+      "puuid": "0iJZNj3JjiQHXEeyolmeILfe5io6MBSbFVtgyCBuB1WpAPIDkMgJnnYyDJG4Zcyji0Cox-Cjf15YKw",
+      "summonerName": "TwTv RiverSanzu",
+      "tagLine": "0000",
+      "leaguePoints": 504,
+      "wins": 41,
+      "losses": 22,
+      "firstSeenDate": "2026-01-10T02:15:15.885902+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    }
+  ],
+  "lastUpdate": "2026-01-10T02:15:15.885902+00:00"
 }
