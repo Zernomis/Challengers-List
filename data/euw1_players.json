@@ -1,6 +1,121 @@
 {
   "region": "Europe West",
   "regionCode": "euw1",
-  "players": [],
-  "lastUpdate": "2026-01-10T02:15:15.003643+00:00"
+  "players": [
+    {
+      "puuid": "T-VQPPeN85KqYD2aaEC-nBi4u0-AyxhkwXo8wM7OeXRXP7pwFJyJVFBsg58zdX4vLBAJWvtV5eUO4Q",
+      "summonerName": "IvanDragovic",
+      "tagLine": "2002",
+      "leaguePoints": 680,
+      "wins": 44,
+      "losses": 28,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "a8Nd65KrHYktYoQ_LlC_uTmWoP7BA9z_jGLuQmYt9o1kW_sWXuTqJFDY-CCY_gdepJS0npGDiItQHw",
+      "summonerName": "caddefiftyninea",
+      "tagLine": "59A",
+      "leaguePoints": 560,
+      "wins": 46,
+      "losses": 24,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "jgev8occQw7pw1v0ZEiV5Rh87UhzsJrscwHC_o0fwi4xA7CPXIIEvFYTzs1I0B4SG2eRA55hhRA5Dw",
+      "summonerName": "Whiplash",
+      "tagLine": "zzzzz",
+      "leaguePoints": 525,
+      "wins": 37,
+      "losses": 20,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "y9x2zPkN0Fr64voG3HIz0NkRKp6LycMUoNsyuSpZiRMjP6HaUsjTfHlC5tjOwlqphxHzk6bpK185wA",
+      "summonerName": "LladosFitYoutube",
+      "tagLine": "EUW",
+      "leaguePoints": 513,
+      "wins": 35,
+      "losses": 12,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
+    },
+    {
+      "puuid": "NCFx8GUXyv1P5UktI2yxXht__5SU08PuRxmL8DYFO2P72cmP4240FyrDCU30WWBLy9KPjoRO-efLFQ",
+      "summonerName": "MARVIN  1V9 GOD",
+      "tagLine": "GAROU",
+      "leaguePoints": 509,
+      "wins": 43,
+      "losses": 19,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "LA1fajgo46hR0l36DOxwdQch4A3fX9rAlouZk4p6OiXMzGtCTkfEsV4zLVpDrh8P672XegUrOLPbTw",
+      "summonerName": "Alita99",
+      "tagLine": "Rosa",
+      "leaguePoints": 504,
+      "wins": 42,
+      "losses": 28,
+      "firstSeenDate": "2026-01-11T02:33:05.033321+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 6
+    }
+  ],
+  "lastUpdate": "2026-01-11T02:33:05.033321+00:00"
 }

@@ -10,6 +10,26 @@
       "wins": 41,
       "losses": 22,
       "firstSeenDate": "2026-01-10T02:15:15.885902+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 2.0,
+      "rankHistory": [
+        1,
+        3
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "gTFrvzjEpNTgfe5IAYAQS6h0Rl5OOh3ndpbmrj047q4cd_pewsXDDMOVqK0XfMzyaHppGjXHIrOi-g",
+      "summonerName": "T1  Thwmo",
+      "tagLine": "T11",
+      "leaguePoints": 557,
+      "wins": 45,
+      "losses": 31,
+      "firstSeenDate": "2026-01-11T02:33:07.901247+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 1,
@@ -19,8 +39,46 @@
         1
       ],
       "isActive": true,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "puuid": "o9k5wb4dGJBmWwkOxyVImkJ1-vy7u10ds-2ZZoVgBi-JTOGGI9lE50Rhj7ZgsyEn54ilR-3BuB9BuQ",
+      "summonerName": "Ked",
+      "tagLine": "cba",
+      "leaguePoints": 543,
+      "wins": 39,
+      "losses": 20,
+      "firstSeenDate": "2026-01-11T02:33:07.901247+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "hQtrX2xmQ3droKRkevsTz7jppGE6kirgbAas02qX170F4QWuxa2l8friRPO_U_NWYfuOJwxM8O5GZw",
+      "summonerName": "PΙCO NECH ME JET",
+      "tagLine": "SVRTA",
+      "leaguePoints": 503,
+      "wins": 40,
+      "losses": 22,
+      "firstSeenDate": "2026-01-11T02:33:07.901247+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
     }
   ],
-  "lastUpdate": "2026-01-10T02:15:15.885902+00:00"
+  "lastUpdate": "2026-01-11T02:33:07.901247+00:00"
 }

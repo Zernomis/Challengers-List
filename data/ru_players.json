@@ -1,6 +1,26 @@
 {
   "region": "Russia",
   "regionCode": "ru",
-  "players": [],
-  "lastUpdate": "2026-01-09T02:22:50.382988+00:00"
+  "players": [
+    {
+      "puuid": "5hefK3NkQ9khw7RVkJlcvyk1TA0oC0Hh7y-rd48QrIYjVfdAX8w-TBJNXPXTYHV3ddEbuI7COzQlaw",
+      "summonerName": "Demonadcl9",
+      "tagLine": "TWTV",
+      "leaguePoints": 522,
+      "wins": 34,
+      "losses": 11,
+      "firstSeenDate": "2026-01-11T02:33:14.014961+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    }
+  ],
+  "lastUpdate": "2026-01-11T02:33:14.014961+00:00"
 }

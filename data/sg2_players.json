@@ -1,6 +1,26 @@
 {
   "region": "Southeast Asia",
   "regionCode": "sg2",
-  "players": [],
-  "lastUpdate": "2026-01-10T02:15:15.133858+00:00"
+  "players": [
+    {
+      "puuid": "vNfzhMQ7mkZlP0vjsiKmzh0NlO2JUkOwBV6fimdcoWO4GOArxICsqYhbLari-RFQ-MsLWy0Dqp8-gw",
+      "summonerName": "HexzeRenz",
+      "tagLine": "LFT",
+      "leaguePoints": 516,
+      "wins": 35,
+      "losses": 13,
+      "firstSeenDate": "2026-01-11T02:33:24.611853+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    }
+  ],
+  "lastUpdate": "2026-01-11T02:33:24.611853+00:00"
 }

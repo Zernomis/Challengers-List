@@ -1,6 +1,83 @@
 {
   "region": "Vietnam",
   "regionCode": "vn2",
-  "players": [],
-  "lastUpdate": "2026-01-10T02:15:16.208279+00:00"
+  "players": [
+    {
+      "puuid": "vDlyjxEG9FrtqK9OnLiM6pkEeNPQjXhFj3MKc18PHh6sgFmwHRSgbg1tpUWsp1qfmLuRrEO3sbAVtw",
+      "summonerName": "knight1112",
+      "tagLine": "4165",
+      "leaguePoints": 825,
+      "wins": 43,
+      "losses": 11,
+      "firstSeenDate": "2026-01-11T02:33:19.482501+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "o5E8cDbxCcrZhfLtaAR692dZ_2krrzqaBE8S85xlFmlfSujxZQV7apaCxmg2bCwctWQtjXEG2yXQpw",
+      "summonerName": "JAY Félix",
+      "tagLine": "jay",
+      "leaguePoints": 717,
+      "wins": 45,
+      "losses": 19,
+      "firstSeenDate": "2026-01-11T02:33:19.482501+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "Y7EooMwXuv-NCI_4hsmW5kS8fQ9ZsQIQVKr5lgD8MGVCZn3tjKAdbK7YdaLCanF8Kq7hN4SG5ItReg",
+      "summonerName": "ONBET Pal25xTNam",
+      "tagLine": "TGN",
+      "leaguePoints": 677,
+      "wins": 40,
+      "losses": 11,
+      "firstSeenDate": "2026-01-11T02:33:19.482501+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "GybZriZPNXqEX4IrEkfaNFHCi2s4g42OwNPZkGtQa2zU6DCUlyznFqFrBx0RQZEyDK2Hd3y2mkwHEA",
+      "summonerName": "ONBET 7QUEMxN22",
+      "tagLine": "TGN",
+      "leaguePoints": 577,
+      "wins": 36,
+      "losses": 12,
+      "firstSeenDate": "2026-01-11T02:33:19.482501+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
+    }
+  ],
+  "lastUpdate": "2026-01-11T02:33:19.482501+00:00"
 }

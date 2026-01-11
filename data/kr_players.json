@@ -1,6 +1,254 @@
 {
   "region": "Korea",
   "regionCode": "kr",
-  "players": [],
-  "lastUpdate": "2026-01-10T02:15:14.606803+00:00"
+  "players": [
+    {
+      "puuid": "RJhK4w9DlHKC2Obf31enYtl0I-lR6WX2NCTyuWHeVxuHwdrPjf6zXpwQZd-1n22jLmhqSnxOJKTGYA",
+      "summonerName": "초보원딜러",
+      "tagLine": "KR1",
+      "leaguePoints": 815,
+      "wins": 54,
+      "losses": 42,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "xMoan-HlE1RiozXlgg8asQpQwAw6uJ6F2ZuYL2_5j8SBm9C3vEPGYigL-jCkxXqBsSCIKoP8uzq3kA",
+      "summonerName": "抖音薄荷冰鸟",
+      "tagLine": "0017",
+      "leaguePoints": 807,
+      "wins": 44,
+      "losses": 19,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "XB5yEsPz6jC8jI1kAi-QfWd_pgrd-e7PlbCF2nqje6HnMmY1dKaVJadoApI7usuqf3V_BG0NBKjQcQ",
+      "summonerName": "택배기사",
+      "tagLine": "한 진",
+      "leaguePoints": 804,
+      "wins": 52,
+      "losses": 4,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "jkw5XnaBZsw-ie0PaB6csvjsAUFjzxzy_tL_dYU7jLxFaFfwR7YjmihlT0KxmqersEvMXaJX-woowg",
+      "summonerName": "bilibili05奥丁Odin",
+      "tagLine": "05top",
+      "leaguePoints": 779,
+      "wins": 50,
+      "losses": 30,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
+    },
+    {
+      "puuid": "TlqR7vtqg9AnskD-eFRB3gJlRf-QsUd2nwTh8L9fBWBQQhGQQforWDHC2hex1em2JNc79X2VxfgWEw",
+      "summonerName": "Jiahai",
+      "tagLine": "Yasuo",
+      "leaguePoints": 768,
+      "wins": 48,
+      "losses": 23,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "wjK-Q6gTSYyYQyS3nE0pbClE6xZ5U0DH2f8iG48_StStFx5fajmvRqRi50yGAihvB1BWSkGK9uHmfg",
+      "summonerName": "7halsakeN",
+      "tagLine": "1004",
+      "leaguePoints": 756,
+      "wins": 56,
+      "losses": 36,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 6
+    },
+    {
+      "puuid": "oUKM4Ms28zFUZJf_Nl-0DAaYg8ceCb4AlqCah5dfpySkYAKdgCPXn6cDtRO0Iwo3vdRzpYnja15wrA",
+      "summonerName": "타 개",
+      "tagLine": "KR2",
+      "leaguePoints": 706,
+      "wins": 49,
+      "losses": 32,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": null,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "OXpb9hgjSj58M_Pq5a4RnXW1l4rLtS8GjhO8LJfFGt_fYgAnQjyS3hVUFQtXOZpCJmqeobWzb7mwuw",
+      "summonerName": "old Ni",
+      "tagLine": "B站小尼",
+      "leaguePoints": 650,
+      "wins": 44,
+      "losses": 33,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 8,
+      "avgRank": null,
+      "avgRankAll": 8,
+      "rankHistory": [
+        8
+      ],
+      "isActive": true,
+      "rank": 8
+    },
+    {
+      "puuid": "2bj_GEiLVS-2oyyGHox26IXvGeCLBrLPajW0OMCR1pLBqx4ltaDaO4NKQlGlC44AorhU11EgHqXSvw",
+      "summonerName": "十三day",
+      "tagLine": "jug",
+      "leaguePoints": 614,
+      "wins": 44,
+      "losses": 20,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 9,
+      "avgRank": null,
+      "avgRankAll": 9,
+      "rankHistory": [
+        9
+      ],
+      "isActive": true,
+      "rank": 9
+    },
+    {
+      "puuid": "ExfKwdoSW9iBpAAjrP7TVkOU0CoezFrMcyaDxnEYEA1AzNMYQ-4OnSd1Hopa6_nKeoJXa52Iu3T9ZA",
+      "summonerName": "감마선자외선X선광선날리는벨코즈",
+      "tagLine": "2005",
+      "leaguePoints": 547,
+      "wins": 37,
+      "losses": 26,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 10,
+      "avgRank": null,
+      "avgRankAll": 10,
+      "rankHistory": [
+        10
+      ],
+      "isActive": true,
+      "rank": 10
+    },
+    {
+      "puuid": "XmFwSWaYqj1vhuEwtcbt0R_nzIu2oE6BT0fE7Vqb-FoYPNI3rkfOuS32LAdegwgxnqAolvhHPvwVCw",
+      "summonerName": "SAND Five",
+      "tagLine": "zypp",
+      "leaguePoints": 525,
+      "wins": 34,
+      "losses": 17,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 11,
+      "avgRank": null,
+      "avgRankAll": 11,
+      "rankHistory": [
+        11
+      ],
+      "isActive": true,
+      "rank": 11
+    },
+    {
+      "puuid": "bFMpVFxtaNXzvrugnO5xXVeivbDgLCszu4s595e_yseLHcxXMqe94zZKdIjOUHtBzyNTILCIPh6InQ",
+      "summonerName": "yangzhiganlu",
+      "tagLine": "666",
+      "leaguePoints": 504,
+      "wins": 39,
+      "losses": 17,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 12,
+      "avgRank": null,
+      "avgRankAll": 12,
+      "rankHistory": [
+        12
+      ],
+      "isActive": true,
+      "rank": 12
+    },
+    {
+      "puuid": "fbrvuH3-X-FVuqr2t7coMZU3mHCMzE2IL4eIOF0FQyJv-XkHt3_HZtA9FkSi1MLgOVLjmwT6kaxs7g",
+      "summonerName": "yassuo",
+      "tagLine": "검 사",
+      "leaguePoints": 503,
+      "wins": 41,
+      "losses": 23,
+      "firstSeenDate": "2026-01-11T02:33:05.163118+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 13,
+      "avgRank": null,
+      "avgRankAll": 13,
+      "rankHistory": [
+        13
+      ],
+      "isActive": true,
+      "rank": 13
+    }
+  ],
+  "lastUpdate": "2026-01-11T02:33:05.163118+00:00"
 }
