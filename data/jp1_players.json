@@ -1,6 +1,45 @@
 {
   "region": "Japan",
   "regionCode": "jp1",
-  "players": [],
-  "lastUpdate": "2026-01-11T02:33:13.646106+00:00"
+  "players": [
+    {
+      "puuid": "Dv-MH0zdVaNQiZONbK2OkuPAoum4-zobHCsZKn5bVBt1xSvXD0UqZGlN9R6kuWYZ8eTkENjoOX58kg",
+      "summonerName": "マンダム",
+      "tagLine": "へようこそ",
+      "leaguePoints": 587,
+      "wins": 38,
+      "losses": 10,
+      "firstSeenDate": "2026-01-12T02:29:17.296740+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "n3gWEO6dsKUayR7t1bi5C3cTZGJt3w-O9TqgcV1H51s9ojq3bMEY5zXnhakQBIJvcDo7rYhpcPwaFQ",
+      "summonerName": "RuneFactoryが大好きね",
+      "tagLine": "BlauR",
+      "leaguePoints": 576,
+      "wins": 44,
+      "losses": 15,
+      "firstSeenDate": "2026-01-12T02:29:17.296740+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    }
+  ],
+  "lastUpdate": "2026-01-12T02:29:17.296740+00:00"
 }

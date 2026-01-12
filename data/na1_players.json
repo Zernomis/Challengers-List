@@ -1,6 +1,102 @@
 {
   "region": "North America",
   "regionCode": "na1",
-  "players": [],
-  "lastUpdate": "2026-01-11T02:33:05.055255+00:00"
+  "players": [
+    {
+      "puuid": "obMK-oJ8sAXbjFZEUQTIHflH19VrwJA6d0z3-3X4wzGm9wx2obMZMZDg8vSgB0TsWA2jJFGJt42JeQ",
+      "summonerName": "pentaless",
+      "tagLine": "NA5",
+      "leaguePoints": 924,
+      "wins": 52,
+      "losses": 18,
+      "firstSeenDate": "2026-01-12T02:28:38.910357+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "ISjX7p80WTdndZzCmRfJtNi8fcUE2FanmEpX3vb1guTIeUkf0XdWnXriOMGU1JcBIZrHfwP7SDsiVw",
+      "summonerName": "DSG KryRa",
+      "tagLine": "777",
+      "leaguePoints": 837,
+      "wins": 51,
+      "losses": 22,
+      "firstSeenDate": "2026-01-12T02:28:38.910357+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "m1G58SB1dh_snxsYpoNStHbIcy5ch-QjsVe-MUV6pcRp4pdZLKgOSiTdJ7O6JzgqLjqbQ7llIIUP9Q",
+      "summonerName": "Davemon",
+      "tagLine": "NA1",
+      "leaguePoints": 700,
+      "wins": 44,
+      "losses": 13,
+      "firstSeenDate": "2026-01-12T02:28:38.910357+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "k50UYfNHlyAG_EfjDCEpw4tjSSQ8ZhX8HtvAFtU5ues26oci0JV1khercU1YBW6VjMlEI36CHo49uA",
+      "summonerName": "Dantes",
+      "tagLine": "Laura",
+      "leaguePoints": 599,
+      "wins": 57,
+      "losses": 42,
+      "firstSeenDate": "2026-01-12T02:28:38.910357+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
+    },
+    {
+      "puuid": "8dXYegLecjtvbKsQhA9kyF6OQd2nOpJUq-g1_jWDfLCYHjwCXsfuYE2871e5I6kKWWvX1EzpHT2uNA",
+      "summonerName": "LegitKorea",
+      "tagLine": "NA1",
+      "leaguePoints": 570,
+      "wins": 42,
+      "losses": 28,
+      "firstSeenDate": "2026-01-12T02:28:38.910357+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 5
+    }
+  ],
+  "lastUpdate": "2026-01-12T02:28:38.910357+00:00"
 }

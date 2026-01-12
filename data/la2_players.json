@@ -1,6 +1,26 @@
 {
   "region": "Latin America South",
   "regionCode": "la2",
-  "players": [],
-  "lastUpdate": "2026-01-11T02:33:28.226281+00:00"
+  "players": [
+    {
+      "puuid": "ENRSltle1efacYw-qI2DqhK_oirny4EGP-AOsnuYs7Sjp5S4vDSImCVdtcTna14SsAYNiOcMNx_m1Q",
+      "summonerName": "ElchurroMCFLY",
+      "tagLine": "LAS",
+      "leaguePoints": 663,
+      "wins": 50,
+      "losses": 20,
+      "firstSeenDate": "2026-01-12T02:30:51.009483+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    }
+  ],
+  "lastUpdate": "2026-01-12T02:30:51.009483+00:00"
 }

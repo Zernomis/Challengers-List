@@ -1,6 +1,64 @@
 {
   "region": "Brazil",
   "regionCode": "br1",
-  "players": [],
-  "lastUpdate": "2026-01-11T02:33:05.385182+00:00"
+  "players": [
+    {
+      "puuid": "m5-0v0YlGhEIxOlM94YNZU-sIP60uTTP3M9Rod_v6sAE3XYVvQKMfFpGOmaPekMQJsf90W1wxtObvQ",
+      "summonerName": "Ágata",
+      "tagLine": "Lovly",
+      "leaguePoints": 866,
+      "wins": 57,
+      "losses": 39,
+      "firstSeenDate": "2026-01-12T02:28:46.063469+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "gCoZiQ8k4qM6RawXJ8ba03vPkGcrCRLlaDiEi2sz4ltJexRG47Wq58NrDDWOTnuAgAR2jqipDcitrA",
+      "summonerName": "Shukrute",
+      "tagLine": "BR1",
+      "leaguePoints": 754,
+      "wins": 50,
+      "losses": 36,
+      "firstSeenDate": "2026-01-12T02:28:46.063469+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "El5PZ2Hf_5hrV5C9VhphicPTNuD-K8EmONgv4Snjwei2LYUxgFmTuKvklTR0YlgSuaSdBM1THeHgrw",
+      "summonerName": "Porttinari",
+      "tagLine": "1337",
+      "leaguePoints": 510,
+      "wins": 42,
+      "losses": 25,
+      "firstSeenDate": "2026-01-12T02:28:46.063469+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    }
+  ],
+  "lastUpdate": "2026-01-12T02:28:46.063469+00:00"
 }

@@ -6,10 +6,30 @@
       "puuid": "vNfzhMQ7mkZlP0vjsiKmzh0NlO2JUkOwBV6fimdcoWO4GOArxICsqYhbLari-RFQ-MsLWy0Dqp8-gw",
       "summonerName": "HexzeRenz",
       "tagLine": "LFT",
-      "leaguePoints": 516,
-      "wins": 35,
-      "losses": 13,
+      "leaguePoints": 620,
+      "wins": 43,
+      "losses": 23,
       "firstSeenDate": "2026-01-11T02:33:24.611853+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 1.5,
+      "rankHistory": [
+        1,
+        2
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "5t8Fk1DvfSqWfUIvhI719bPsWFsnWmBHcdzEWF6nMVg03FYVAFbSSYs0N-NkWOXYgvOat78qC0-I5A",
+      "summonerName": "Stellar",
+      "tagLine": "1105",
+      "leaguePoints": 822,
+      "wins": 50,
+      "losses": 15,
+      "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 1,
@@ -19,8 +39,46 @@
         1
       ],
       "isActive": true,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "puuid": "grcBWTiCROAHxacob4rQRy-uvW2OsW5zCQ0oVNVWwMQrnl_GRMnvtEgICyqpBO9MrR47oK5Znai1fQ",
+      "summonerName": "Hoshiyo",
+      "tagLine": "2121",
+      "leaguePoints": 603,
+      "wins": 46,
+      "losses": 37,
+      "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "GjW_TY0d_ClOkb3zTa03GINlckE-OHxw7QqMC0Qm68NK4YjOCEQ8dDuvwfZkYIHILJhhsuuj8Q8aig",
+      "summonerName": "llllllllIlllll",
+      "tagLine": "llllI",
+      "leaguePoints": 502,
+      "wins": 37,
+      "losses": 9,
+      "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
     }
   ],
-  "lastUpdate": "2026-01-11T02:33:24.611853+00:00"
+  "lastUpdate": "2026-01-12T02:30:41.770479+00:00"
 }
