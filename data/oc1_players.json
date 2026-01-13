@@ -1,6 +1,64 @@
 {
   "region": "Oceania",
   "regionCode": "oc1",
-  "players": [],
-  "lastUpdate": "2026-01-12T02:30:02.865741+00:00"
+  "players": [
+    {
+      "puuid": "PmJeIplm43n3he8qjAtsvw0c7l8XksYOqYByEYIiCe3TjnaWDkRxvbsMYJhG57QpScDcJXCJVXtE8w",
+      "summonerName": "探险家",
+      "tagLine": "blue",
+      "leaguePoints": 685,
+      "wins": 51,
+      "losses": 34,
+      "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    },
+    {
+      "puuid": "u1iCurgmm5_DUMQc2uodbS7ub3b4f--rWoX0k95dLnYzpWBpteO7tpcneM_ibJmWZ8uPfOotXZJvZw",
+      "summonerName": "willywonka",
+      "tagLine": "OCE1",
+      "leaguePoints": 633,
+      "wins": 51,
+      "losses": 47,
+      "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "gC_zr4GSxUomRbbKnmlTAgC5XnFS8rUQ1eGGDutumGPsCT-vkkFyPhoKeQ3v6gSDhrH_qVUxrUUMJw",
+      "summonerName": "goooooooooooooby",
+      "tagLine": "7777",
+      "leaguePoints": 625,
+      "wins": 42,
+      "losses": 24,
+      "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    }
+  ],
+  "lastUpdate": "2026-01-13T02:24:10.200708+00:00"
 }

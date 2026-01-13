@@ -6,16 +6,17 @@
       "puuid": "8CMvstsISOouETqY0Wk_TpOIK6XljPSln6XhLZ13rmBAOuvqaoknmTOnrfMhBlvnJ7Gkta312Yu-2Q",
       "summonerName": "xip",
       "tagLine": "valen",
-      "leaguePoints": 1255,
-      "wins": 61,
-      "losses": 18,
+      "leaguePoints": 1695,
+      "wins": 79,
+      "losses": 22,
       "firstSeenDate": "2026-01-11T02:33:26.547660+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1,
         1
       ],
@@ -30,17 +31,56 @@
       "wins": 46,
       "losses": 15,
       "firstSeenDate": "2026-01-12T02:30:47.840915+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 2,
       "avgRank": null,
-      "avgRankAll": 2,
+      "avgRankAll": 2.0,
       "rankHistory": [
+        2,
         2
       ],
       "isActive": true,
       "rank": 2
+    },
+    {
+      "puuid": "qq2Re1Uio9vK_WHBu0IsNcJ6sW1MrsX3yG7p5-7vcv05gJT-q32UdObe6DHOoKmDFp2COefUzHUoZw",
+      "summonerName": "Jamoncïto",
+      "tagLine": "LAN",
+      "leaguePoints": 611,
+      "wins": 52,
+      "losses": 36,
+      "firstSeenDate": "2026-01-13T02:24:55.197240+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": null,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "xmAP5h1SyurYFMQbdDJvVXuhPhLBXTO0juyvgrLgg_VeBwbAM2H4lP7kZNlFinjX9b6tY50nfRuqhg",
+      "summonerName": "November 6",
+      "tagLine": "Mia",
+      "leaguePoints": 564,
+      "wins": 47,
+      "losses": 33,
+      "firstSeenDate": "2026-01-13T02:24:55.197240+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 4,
+      "avgRank": null,
+      "avgRankAll": 4,
+      "rankHistory": [
+        4
+      ],
+      "isActive": true,
+      "rank": 4
     }
   ],
-  "lastUpdate": "2026-01-12T02:30:47.840915+00:00"
+  "lastUpdate": "2026-01-13T02:24:55.197240+00:00"
 }

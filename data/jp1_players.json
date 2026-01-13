@@ -10,13 +10,14 @@
       "wins": 38,
       "losses": 10,
       "firstSeenDate": "2026-01-12T02:29:17.296740+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 1,
-      "avgRank": null,
-      "avgRankAll": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
+      "avgRank": 2.5,
+      "avgRankAll": 2.5,
       "rankHistory": [
-        1
+        1,
+        4
       ],
       "isActive": true,
       "rank": 1
@@ -25,21 +26,136 @@
       "puuid": "n3gWEO6dsKUayR7t1bi5C3cTZGJt3w-O9TqgcV1H51s9ojq3bMEY5zXnhakQBIJvcDo7rYhpcPwaFQ",
       "summonerName": "RuneFactoryが大好きね",
       "tagLine": "BlauR",
-      "leaguePoints": 576,
-      "wins": 44,
-      "losses": 15,
+      "leaguePoints": 511,
+      "wins": 45,
+      "losses": 24,
       "firstSeenDate": "2026-01-12T02:29:17.296740+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 6,
+      "avgRank": 4.0,
+      "avgRankAll": 4.0,
+      "rankHistory": [
+        2,
+        6
+      ],
+      "isActive": true,
+      "rank": 2
+    },
+    {
+      "puuid": "j1u6uJ698WqxHdEDEaO90pc71__Nd4ubPrKaU0Cpj7K5dCCXh8jZmq6T138yXTmUJIAfLyI5itj7CQ",
+      "summonerName": "無愛想",
+      "tagLine": "可愛くない",
+      "leaguePoints": 661,
+      "wins": 45,
+      "losses": 16,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": 1,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 3
+    },
+    {
+      "puuid": "ZQQm3cRlnGRHq8JHCdIWdEp4QKGUJRh75G6czj7VyYAX76fjconlzu5D-cK0LncywFs41b25H_3QaQ",
+      "summonerName": "大小姐驾到",
+      "tagLine": "Molly",
+      "leaguePoints": 660,
+      "wins": 43,
+      "losses": 15,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 2,
-      "avgRank": null,
+      "avgRank": 2,
       "avgRankAll": 2,
       "rankHistory": [
         2
       ],
       "isActive": true,
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "puuid": "lKzEUhFwSgLWU5W9b6x7NH-B5DeGEy5lunLUFU9gZtv55B2P9NjjAqh7jtAsc94LSCjWSXTyVcugoA",
+      "summonerName": "東北を濡らす謎多き遊龍",
+      "tagLine": "横濱教父",
+      "leaguePoints": 591,
+      "wins": 52,
+      "losses": 16,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 3,
+      "avgRank": 3,
+      "avgRankAll": 3,
+      "rankHistory": [
+        3
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "Sqi3NqnWK7dsUOMapEjGN4Vv8RQuBnfc0vxH9oGBb0a57g7gEd8R18rppWq7ipdxiuBJzYV6GzsIgQ",
+      "summonerName": "Melody",
+      "tagLine": "I L",
+      "leaguePoints": 544,
+      "wins": 40,
+      "losses": 20,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": 5,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 6
+    },
+    {
+      "puuid": "RpOMCJxfyBCUTMenOrwCyQq9VdjI9genpgGNPcwNAigH6bGT_rH62EW33cV1mLh37yUeblu5_gSRAw",
+      "summonerName": "Sandman",
+      "tagLine": "JP2",
+      "leaguePoints": 508,
+      "wins": 50,
+      "losses": 47,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": 7,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "NCn2MGSThYRsHF-umTzLTKC9Pbujra4TRwNohBSG1JCE6oIM8l_meGYaWIEhLX4Ph24TLf19gCK5uw",
+      "summonerName": "横浜教父",
+      "tagLine": "滕滕滕滕滕",
+      "leaguePoints": 504,
+      "wins": 62,
+      "losses": 36,
+      "firstSeenDate": "2026-01-13T02:21:48.479620+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 8,
+      "avgRank": 8,
+      "avgRankAll": 8,
+      "rankHistory": [
+        8
+      ],
+      "isActive": true,
+      "rank": 8
     }
   ],
-  "lastUpdate": "2026-01-12T02:29:17.296740+00:00"
+  "lastUpdate": "2026-01-13T02:21:48.479620+00:00"
 }

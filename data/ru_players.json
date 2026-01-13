@@ -6,22 +6,42 @@
       "puuid": "5hefK3NkQ9khw7RVkJlcvyk1TA0oC0Hh7y-rd48QrIYjVfdAX8w-TBJNXPXTYHV3ddEbuI7COzQlaw",
       "summonerName": "Demonadcl9",
       "tagLine": "TWTV",
-      "leaguePoints": 652,
-      "wins": 39,
+      "leaguePoints": 712,
+      "wins": 41,
       "losses": 13,
       "firstSeenDate": "2026-01-11T02:33:14.014961+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
         1,
+        1,
         1
       ],
       "isActive": true,
       "rank": 1
+    },
+    {
+      "puuid": "AoG59BOdogRjSJ2R_tik26Z5GJCYhQ3N8KieYms6rxebuV3xc3touRYQTATtj5r-0r5T3zsQP0kpuA",
+      "summonerName": "АЧЁВЫТАКИЕБРОУКИ",
+      "tagLine": "IC3",
+      "leaguePoints": 510,
+      "wins": 47,
+      "losses": 45,
+      "firstSeenDate": "2026-01-13T02:21:59.254079+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
     }
   ],
-  "lastUpdate": "2026-01-12T02:29:20.217288+00:00"
+  "lastUpdate": "2026-01-13T02:21:59.254079+00:00"
 }

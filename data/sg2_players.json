@@ -10,14 +10,15 @@
       "wins": 43,
       "losses": 23,
       "firstSeenDate": "2026-01-11T02:33:24.611853+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 3,
       "avgRank": null,
-      "avgRankAll": 1.5,
+      "avgRankAll": 2.0,
       "rankHistory": [
         1,
-        2
+        2,
+        3
       ],
       "isActive": true,
       "rank": 1
@@ -26,16 +27,17 @@
       "puuid": "5t8Fk1DvfSqWfUIvhI719bPsWFsnWmBHcdzEWF6nMVg03FYVAFbSSYs0N-NkWOXYgvOat78qC0-I5A",
       "summonerName": "Stellar",
       "tagLine": "1105",
-      "leaguePoints": 822,
-      "wins": 50,
-      "losses": 15,
+      "leaguePoints": 1010,
+      "wins": 58,
+      "losses": 18,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 1,
       "avgRank": null,
-      "avgRankAll": 1,
+      "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1
       ],
       "isActive": true,
@@ -45,17 +47,18 @@
       "puuid": "grcBWTiCROAHxacob4rQRy-uvW2OsW5zCQ0oVNVWwMQrnl_GRMnvtEgICyqpBO9MrR47oK5Znai1fQ",
       "summonerName": "Hoshiyo",
       "tagLine": "2121",
-      "leaguePoints": 603,
-      "wins": 46,
-      "losses": 37,
+      "leaguePoints": 693,
+      "wins": 51,
+      "losses": 41,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 3,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 2,
       "avgRank": null,
-      "avgRankAll": 3,
+      "avgRankAll": 2.5,
       "rankHistory": [
-        3
+        3,
+        2
       ],
       "isActive": true,
       "rank": 3
@@ -64,21 +67,98 @@
       "puuid": "GjW_TY0d_ClOkb3zTa03GINlckE-OHxw7QqMC0Qm68NK4YjOCEQ8dDuvwfZkYIHILJhhsuuj8Q8aig",
       "summonerName": "llllllllIlllll",
       "tagLine": "llllI",
-      "leaguePoints": 502,
-      "wins": 37,
-      "losses": 9,
+      "leaguePoints": 550,
+      "wins": 41,
+      "losses": 14,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 4,
       "avgRank": null,
-      "avgRankAll": 4,
+      "avgRankAll": 4.0,
       "rankHistory": [
+        4,
         4
       ],
       "isActive": true,
       "rank": 4
+    },
+    {
+      "puuid": "ZknUWq9VQgkuYDn4xew5DZbRVNvzS7YZ8KcIDemaolZaHAqR1hr_nR-wPyZqhLPTVJ0i9P64moDxMQ",
+      "summonerName": "ArterialCrasher",
+      "tagLine": "IAN",
+      "leaguePoints": 531,
+      "wins": 45,
+      "losses": 20,
+      "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "6tLNl7dspxPTUVBguPhlnU2DBh5GxRPAuQ95NOGFK3EmnUn71fRZc9y9S9G2fSUhbVJ40U2xleN2kA",
+      "summonerName": "Yuyuuuuu",
+      "tagLine": "uuu",
+      "leaguePoints": 522,
+      "wins": 38,
+      "losses": 18,
+      "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 6
+    },
+    {
+      "puuid": "J7mIt7oPstt9TncwxnlL3VZbtsM4C6S_fP_BLjBt9dOPhdL3E8jWuCv0K-06yx7cl3FTTNhCTy_ejA",
+      "summonerName": "Shogun",
+      "tagLine": "garou",
+      "leaguePoints": 521,
+      "wins": 37,
+      "losses": 19,
+      "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": null,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "D8j68ApUfRLfGb8mkDoICqinDzoAfS96eBaiw7RI_SL3FL3KWxEPDDWdtPP_U1FZVUvyQ-FsCl56WA",
+      "summonerName": "everyday same",
+      "tagLine": "skee",
+      "leaguePoints": 508,
+      "wins": 46,
+      "losses": 27,
+      "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 8,
+      "avgRank": null,
+      "avgRankAll": 8,
+      "rankHistory": [
+        8
+      ],
+      "isActive": true,
+      "rank": 8
     }
   ],
-  "lastUpdate": "2026-01-12T02:30:41.770479+00:00"
+  "lastUpdate": "2026-01-13T02:24:43.616645+00:00"
 }
