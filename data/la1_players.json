@@ -6,16 +6,17 @@
       "puuid": "8CMvstsISOouETqY0Wk_TpOIK6XljPSln6XhLZ13rmBAOuvqaoknmTOnrfMhBlvnJ7Gkta312Yu-2Q",
       "summonerName": "xip",
       "tagLine": "valen",
-      "leaguePoints": 1695,
-      "wins": 79,
-      "losses": 22,
+      "leaguePoints": 1810,
+      "wins": 92,
+      "losses": 31,
       "firstSeenDate": "2026-01-11T02:33:26.547660+00:00",
-      "daysInChallenger": 3,
-      "currentStreak": 3,
+      "daysInChallenger": 4,
+      "currentStreak": 4,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1,
         1,
         1
@@ -25,20 +26,21 @@
     },
     {
       "puuid": "Oax4YFLv4dJs0oc9TKt4YE94hNb_TVrcrUluWA1wPTjRX87I25MFnOiK46lotvudb4pFH3oJUqnNIg",
-      "summonerName": "like a record",
-      "tagLine": "baby",
+      "summonerName": "FREE AZRVEL",
+      "tagLine": "TOP1",
       "leaguePoints": 745,
       "wins": 46,
       "losses": 15,
       "firstSeenDate": "2026-01-12T02:30:47.840915+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 3,
       "avgRank": null,
-      "avgRankAll": 2.0,
+      "avgRankAll": 2.3333333333333335,
       "rankHistory": [
         2,
-        2
+        2,
+        3
       ],
       "isActive": true,
       "rank": 2
@@ -47,17 +49,18 @@
       "puuid": "qq2Re1Uio9vK_WHBu0IsNcJ6sW1MrsX3yG7p5-7vcv05gJT-q32UdObe6DHOoKmDFp2COefUzHUoZw",
       "summonerName": "Jamoncïto",
       "tagLine": "LAN",
-      "leaguePoints": 611,
-      "wins": 52,
-      "losses": 36,
+      "leaguePoints": 666,
+      "wins": 57,
+      "losses": 42,
       "firstSeenDate": "2026-01-13T02:24:55.197240+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 3,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 5,
       "avgRank": null,
-      "avgRankAll": 3,
+      "avgRankAll": 4.0,
       "rankHistory": [
-        3
+        3,
+        5
       ],
       "isActive": true,
       "rank": 3
@@ -66,10 +69,49 @@
       "puuid": "xmAP5h1SyurYFMQbdDJvVXuhPhLBXTO0juyvgrLgg_VeBwbAM2H4lP7kZNlFinjX9b6tY50nfRuqhg",
       "summonerName": "November 6",
       "tagLine": "Mia",
-      "leaguePoints": 564,
+      "leaguePoints": 551,
       "wins": 47,
-      "losses": 33,
+      "losses": 34,
       "firstSeenDate": "2026-01-13T02:24:55.197240+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 5.0,
+      "rankHistory": [
+        4,
+        6
+      ],
+      "isActive": true,
+      "rank": 4
+    },
+    {
+      "puuid": "XFGiOq2b0qjpu2JeO0ovl1xS4Lg7_Ojp01uAS6FL4HHpEy80mxvKQWiuGqA_e09bs-_eaABciny4Jw",
+      "summonerName": "beamer boy",
+      "tagLine": "sof",
+      "leaguePoints": 1067,
+      "wins": 56,
+      "losses": 19,
+      "firstSeenDate": "2026-01-14T02:34:40.964557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "aPAlDRolhcGVMTbtaL8nJCAWGU1CTjV9ljhMKIU1W1QXC4DhPtxQeuGRzxqeiNPVxlh-EnBFdUenJw",
+      "summonerName": "ƒëär",
+      "tagLine": "Sexy",
+      "leaguePoints": 709,
+      "wins": 46,
+      "losses": 29,
+      "firstSeenDate": "2026-01-14T02:34:40.964557+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 4,
@@ -79,8 +121,27 @@
         4
       ],
       "isActive": true,
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "puuid": "KtRHhcidk0OxX8SUO2ltypHlOUBlUJgZvwbXWbrfUkVFUIYCQMRIavitVTobPRlt54h7xByn0FKwhQ",
+      "summonerName": "Ionian",
+      "tagLine": "PSM",
+      "leaguePoints": 514,
+      "wins": 45,
+      "losses": 30,
+      "firstSeenDate": "2026-01-14T02:34:40.964557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": null,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
     }
   ],
-  "lastUpdate": "2026-01-13T02:24:55.197240+00:00"
+  "lastUpdate": "2026-01-14T02:34:40.964557+00:00"
 }

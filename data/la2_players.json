@@ -6,16 +6,17 @@
       "puuid": "ENRSltle1efacYw-qI2DqhK_oirny4EGP-AOsnuYs7Sjp5S4vDSImCVdtcTna14SsAYNiOcMNx_m1Q",
       "summonerName": "ElchurroMCFLY",
       "tagLine": "LAS",
-      "leaguePoints": 835,
-      "wins": 58,
-      "losses": 24,
+      "leaguePoints": 1064,
+      "wins": 68,
+      "losses": 28,
       "firstSeenDate": "2026-01-12T02:30:51.009483+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1,
         1
       ],
@@ -26,17 +27,18 @@
       "puuid": "srNrGoar_1CHpgjy7TMp70CJwotJoA-YvYZP7Jo24O8YwGtb1PFmL4oSAdDt5Slql1ViWCYwnc1qlA",
       "summonerName": "neo2",
       "tagLine": "bless",
-      "leaguePoints": 766,
-      "wins": 45,
-      "losses": 22,
+      "leaguePoints": 853,
+      "wins": 54,
+      "losses": 30,
       "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 2,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
       "avgRank": null,
-      "avgRankAll": 2,
+      "avgRankAll": 3.0,
       "rankHistory": [
-        2
+        2,
+        4
       ],
       "isActive": true,
       "rank": 2
@@ -45,16 +47,17 @@
       "puuid": "oA_JPOZdS2uT83VDvleHg4MqdOcjmLkG9YEsH0rZV_oG47W48pQiMW5gfmDc_uu3cYDYYp3pG7cqlA",
       "summonerName": "Rakecito",
       "tagLine": "LAS",
-      "leaguePoints": 751,
-      "wins": 51,
-      "losses": 32,
+      "leaguePoints": 942,
+      "wins": 64,
+      "losses": 38,
       "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 3,
       "avgRank": null,
-      "avgRankAll": 3,
+      "avgRankAll": 3.0,
       "rankHistory": [
+        3,
         3
       ],
       "isActive": true,
@@ -64,17 +67,18 @@
       "puuid": "t9bKb2cN-XMOo3mdu-t7AAveKTi8O4lOvxoSpW-t3yRtM6NeVmlBTQJ9JR04hlm_MfQ4NiAipBzi4Q",
       "summonerName": "seppuku",
       "tagLine": "iwnl2",
-      "leaguePoints": 671,
-      "wins": 47,
-      "losses": 34,
+      "leaguePoints": 801,
+      "wins": 58,
+      "losses": 44,
       "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 4,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 7,
       "avgRank": null,
-      "avgRankAll": 4,
+      "avgRankAll": 5.5,
       "rankHistory": [
-        4
+        4,
+        7
       ],
       "isActive": true,
       "rank": 4
@@ -83,10 +87,69 @@
       "puuid": "e169gkfVc8dAOGiUr3rRp-yIV0nXDSLWvpg75iAEvIw5-BEqvH89mpfU4p_GJkUCxMGOasU1O9ieEQ",
       "summonerName": "lyg",
       "tagLine": "lass",
-      "leaguePoints": 667,
-      "wins": 44,
-      "losses": 19,
+      "leaguePoints": 797,
+      "wins": 49,
+      "losses": 22,
       "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 8,
+      "avgRank": null,
+      "avgRankAll": 6.5,
+      "rankHistory": [
+        5,
+        8
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "ovHRjcV61Mi0l9F61tsBJa_kuAC8_Bbq42PXpY2ng8PkIa6RoAgUvGiR9ScPuoPF73Kn_6oM_mqlJA",
+      "summonerName": "nostalgia",
+      "tagLine": "sz7",
+      "leaguePoints": 762,
+      "wins": 54,
+      "losses": 36,
+      "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 9,
+      "avgRank": null,
+      "avgRankAll": 7.5,
+      "rankHistory": [
+        6,
+        9
+      ],
+      "isActive": true,
+      "rank": 6
+    },
+    {
+      "puuid": "6eVHQktiN6q8FV0IXNmngP7AtPubDjNSSCY8OqproWKR00Fje9q1bE-yQD1xEvIhMqgW-CnrwYiqJQ",
+      "summonerName": "dys",
+      "tagLine": "021",
+      "leaguePoints": 949,
+      "wins": 64,
+      "losses": 37,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "1gzT9D6jiwd1o-whl-dVD18vYdJySvgsAdrx7v5vqis4-ghRsmYvjfr1vblRae6erBsT-2VP_u8kiQ",
+      "summonerName": "hellstar",
+      "tagLine": "6969X",
+      "leaguePoints": 828,
+      "wins": 54,
+      "losses": 38,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 5,
@@ -96,16 +159,16 @@
         5
       ],
       "isActive": true,
-      "rank": 5
+      "rank": 8
     },
     {
-      "puuid": "ovHRjcV61Mi0l9F61tsBJa_kuAC8_Bbq42PXpY2ng8PkIa6RoAgUvGiR9ScPuoPF73Kn_6oM_mqlJA",
-      "summonerName": "nostalgia",
-      "tagLine": "sz7",
-      "leaguePoints": 629,
-      "wins": 45,
-      "losses": 29,
-      "firstSeenDate": "2026-01-13T02:25:01.059875+00:00",
+      "puuid": "X7l96DT7aTrnvxGJIb7JfduqK8F4ATS4oTWWj06Bmjhm0tYlTVPZh5kxV8IdYkYFW0lnRfoTDEmmAg",
+      "summonerName": "till i collapse",
+      "tagLine": "9999",
+      "leaguePoints": 812,
+      "wins": 50,
+      "losses": 20,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 6,
@@ -115,8 +178,65 @@
         6
       ],
       "isActive": true,
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "puuid": "Uy3vl5G4OkgMFiGqshZiAMrFALcfoQcLrnhiBeESiN1abbLl3bEyNo2iL80G_f9ra3sb4eoKb1FC3g",
+      "summonerName": "nvillada",
+      "tagLine": "LAS",
+      "leaguePoints": 711,
+      "wins": 52,
+      "losses": 35,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 10,
+      "avgRank": null,
+      "avgRankAll": 10,
+      "rankHistory": [
+        10
+      ],
+      "isActive": true,
+      "rank": 10
+    },
+    {
+      "puuid": "9w2wMYywF_h0z0gUjmFFYkCzAiysnSVmkicxsS1A4ExSv7TKSsIRkptbVfZ6mbsFF5eAEc97wHXTnw",
+      "summonerName": "Netzek",
+      "tagLine": "1111",
+      "leaguePoints": 686,
+      "wins": 40,
+      "losses": 21,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 11,
+      "avgRank": null,
+      "avgRankAll": 11,
+      "rankHistory": [
+        11
+      ],
+      "isActive": true,
+      "rank": 11
+    },
+    {
+      "puuid": "_nsWZAJg47RQGyRS1uhL406lJePWwMojLH6fM5UBRq0zbsW2XoJNrK8bNs-bw7pflAZRH4VV8D4m9w",
+      "summonerName": "PIRIH",
+      "tagLine": "LAS",
+      "leaguePoints": 500,
+      "wins": 48,
+      "losses": 33,
+      "firstSeenDate": "2026-01-14T02:34:51.059785+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 12,
+      "avgRank": null,
+      "avgRankAll": 12,
+      "rankHistory": [
+        12
+      ],
+      "isActive": true,
+      "rank": 12
     }
   ],
-  "lastUpdate": "2026-01-13T02:25:01.059875+00:00"
+  "lastUpdate": "2026-01-14T02:34:51.059785+00:00"
 }

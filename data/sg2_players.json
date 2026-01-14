@@ -6,19 +6,20 @@
       "puuid": "vNfzhMQ7mkZlP0vjsiKmzh0NlO2JUkOwBV6fimdcoWO4GOArxICsqYhbLari-RFQ-MsLWy0Dqp8-gw",
       "summonerName": "HexzeRenz",
       "tagLine": "LFT",
-      "leaguePoints": 620,
-      "wins": 43,
-      "losses": 23,
+      "leaguePoints": 709,
+      "wins": 48,
+      "losses": 28,
       "firstSeenDate": "2026-01-11T02:33:24.611853+00:00",
-      "daysInChallenger": 3,
-      "currentStreak": 3,
-      "currentRank": 3,
+      "daysInChallenger": 4,
+      "currentStreak": 4,
+      "currentRank": 2,
       "avgRank": null,
       "avgRankAll": 2.0,
       "rankHistory": [
         1,
         2,
-        3
+        3,
+        2
       ],
       "isActive": true,
       "rank": 1
@@ -31,12 +32,13 @@
       "wins": 58,
       "losses": 18,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1,
         1
       ],
@@ -51,14 +53,15 @@
       "wins": 51,
       "losses": 41,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 3,
       "avgRank": null,
-      "avgRankAll": 2.5,
+      "avgRankAll": 2.6666666666666665,
       "rankHistory": [
         3,
-        2
+        2,
+        3
       ],
       "isActive": true,
       "rank": 3
@@ -71,14 +74,15 @@
       "wins": 41,
       "losses": 14,
       "firstSeenDate": "2026-01-12T02:30:41.770479+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 4,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 9,
       "avgRank": null,
-      "avgRankAll": 4.0,
+      "avgRankAll": 5.666666666666667,
       "rankHistory": [
         4,
-        4
+        4,
+        9
       ],
       "isActive": true,
       "rank": 4
@@ -91,13 +95,14 @@
       "wins": 45,
       "losses": 20,
       "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 5,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 10,
       "avgRank": null,
-      "avgRankAll": 5,
+      "avgRankAll": 7.5,
       "rankHistory": [
-        5
+        5,
+        10
       ],
       "isActive": true,
       "rank": 5
@@ -110,13 +115,14 @@
       "wins": 38,
       "losses": 18,
       "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 6,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 11,
       "avgRank": null,
-      "avgRankAll": 6,
+      "avgRankAll": 8.5,
       "rankHistory": [
-        6
+        6,
+        11
       ],
       "isActive": true,
       "rank": 6
@@ -125,17 +131,18 @@
       "puuid": "J7mIt7oPstt9TncwxnlL3VZbtsM4C6S_fP_BLjBt9dOPhdL3E8jWuCv0K-06yx7cl3FTTNhCTy_ejA",
       "summonerName": "Shogun",
       "tagLine": "garou",
-      "leaguePoints": 521,
-      "wins": 37,
+      "leaguePoints": 671,
+      "wins": 42,
       "losses": 19,
       "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 7,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
       "avgRank": null,
-      "avgRankAll": 7,
+      "avgRankAll": 5.5,
       "rankHistory": [
-        7
+        7,
+        4
       ],
       "isActive": true,
       "rank": 7
@@ -148,6 +155,83 @@
       "wins": 46,
       "losses": 27,
       "firstSeenDate": "2026-01-13T02:24:43.616645+00:00",
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 12,
+      "avgRank": null,
+      "avgRankAll": 10.0,
+      "rankHistory": [
+        8,
+        12
+      ],
+      "isActive": true,
+      "rank": 8
+    },
+    {
+      "puuid": "RirYGBabp7FWOkdlUToH-SeR8ubHj5B16Lkn8lzfZDD4ayUDjrqHCt4b7GMpSlH-ZhmgADAKovtDGA",
+      "summonerName": "blazeee",
+      "tagLine": "0911",
+      "leaguePoints": 633,
+      "wins": 41,
+      "losses": 12,
+      "firstSeenDate": "2026-01-14T02:34:23.614456+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 9
+    },
+    {
+      "puuid": "KGG14egl9rnpFDhxxiT6yThIiZSyEyf3l7sn1_B7og3xAdQQSec8XXkAgamPvPcfbsHfnCnzbrW-pA",
+      "summonerName": "1234567890",
+      "tagLine": "jug",
+      "leaguePoints": 623,
+      "wins": 42,
+      "losses": 19,
+      "firstSeenDate": "2026-01-14T02:34:23.614456+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 10
+    },
+    {
+      "puuid": "yavHO29b-S69gOrG3m85JJu8TtoqIiiq0Dk_poIy6Fvp-7RzTpoK7gntrm9rQTTfa9RQiFPuVieuJw",
+      "summonerName": "BushwaTV",
+      "tagLine": "福Team",
+      "leaguePoints": 565,
+      "wins": 46,
+      "losses": 25,
+      "firstSeenDate": "2026-01-14T02:34:23.614456+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": null,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 11
+    },
+    {
+      "puuid": "y00BAvyLvhIc5AN4NRaQ9vcsoWtXxBQxi9bCccvrfixpB7zYmdyMjcBwwoydcSEs-LXegLyrx7YbcQ",
+      "summonerName": "ryzvla",
+      "tagLine": "him",
+      "leaguePoints": 559,
+      "wins": 54,
+      "losses": 46,
+      "firstSeenDate": "2026-01-14T02:34:23.614456+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
       "currentRank": 8,
@@ -157,8 +241,8 @@
         8
       ],
       "isActive": true,
-      "rank": 8
+      "rank": 12
     }
   ],
-  "lastUpdate": "2026-01-13T02:24:43.616645+00:00"
+  "lastUpdate": "2026-01-14T02:34:23.614456+00:00"
 }

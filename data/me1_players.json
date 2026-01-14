@@ -1,6 +1,26 @@
 {
   "region": "Middle East",
   "regionCode": "me1",
-  "players": [],
-  "lastUpdate": "2026-01-13T02:24:14.522629+00:00"
+  "players": [
+    {
+      "puuid": "Uw3S6xsAunF2NpTEnhnAQsRNCQmBHFRZUU5NtEYtQWz2r7PWXx6q-WUoEtCLGKdiAYx6DF24qNjsFA",
+      "summonerName": "Magic",
+      "tagLine": "9282",
+      "leaguePoints": 820,
+      "wins": 49,
+      "losses": 23,
+      "firstSeenDate": "2026-01-14T02:35:56.544037+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 1,
+      "avgRank": null,
+      "avgRankAll": 1,
+      "rankHistory": [
+        1
+      ],
+      "isActive": true,
+      "rank": 1
+    }
+  ],
+  "lastUpdate": "2026-01-14T02:35:56.544037+00:00"
 }

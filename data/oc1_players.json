@@ -6,16 +6,17 @@
       "puuid": "PmJeIplm43n3he8qjAtsvw0c7l8XksYOqYByEYIiCe3TjnaWDkRxvbsMYJhG57QpScDcJXCJVXtE8w",
       "summonerName": "探险家",
       "tagLine": "blue",
-      "leaguePoints": 685,
-      "wins": 51,
+      "leaguePoints": 695,
+      "wins": 52,
       "losses": 34,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 1,
       "avgRank": null,
-      "avgRankAll": 1,
+      "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1
       ],
       "isActive": true,
@@ -25,17 +26,18 @@
       "puuid": "u1iCurgmm5_DUMQc2uodbS7ub3b4f--rWoX0k95dLnYzpWBpteO7tpcneM_ibJmWZ8uPfOotXZJvZw",
       "summonerName": "willywonka",
       "tagLine": "OCE1",
-      "leaguePoints": 633,
-      "wins": 51,
-      "losses": 47,
+      "leaguePoints": 636,
+      "wins": 52,
+      "losses": 48,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 2,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 3,
       "avgRank": null,
-      "avgRankAll": 2,
+      "avgRankAll": 2.5,
       "rankHistory": [
-        2
+        2,
+        3
       ],
       "isActive": true,
       "rank": 2
@@ -48,17 +50,75 @@
       "wins": 42,
       "losses": 24,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 3,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
       "avgRank": null,
-      "avgRankAll": 3,
+      "avgRankAll": 3.5,
       "rankHistory": [
-        3
+        3,
+        4
       ],
       "isActive": true,
       "rank": 3
+    },
+    {
+      "puuid": "JZ6grnL5BX-4U2es3TBxx0HUhyVnke23hUko3NIULR0IleXw_69kHdPHLXqAfNuGXgrEI7OVvBQ07g",
+      "summonerName": "Sybol",
+      "tagLine": "gogo",
+      "leaguePoints": 693,
+      "wins": 49,
+      "losses": 19,
+      "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 4
+    },
+    {
+      "puuid": "twDWyZ5CHY_UXBw4pos1RSunQ2-5lHUFFYS6VVrMSxngV_tcJJocnDd5BV6VNEKikT1aO6UQuo9ZSQ",
+      "summonerName": "bombledondongers",
+      "tagLine": "real",
+      "leaguePoints": 575,
+      "wins": 39,
+      "losses": 9,
+      "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 5,
+      "avgRank": null,
+      "avgRankAll": 5,
+      "rankHistory": [
+        5
+      ],
+      "isActive": true,
+      "rank": 5
+    },
+    {
+      "puuid": "ApsgtQu8YoOSx0ittZs6ftY9amx0icAqLtFw-di2LrkWkGZm2C521EBEM-o1uA3LkMLXIZXXKxQ9rQ",
+      "summonerName": "Viоlet",
+      "tagLine": "VIVI",
+      "leaguePoints": 527,
+      "wins": 37,
+      "losses": 11,
+      "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": null,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 6
     }
   ],
-  "lastUpdate": "2026-01-13T02:24:10.200708+00:00"
+  "lastUpdate": "2026-01-14T02:35:48.006069+00:00"
 }
