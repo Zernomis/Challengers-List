@@ -10,14 +10,15 @@
       "wins": 52,
       "losses": 34,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 1,
-      "avgRank": null,
-      "avgRankAll": 1.0,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 3,
+      "avgRank": 1.6666666666666667,
+      "avgRankAll": 1.6666666666666667,
       "rankHistory": [
         1,
-        1
+        1,
+        3
       ],
       "isActive": true,
       "rank": 1
@@ -30,14 +31,15 @@
       "wins": 52,
       "losses": 48,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 3,
-      "avgRank": null,
-      "avgRankAll": 2.5,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 5,
+      "avgRank": 3.3333333333333335,
+      "avgRankAll": 3.3333333333333335,
       "rankHistory": [
         2,
-        3
+        3,
+        5
       ],
       "isActive": true,
       "rank": 2
@@ -46,18 +48,19 @@
       "puuid": "gC_zr4GSxUomRbbKnmlTAgC5XnFS8rUQ1eGGDutumGPsCT-vkkFyPhoKeQ3v6gSDhrH_qVUxrUUMJw",
       "summonerName": "goooooooooooooby",
       "tagLine": "7777",
-      "leaguePoints": 625,
-      "wins": 42,
-      "losses": 24,
+      "leaguePoints": 816,
+      "wins": 49,
+      "losses": 27,
       "firstSeenDate": "2026-01-13T02:24:10.200708+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 4,
-      "avgRank": null,
-      "avgRankAll": 3.5,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 1,
+      "avgRank": 2.6666666666666665,
+      "avgRankAll": 2.6666666666666665,
       "rankHistory": [
         3,
-        4
+        4,
+        1
       ],
       "isActive": true,
       "rank": 3
@@ -66,17 +69,18 @@
       "puuid": "JZ6grnL5BX-4U2es3TBxx0HUhyVnke23hUko3NIULR0IleXw_69kHdPHLXqAfNuGXgrEI7OVvBQ07g",
       "summonerName": "Sybol",
       "tagLine": "gogo",
-      "leaguePoints": 693,
-      "wins": 49,
-      "losses": 19,
+      "leaguePoints": 687,
+      "wins": 53,
+      "losses": 26,
       "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 2,
-      "avgRank": null,
-      "avgRankAll": 2,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
+      "avgRank": 3.0,
+      "avgRankAll": 3.0,
       "rankHistory": [
-        2
+        2,
+        4
       ],
       "isActive": true,
       "rank": 4
@@ -85,17 +89,18 @@
       "puuid": "twDWyZ5CHY_UXBw4pos1RSunQ2-5lHUFFYS6VVrMSxngV_tcJJocnDd5BV6VNEKikT1aO6UQuo9ZSQ",
       "summonerName": "bombledondongers",
       "tagLine": "real",
-      "leaguePoints": 575,
-      "wins": 39,
-      "losses": 9,
+      "leaguePoints": 805,
+      "wins": 49,
+      "losses": 10,
       "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 5,
-      "avgRank": null,
-      "avgRankAll": 5,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 2,
+      "avgRank": 3.5,
+      "avgRankAll": 3.5,
       "rankHistory": [
-        5
+        5,
+        2
       ],
       "isActive": true,
       "rank": 5
@@ -104,21 +109,117 @@
       "puuid": "ApsgtQu8YoOSx0ittZs6ftY9amx0icAqLtFw-di2LrkWkGZm2C521EBEM-o1uA3LkMLXIZXXKxQ9rQ",
       "summonerName": "Viоlet",
       "tagLine": "VIVI",
-      "leaguePoints": 527,
-      "wins": 37,
+      "leaguePoints": 597,
+      "wins": 40,
       "losses": 11,
       "firstSeenDate": "2026-01-14T02:35:48.006069+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 6,
-      "avgRank": null,
-      "avgRankAll": 6,
+      "avgRank": 6.0,
+      "avgRankAll": 6.0,
       "rankHistory": [
+        6,
         6
       ],
       "isActive": true,
       "rank": 6
+    },
+    {
+      "puuid": "xx0HwzoT1tDwGx_Cy8jKKvRUN7P4h4ohfaiLdBgY7hpM0S-Kg3Qv5lJi4e9HrkD6M_eI0HCB7yE8Bg",
+      "summonerName": "Mad4Jay",
+      "tagLine": "333",
+      "leaguePoints": 577,
+      "wins": 64,
+      "losses": 50,
+      "firstSeenDate": "2026-01-15T02:33:35.674557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": 7,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "gUSYxtgF5BycS0wdnqQ7piq9AQo6hjkPKAhAbBJX-AeAdlTblzxyabxXToRUumdlivWHi7iMGm9ccg",
+      "summonerName": "After the rain",
+      "tagLine": "NDIS",
+      "leaguePoints": 571,
+      "wins": 41,
+      "losses": 14,
+      "firstSeenDate": "2026-01-15T02:33:35.674557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 8,
+      "avgRank": 8,
+      "avgRankAll": 8,
+      "rankHistory": [
+        8
+      ],
+      "isActive": true,
+      "rank": 8
+    },
+    {
+      "puuid": "2F4xwMlIX1z1XyWWjZhnC_gVJm797nnqSuDpIRiKDCBuu_HBx9vj7I7V1z341DriKPoZfmPJqyMzsQ",
+      "summonerName": "kenvo",
+      "tagLine": "OCE1",
+      "leaguePoints": 533,
+      "wins": 53,
+      "losses": 48,
+      "firstSeenDate": "2026-01-15T02:33:35.674557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 9,
+      "avgRank": 9,
+      "avgRankAll": 9,
+      "rankHistory": [
+        9
+      ],
+      "isActive": true,
+      "rank": 9
+    },
+    {
+      "puuid": "DCH5hbwv7vy-W_KjnAmApK8Y7oc8O6eYToOIv1mwK8wnqtjk1d8YG7V8PVO7fSQ6s_53XIu-sEn2wg",
+      "summonerName": "Denise",
+      "tagLine": "OC",
+      "leaguePoints": 525,
+      "wins": 51,
+      "losses": 57,
+      "firstSeenDate": "2026-01-15T02:33:35.674557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 10,
+      "avgRank": 10,
+      "avgRankAll": 10,
+      "rankHistory": [
+        10
+      ],
+      "isActive": true,
+      "rank": 10
+    },
+    {
+      "puuid": "RSjCgiDgy_JyClKFLJaJEj3n5rYMenGn-EWQFkpXccSHcr0mplQLraAQSas6sOK8xNU9v7OWAbr1GQ",
+      "summonerName": "Gwens Fat Juicy",
+      "tagLine": "Clih",
+      "leaguePoints": 522,
+      "wins": 39,
+      "losses": 13,
+      "firstSeenDate": "2026-01-15T02:33:35.674557+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 11,
+      "avgRank": 11,
+      "avgRankAll": 11,
+      "rankHistory": [
+        11
+      ],
+      "isActive": true,
+      "rank": 11
     }
   ],
-  "lastUpdate": "2026-01-14T02:35:48.006069+00:00"
+  "lastUpdate": "2026-01-15T02:33:35.674557+00:00"
 }
