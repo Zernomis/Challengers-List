@@ -10,12 +10,13 @@
       "wins": 46,
       "losses": 14,
       "firstSeenDate": "2026-01-11T02:33:14.014961+00:00",
-      "daysInChallenger": 5,
-      "currentStreak": 5,
+      "daysInChallenger": 6,
+      "currentStreak": 6,
       "currentRank": 1,
-      "avgRank": null,
+      "avgRank": 1.0,
       "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1,
         1,
         1,
@@ -29,19 +30,20 @@
       "puuid": "AoG59BOdogRjSJ2R_tik26Z5GJCYhQ3N8KieYms6rxebuV3xc3touRYQTATtj5r-0r5T3zsQP0kpuA",
       "summonerName": "АЧЁВЫТАКИЕБРОУКИ",
       "tagLine": "IC3",
-      "leaguePoints": 538,
-      "wins": 48,
+      "leaguePoints": 619,
+      "wins": 50,
       "losses": 45,
       "firstSeenDate": "2026-01-13T02:21:59.254079+00:00",
-      "daysInChallenger": 3,
-      "currentStreak": 3,
-      "currentRank": 4,
-      "avgRank": null,
+      "daysInChallenger": 4,
+      "currentStreak": 4,
+      "currentRank": 3,
+      "avgRank": 3.0,
       "avgRankAll": 3.0,
       "rankHistory": [
         2,
         3,
-        4
+        4,
+        3
       ],
       "isActive": true,
       "rank": 2
@@ -54,14 +56,15 @@
       "wins": 58,
       "losses": 38,
       "firstSeenDate": "2026-01-14T02:31:06.192302+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 2,
-      "avgRank": null,
-      "avgRankAll": 2.0,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 5,
+      "avgRank": 3.0,
+      "avgRankAll": 3.0,
       "rankHistory": [
         2,
-        2
+        2,
+        5
       ],
       "isActive": true,
       "rank": 3
@@ -70,17 +73,18 @@
       "puuid": "JxIitQQArmAmGwnFsCiYvMeQsTuzXp2A6hXb7TJtHkLL4Kg_x12IWfye2y8hPHj8vbIkZct2gFGkGg",
       "summonerName": "Sailoren",
       "tagLine": "S24",
-      "leaguePoints": 545,
-      "wins": 45,
-      "losses": 33,
+      "leaguePoints": 759,
+      "wins": 54,
+      "losses": 35,
       "firstSeenDate": "2026-01-15T02:29:48.124843+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 3,
-      "avgRank": null,
-      "avgRankAll": 3,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 2,
+      "avgRank": 2.5,
+      "avgRankAll": 2.5,
       "rankHistory": [
-        3
+        3,
+        2
       ],
       "isActive": true,
       "rank": 4
@@ -89,21 +93,98 @@
       "puuid": "FtVWGaE76XmDlDem6uUCi_wYFg_6JRnfUr2_c7PZmXS5P47oDkNhd90xvL9_NmJIUIAJ09MwFeU1pg",
       "summonerName": "SyndraFeetlicker",
       "tagLine": "RU1",
-      "leaguePoints": 535,
-      "wins": 71,
-      "losses": 58,
+      "leaguePoints": 593,
+      "wins": 75,
+      "losses": 60,
       "firstSeenDate": "2026-01-15T02:29:48.124843+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
-      "currentRank": 5,
-      "avgRank": null,
-      "avgRankAll": 5,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
+      "currentRank": 4,
+      "avgRank": 4.5,
+      "avgRankAll": 4.5,
       "rankHistory": [
-        5
+        5,
+        4
       ],
       "isActive": true,
       "rank": 5
+    },
+    {
+      "puuid": "LL5D3jUsy9xDYfjGbUjccCk_CpKdnIbiJvh39jc1mtIqzkrAVb3YMTAstvQGSITuTlW0VFVQ7EzNKA",
+      "summonerName": "GlamourVenner",
+      "tagLine": "sick",
+      "leaguePoints": 581,
+      "wins": 55,
+      "losses": 37,
+      "firstSeenDate": "2026-01-16T02:35:51.715453+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 6,
+      "avgRank": 6,
+      "avgRankAll": 6,
+      "rankHistory": [
+        6
+      ],
+      "isActive": true,
+      "rank": 6
+    },
+    {
+      "puuid": "pn3CEkG1UkylDi7nlt8U8fQn_36yYuHffREhka0cBTTpRC9cVrjRHhZ-9Z8FkC5ye2YpbOCiMWgaug",
+      "summonerName": "catch me",
+      "tagLine": "111",
+      "leaguePoints": 525,
+      "wins": 48,
+      "losses": 34,
+      "firstSeenDate": "2026-01-16T02:35:51.715453+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 7,
+      "avgRank": 7,
+      "avgRankAll": 7,
+      "rankHistory": [
+        7
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "XpFYf6GvDCr1IeGLBaqpVUlom7uaWM_jqgI4sWFpOX8x5S7y35qDgAvC2sGqzRaiiRpT8fxeDJQIsA",
+      "summonerName": "S4CR1F1C3MYSLF4U",
+      "tagLine": "4144",
+      "leaguePoints": 510,
+      "wins": 47,
+      "losses": 23,
+      "firstSeenDate": "2026-01-16T02:35:51.715453+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 8,
+      "avgRank": 8,
+      "avgRankAll": 8,
+      "rankHistory": [
+        8
+      ],
+      "isActive": true,
+      "rank": 8
+    },
+    {
+      "puuid": "evVdu7AOAy_GtL8F59lw8v1UouYyDp4nDck2c_u2qhBt63tEo8i2VTiELqRc60E7HiiZd0tqXm4oug",
+      "summonerName": "KODA",
+      "tagLine": "KODI",
+      "leaguePoints": 500,
+      "wins": 65,
+      "losses": 43,
+      "firstSeenDate": "2026-01-16T02:35:51.715453+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 9,
+      "avgRank": 9,
+      "avgRankAll": 9,
+      "rankHistory": [
+        9
+      ],
+      "isActive": true,
+      "rank": 9
     }
   ],
-  "lastUpdate": "2026-01-15T02:29:48.124843+00:00"
+  "lastUpdate": "2026-01-16T02:35:51.715453+00:00"
 }
