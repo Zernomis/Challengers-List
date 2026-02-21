@@ -10,11 +10,11 @@
       "wins": 75,
       "losses": 32,
       "firstSeenDate": "2026-01-11T02:33:14.014961+00:00",
-      "daysInChallenger": 41,
-      "currentStreak": 41,
+      "daysInChallenger": 42,
+      "currentStreak": 42,
       "currentRank": 3,
-      "avgRank": 1.2439024390243902,
-      "avgRankAll": 1.2439024390243902,
+      "avgRank": 1.2857142857142858,
+      "avgRankAll": 1.2857142857142858,
       "rankHistory": [
         1,
         1,
@@ -56,6 +56,7 @@
         2,
         2,
         2,
+        3,
         3
       ],
       "isActive": true,
@@ -69,11 +70,11 @@
       "wins": 67,
       "losses": 56,
       "firstSeenDate": "2026-01-13T02:21:59.254079+00:00",
-      "daysInChallenger": 39,
-      "currentStreak": 39,
-      "currentRank": 11,
-      "avgRank": 8.538461538461538,
-      "avgRankAll": 8.538461538461538,
+      "daysInChallenger": 40,
+      "currentStreak": 40,
+      "currentRank": 13,
+      "avgRank": 8.65,
+      "avgRankAll": 8.65,
       "rankHistory": [
         2,
         3,
@@ -113,7 +114,8 @@
         13,
         14,
         12,
-        11
+        11,
+        13
       ],
       "isActive": true,
       "rank": 2
@@ -122,15 +124,15 @@
       "puuid": "pn3CEkG1UkylDi7nlt8U8fQn_36yYuHffREhka0cBTTpRC9cVrjRHhZ-9Z8FkC5ye2YpbOCiMWgaug",
       "summonerName": "catch me",
       "tagLine": "111",
-      "leaguePoints": 777,
-      "wins": 107,
-      "losses": 86,
+      "leaguePoints": 754,
+      "wins": 109,
+      "losses": 89,
       "firstSeenDate": "2026-01-16T02:35:51.715453+00:00",
-      "daysInChallenger": 36,
-      "currentStreak": 36,
-      "currentRank": 30,
-      "avgRank": 22.305555555555557,
-      "avgRankAll": 22.305555555555557,
+      "daysInChallenger": 37,
+      "currentStreak": 37,
+      "currentRank": 40,
+      "avgRank": 22.783783783783782,
+      "avgRankAll": 22.783783783783782,
       "rankHistory": [
         7,
         8,
@@ -167,7 +169,8 @@
         26,
         28,
         22,
-        30
+        30,
+        40
       ],
       "isActive": true,
       "rank": 3
@@ -180,11 +183,11 @@
       "wins": 61,
       "losses": 34,
       "firstSeenDate": "2026-01-17T02:26:11.113204+00:00",
-      "daysInChallenger": 35,
-      "currentStreak": 35,
+      "daysInChallenger": 36,
+      "currentStreak": 36,
       "currentRank": 20,
-      "avgRank": 10.685714285714285,
-      "avgRankAll": 10.685714285714285,
+      "avgRank": 10.944444444444445,
+      "avgRankAll": 10.944444444444445,
       "rankHistory": [
         7,
         5,
@@ -220,6 +223,7 @@
         18,
         20,
         18,
+        20,
         20
       ],
       "isActive": true,
@@ -233,11 +237,11 @@
       "wins": 101,
       "losses": 64,
       "firstSeenDate": "2026-01-18T02:48:06.871617+00:00",
-      "daysInChallenger": 34,
-      "currentStreak": 34,
+      "daysInChallenger": 35,
+      "currentStreak": 35,
       "currentRank": 8,
-      "avgRank": 6.029411764705882,
-      "avgRankAll": 6.029411764705882,
+      "avgRank": 6.085714285714285,
+      "avgRankAll": 6.085714285714285,
       "rankHistory": [
         9,
         9,
@@ -272,6 +276,7 @@
         8,
         8,
         8,
+        8,
         8
       ],
       "isActive": true,
@@ -285,11 +290,11 @@
       "wins": 88,
       "losses": 51,
       "firstSeenDate": "2026-01-18T02:48:06.871617+00:00",
-      "daysInChallenger": 34,
-      "currentStreak": 34,
+      "daysInChallenger": 35,
+      "currentStreak": 35,
       "currentRank": 44,
-      "avgRank": 21.735294117647058,
-      "avgRankAll": 21.735294117647058,
+      "avgRank": 22.37142857142857,
+      "avgRankAll": 22.37142857142857,
       "rankHistory": [
         15,
         17,
@@ -324,10 +329,115 @@
         38,
         42,
         44,
+        44,
         44
       ],
       "isActive": true,
       "rank": 6
+    },
+    {
+      "puuid": "HaEPkcZm_a4n2_aumCgxWNCClvKXlGb6X6hYwJ6i_UfMfWFATUQ5why5cuLRbfkMQTobaePQP4fMDQ",
+      "summonerName": "UKRAINE REFUGEE",
+      "tagLine": "HELP",
+      "leaguePoints": 748,
+      "wins": 68,
+      "losses": 37,
+      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
+      "daysInChallenger": 34,
+      "currentStreak": 34,
+      "currentRank": 43,
+      "avgRank": 22.735294117647058,
+      "avgRankAll": 22.735294117647058,
+      "rankHistory": [
+        16,
+        26,
+        16,
+        13,
+        15,
+        16,
+        20,
+        18,
+        14,
+        17,
+        16,
+        18,
+        17,
+        20,
+        23,
+        13,
+        14,
+        14,
+        13,
+        19,
+        16,
+        17,
+        28,
+        42,
+        41,
+        42,
+        22,
+        23,
+        28,
+        27,
+        26,
+        38,
+        42,
+        43
+      ],
+      "isActive": true,
+      "rank": 7
+    },
+    {
+      "puuid": "mB8Wjr8m7888m6UfHiNxq5TY-RPEax3KeMiJambfNOdZkkW_Xm5C3ebw63G8ptxMSz7Rf5RKbWK4pA",
+      "summonerName": "Сладкая11Речь",
+      "tagLine": "PLJ",
+      "leaguePoints": 907,
+      "wins": 120,
+      "losses": 107,
+      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
+      "daysInChallenger": 34,
+      "currentStreak": 34,
+      "currentRank": 12,
+      "avgRank": 16.470588235294116,
+      "avgRankAll": 16.470588235294116,
+      "rankHistory": [
+        21,
+        15,
+        19,
+        21,
+        19,
+        19,
+        17,
+        17,
+        16,
+        21,
+        24,
+        24,
+        19,
+        24,
+        21,
+        22,
+        12,
+        10,
+        12,
+        16,
+        15,
+        11,
+        12,
+        10,
+        10,
+        10,
+        13,
+        16,
+        11,
+        16,
+        17,
+        15,
+        23,
+        12
+      ],
+      "isActive": true,
+      "rank": 8
     },
     {
       "puuid": "k9TyKMi0lQke05QESVWwxxhHx8BE8A7KRL39qDPPiDhuO1ZRuCpb9trTJmi9ocLylyEuossGRTBAlQ",
@@ -378,108 +488,6 @@
         32
       ],
       "isActive": false,
-      "rank": 7
-    },
-    {
-      "puuid": "HaEPkcZm_a4n2_aumCgxWNCClvKXlGb6X6hYwJ6i_UfMfWFATUQ5why5cuLRbfkMQTobaePQP4fMDQ",
-      "summonerName": "UKRAINE REFUGEE",
-      "tagLine": "HELP",
-      "leaguePoints": 748,
-      "wins": 68,
-      "losses": 37,
-      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
-      "daysInChallenger": 33,
-      "currentStreak": 33,
-      "currentRank": 42,
-      "avgRank": 22.12121212121212,
-      "avgRankAll": 22.12121212121212,
-      "rankHistory": [
-        16,
-        26,
-        16,
-        13,
-        15,
-        16,
-        20,
-        18,
-        14,
-        17,
-        16,
-        18,
-        17,
-        20,
-        23,
-        13,
-        14,
-        14,
-        13,
-        19,
-        16,
-        17,
-        28,
-        42,
-        41,
-        42,
-        22,
-        23,
-        28,
-        27,
-        26,
-        38,
-        42
-      ],
-      "isActive": true,
-      "rank": 8
-    },
-    {
-      "puuid": "mB8Wjr8m7888m6UfHiNxq5TY-RPEax3KeMiJambfNOdZkkW_Xm5C3ebw63G8ptxMSz7Rf5RKbWK4pA",
-      "summonerName": "Сладкая11Речь",
-      "tagLine": "PLJ",
-      "leaguePoints": 833,
-      "wins": 115,
-      "losses": 106,
-      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
-      "daysInChallenger": 33,
-      "currentStreak": 33,
-      "currentRank": 23,
-      "avgRank": 16.606060606060606,
-      "avgRankAll": 16.606060606060606,
-      "rankHistory": [
-        21,
-        15,
-        19,
-        21,
-        19,
-        19,
-        17,
-        17,
-        16,
-        21,
-        24,
-        24,
-        19,
-        24,
-        21,
-        22,
-        12,
-        10,
-        12,
-        16,
-        15,
-        11,
-        12,
-        10,
-        10,
-        10,
-        13,
-        16,
-        11,
-        16,
-        17,
-        15,
-        23
-      ],
-      "isActive": true,
       "rank": 9
     },
     {
@@ -490,11 +498,11 @@
       "wins": 106,
       "losses": 64,
       "firstSeenDate": "2026-01-21T02:44:33.514497+00:00",
-      "daysInChallenger": 31,
-      "currentStreak": 31,
-      "currentRank": 5,
-      "avgRank": 5.67741935483871,
-      "avgRankAll": 5.67741935483871,
+      "daysInChallenger": 32,
+      "currentStreak": 32,
+      "currentRank": 4,
+      "avgRank": 5.625,
+      "avgRankAll": 5.625,
       "rankHistory": [
         21,
         16,
@@ -526,7 +534,8 @@
         3,
         4,
         5,
-        5
+        5,
+        4
       ],
       "isActive": true,
       "rank": 10
@@ -539,11 +548,11 @@
       "wins": 116,
       "losses": 98,
       "firstSeenDate": "2026-01-21T02:44:33.514497+00:00",
-      "daysInChallenger": 31,
-      "currentStreak": 31,
-      "currentRank": 18,
-      "avgRank": 16.387096774193548,
-      "avgRankAll": 16.387096774193548,
+      "daysInChallenger": 32,
+      "currentStreak": 32,
+      "currentRank": 19,
+      "avgRank": 16.46875,
+      "avgRankAll": 16.46875,
       "rankHistory": [
         34,
         20,
@@ -575,10 +584,107 @@
         31,
         16,
         21,
-        18
+        18,
+        19
       ],
       "isActive": true,
       "rank": 11
+    },
+    {
+      "puuid": "jcXEM3rF5KaiQXub8CmPyxNMGvN9MnLv4D9UgL_S0ePNZWin_cM9KP87I7mv7wrBF1N-cxHylju4xw",
+      "summonerName": "ГанкПосле25Мин",
+      "tagLine": "228CS",
+      "leaguePoints": 1230,
+      "wins": 139,
+      "losses": 98,
+      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
+      "daysInChallenger": 30,
+      "currentStreak": 30,
+      "currentRank": 6,
+      "avgRank": 4.533333333333333,
+      "avgRankAll": 4.533333333333333,
+      "rankHistory": [
+        24,
+        18,
+        5,
+        6,
+        4,
+        5,
+        4,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4,
+        6
+      ],
+      "isActive": true,
+      "rank": 12
+    },
+    {
+      "puuid": "4_U9_Bhhie1W2EIeAOEX1dTKw1n5biN4UD19uFpoD2_I7UnZYZRgzw8_boih5Ji0ZJJoNQRzimB4vA",
+      "summonerName": "Dog",
+      "tagLine": "333",
+      "leaguePoints": 1367,
+      "wins": 115,
+      "losses": 74,
+      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
+      "daysInChallenger": 30,
+      "currentStreak": 30,
+      "currentRank": 2,
+      "avgRank": 10.533333333333333,
+      "avgRankAll": 10.533333333333333,
+      "rankHistory": [
+        35,
+        27,
+        33,
+        37,
+        36,
+        37,
+        15,
+        14,
+        8,
+        10,
+        6,
+        6,
+        7,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        5,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "isActive": true,
+      "rank": 13
     },
     {
       "puuid": "bmC3VOE8i35L3f5_RIt8eMsGgkSDauvWGRDmasQkjxS216EahYslDzmJoRyZkqfHj9pdb2seu6HjCQ",
@@ -625,101 +731,54 @@
         42
       ],
       "isActive": false,
-      "rank": 12
-    },
-    {
-      "puuid": "jcXEM3rF5KaiQXub8CmPyxNMGvN9MnLv4D9UgL_S0ePNZWin_cM9KP87I7mv7wrBF1N-cxHylju4xw",
-      "summonerName": "ГанкПосле25Мин",
-      "tagLine": "228CS",
-      "leaguePoints": 1344,
-      "wins": 138,
-      "losses": 91,
-      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
-      "daysInChallenger": 29,
-      "currentStreak": 29,
-      "currentRank": 4,
-      "avgRank": 4.482758620689655,
-      "avgRankAll": 4.482758620689655,
-      "rankHistory": [
-        24,
-        18,
-        5,
-        6,
-        4,
-        5,
-        4,
-        2,
-        1,
-        2,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        3,
-        3,
-        4,
-        4,
-        5,
-        5,
-        4,
-        4,
-        4,
-        3,
-        3,
-        4
-      ],
-      "isActive": true,
-      "rank": 13
-    },
-    {
-      "puuid": "4_U9_Bhhie1W2EIeAOEX1dTKw1n5biN4UD19uFpoD2_I7UnZYZRgzw8_boih5Ji0ZJJoNQRzimB4vA",
-      "summonerName": "Dog",
-      "tagLine": "333",
-      "leaguePoints": 1367,
-      "wins": 115,
-      "losses": 74,
-      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
-      "daysInChallenger": 29,
-      "currentStreak": 29,
-      "currentRank": 2,
-      "avgRank": 10.827586206896552,
-      "avgRankAll": 10.827586206896552,
-      "rankHistory": [
-        35,
-        27,
-        33,
-        37,
-        36,
-        37,
-        15,
-        14,
-        8,
-        10,
-        6,
-        6,
-        7,
-        4,
-        4,
-        4,
-        4,
-        5,
-        4,
-        5,
-        3,
-        2,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      "isActive": true,
       "rank": 14
+    },
+    {
+      "puuid": "XrUudaTrCDefhRC9yWGqyvIZht6EvCihN6oVpLtnynUb1oNxS9yRFnoaGgl5GN4dsydPeRLAUvowRg",
+      "summonerName": "Cinema Server",
+      "tagLine": "stomp",
+      "leaguePoints": 857,
+      "wins": 80,
+      "losses": 53,
+      "firstSeenDate": "2026-01-24T02:37:58.671772+00:00",
+      "daysInChallenger": 29,
+      "currentStreak": 29,
+      "currentRank": 16,
+      "avgRank": 23.517241379310345,
+      "avgRankAll": 23.517241379310345,
+      "rankHistory": [
+        45,
+        48,
+        34,
+        33,
+        33,
+        25,
+        31,
+        31,
+        33,
+        40,
+        44,
+        43,
+        22,
+        15,
+        12,
+        13,
+        15,
+        13,
+        14,
+        14,
+        15,
+        15,
+        11,
+        14,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "isActive": true,
+      "rank": 15
     },
     {
       "puuid": "evVdu7AOAy_GtL8F59lw8v1UouYyDp4nDck2c_u2qhBt63tEo8i2VTiELqRc60E7HiiZd0tqXm4oug",
@@ -765,7 +824,7 @@
         47
       ],
       "isActive": false,
-      "rank": 15
+      "rank": 16
     },
     {
       "puuid": "GTrinu8apshmMDRGv2-bved6Sg5rrKsDXmFcmpiH44RsxtwA2KGOvnlJDGqdYJ4mjUNMlhyMlPoKmQ",
@@ -811,67 +870,21 @@
         34
       ],
       "isActive": false,
-      "rank": 16
-    },
-    {
-      "puuid": "XrUudaTrCDefhRC9yWGqyvIZht6EvCihN6oVpLtnynUb1oNxS9yRFnoaGgl5GN4dsydPeRLAUvowRg",
-      "summonerName": "Cinema Server",
-      "tagLine": "stomp",
-      "leaguePoints": 857,
-      "wins": 80,
-      "losses": 53,
-      "firstSeenDate": "2026-01-24T02:37:58.671772+00:00",
-      "daysInChallenger": 28,
-      "currentStreak": 28,
-      "currentRank": 15,
-      "avgRank": 23.785714285714285,
-      "avgRankAll": 23.785714285714285,
-      "rankHistory": [
-        45,
-        48,
-        34,
-        33,
-        33,
-        25,
-        31,
-        31,
-        33,
-        40,
-        44,
-        43,
-        22,
-        15,
-        12,
-        13,
-        15,
-        13,
-        14,
-        14,
-        15,
-        15,
-        11,
-        14,
-        11,
-        13,
-        14,
-        15
-      ],
-      "isActive": true,
       "rank": 17
     },
     {
       "puuid": "tKM0b7NqbGHQy654wL-DnHqjb8AnLb8VrTsR-412QIRlSsyNep1F4BmCVD_g7Vu8WbERLLIpdt-U_w",
       "summonerName": "NimiraKlieаm",
       "tagLine": "RU1",
-      "leaguePoints": 879,
-      "wins": 118,
-      "losses": 87,
+      "leaguePoints": 831,
+      "wins": 119,
+      "losses": 90,
       "firstSeenDate": "2026-01-24T02:37:58.671772+00:00",
-      "daysInChallenger": 27,
-      "currentStreak": 24,
-      "currentRank": 13,
-      "avgRank": 25.333333333333332,
-      "avgRankAll": 25.333333333333332,
+      "daysInChallenger": 28,
+      "currentStreak": 25,
+      "currentRank": 23,
+      "avgRank": 25.25,
+      "avgRankAll": 25.25,
       "rankHistory": [
         34,
         40,
@@ -899,7 +912,8 @@
         23,
         25,
         20,
-        13
+        13,
+        23
       ],
       "isActive": true,
       "rank": 18
@@ -908,15 +922,15 @@
       "puuid": "f1r7rA4ZOaSdI8rMPL4OG3mSRBT4lmFTZi1pq0RsbHxekMYpt1zgyRyQ-FNbIgTaJfpCfs62ehjXBw",
       "summonerName": "haunt u",
       "tagLine": "5051",
-      "leaguePoints": 758,
-      "wins": 136,
-      "losses": 107,
+      "leaguePoints": 772,
+      "wins": 138,
+      "losses": 108,
       "firstSeenDate": "2026-01-18T02:48:06.871617+00:00",
-      "daysInChallenger": 26,
-      "currentStreak": 1,
-      "currentRank": 37,
-      "avgRank": 27.03846153846154,
-      "avgRankAll": 27.03846153846154,
+      "daysInChallenger": 27,
+      "currentStreak": 2,
+      "currentRank": 32,
+      "avgRank": 27.22222222222222,
+      "avgRankAll": 27.22222222222222,
       "rankHistory": [
         8,
         11,
@@ -943,7 +957,8 @@
         37,
         32,
         50,
-        37
+        37,
+        32
       ],
       "isActive": true,
       "rank": 19
@@ -956,11 +971,11 @@
       "wins": 67,
       "losses": 40,
       "firstSeenDate": "2026-01-24T02:37:58.671772+00:00",
-      "daysInChallenger": 26,
-      "currentStreak": 17,
-      "currentRank": 33,
-      "avgRank": 36.65384615384615,
-      "avgRankAll": 36.65384615384615,
+      "daysInChallenger": 27,
+      "currentStreak": 18,
+      "currentRank": 34,
+      "avgRank": 36.55555555555556,
+      "avgRankAll": 36.55555555555556,
       "rankHistory": [
         39,
         44,
@@ -987,7 +1002,8 @@
         50,
         30,
         29,
-        33
+        33,
+        34
       ],
       "isActive": true,
       "rank": 20
@@ -1000,11 +1016,11 @@
       "wins": 53,
       "losses": 26,
       "firstSeenDate": "2026-01-26T02:53:30.069514+00:00",
-      "daysInChallenger": 26,
-      "currentStreak": 26,
-      "currentRank": 22,
-      "avgRank": 20.76923076923077,
-      "avgRankAll": 20.76923076923077,
+      "daysInChallenger": 27,
+      "currentStreak": 27,
+      "currentRank": 21,
+      "avgRank": 20.77777777777778,
+      "avgRankAll": 20.77777777777778,
       "rankHistory": [
         23,
         24,
@@ -1031,10 +1047,55 @@
         17,
         19,
         24,
-        22
+        22,
+        21
       ],
       "isActive": true,
       "rank": 21
+    },
+    {
+      "puuid": "IzdyxUhQafIzwfgIFhfrO7qGhaN0rn6kOgU7F5VPYno2K3YlQ6GWt4_cd9lapziw-zKNe6B6GeucQw",
+      "summonerName": "Юрий Бойка",
+      "tagLine": "RU123",
+      "leaguePoints": 1318,
+      "wins": 133,
+      "losses": 73,
+      "firstSeenDate": "2026-01-27T02:49:30.592336+00:00",
+      "daysInChallenger": 26,
+      "currentStreak": 26,
+      "currentRank": 5,
+      "avgRank": 12.192307692307692,
+      "avgRankAll": 12.192307692307692,
+      "rankHistory": [
+        40,
+        38,
+        50,
+        29,
+        15,
+        9,
+        11,
+        11,
+        10,
+        7,
+        7,
+        7,
+        5,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7,
+        6,
+        7,
+        7,
+        7,
+        7,
+        6,
+        5
+      ],
+      "isActive": true,
+      "rank": 22
     },
     {
       "puuid": "WXnmimuKD2dZYmqHKVf61XYMWV8GYENRyQMGgljNfl5dTmlE0XR1Rr6JLqy9dUvajNrsbp76bThzOw",
@@ -1077,19 +1138,19 @@
         50
       ],
       "isActive": false,
-      "rank": 22
+      "rank": 23
     },
     {
       "puuid": "tu26E-kr-1vQjRqOxqKA5kqS2aETpPGZ8tlrvEd2OGwLGuwM-3dVnvbLSan5AwTTYEfiqezRTB_qbw",
       "summonerName": "ЖдуГанк24Мин",
       "tagLine": "JGGAP",
-      "leaguePoints": 801,
+      "leaguePoints": null,
       "wins": 83,
       "losses": 54,
       "firstSeenDate": "2026-01-25T02:53:44.468005+00:00",
       "daysInChallenger": 25,
-      "currentStreak": 4,
-      "currentRank": 27,
+      "currentStreak": 0,
+      "currentRank": null,
       "avgRank": 37.2,
       "avgRankAll": 37.2,
       "rankHistory": [
@@ -1119,65 +1180,22 @@
         39,
         27
       ],
-      "isActive": true,
-      "rank": 23
-    },
-    {
-      "puuid": "IzdyxUhQafIzwfgIFhfrO7qGhaN0rn6kOgU7F5VPYno2K3YlQ6GWt4_cd9lapziw-zKNe6B6GeucQw",
-      "summonerName": "Юрий Бойка",
-      "tagLine": "RU123",
-      "leaguePoints": 1210,
-      "wins": 127,
-      "losses": 73,
-      "firstSeenDate": "2026-01-27T02:49:30.592336+00:00",
-      "daysInChallenger": 25,
-      "currentStreak": 25,
-      "currentRank": 6,
-      "avgRank": 12.48,
-      "avgRankAll": 12.48,
-      "rankHistory": [
-        40,
-        38,
-        50,
-        29,
-        15,
-        9,
-        11,
-        11,
-        10,
-        7,
-        7,
-        7,
-        5,
-        4,
-        5,
-        6,
-        5,
-        6,
-        7,
-        6,
-        7,
-        7,
-        7,
-        7,
-        6
-      ],
-      "isActive": true,
+      "isActive": false,
       "rank": 24
     },
     {
       "puuid": "mPtRbs4ksqBvkLyPkufN_kh_2WoVVsdvq8r-ce1coM5sNKKH4gbI60zHR97oXvpqEcytSVxjYEPZvg",
       "summonerName": "BLOCKBUSTER",
       "tagLine": "JBA",
-      "leaguePoints": 845,
-      "wins": 152,
-      "losses": 122,
+      "leaguePoints": 891,
+      "wins": 154,
+      "losses": 123,
       "firstSeenDate": "2026-01-22T02:46:31.174353+00:00",
-      "daysInChallenger": 24,
-      "currentStreak": 12,
-      "currentRank": 17,
-      "avgRank": 35.541666666666664,
-      "avgRankAll": 35.541666666666664,
+      "daysInChallenger": 25,
+      "currentStreak": 13,
+      "currentRank": 15,
+      "avgRank": 34.72,
+      "avgRankAll": 34.72,
       "rankHistory": [
         29,
         34,
@@ -1202,7 +1220,8 @@
         22,
         23,
         16,
-        17
+        17,
+        15
       ],
       "isActive": true,
       "rank": 25
@@ -1215,11 +1234,11 @@
       "wins": 85,
       "losses": 46,
       "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
-      "daysInChallenger": 24,
-      "currentStreak": 24,
+      "daysInChallenger": 25,
+      "currentStreak": 25,
       "currentRank": 9,
-      "avgRank": 6.5,
-      "avgRankAll": 6.5,
+      "avgRank": 6.6,
+      "avgRankAll": 6.6,
       "rankHistory": [
         2,
         2,
@@ -1244,6 +1263,7 @@
         9,
         9,
         9,
+        9,
         9
       ],
       "isActive": true,
@@ -1253,15 +1273,15 @@
       "puuid": "z0lxZ0X3r9FWzyE_cnGa3RBc1Ev1pGHeA96j2kEuKmng-ZoSizoIVhOegq15_fffKTvGS1kknPZzBA",
       "summonerName": "Soe",
       "tagLine": "Bwife",
-      "leaguePoints": 825,
-      "wins": 80,
+      "leaguePoints": 846,
+      "wins": 81,
       "losses": 59,
       "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
-      "daysInChallenger": 24,
-      "currentStreak": 24,
-      "currentRank": 25,
-      "avgRank": 22.625,
-      "avgRankAll": 22.625,
+      "daysInChallenger": 25,
+      "currentStreak": 25,
+      "currentRank": 18,
+      "avgRank": 22.44,
+      "avgRankAll": 22.44,
       "rankHistory": [
         48,
         36,
@@ -1286,10 +1306,95 @@
         14,
         15,
         17,
-        25
+        25,
+        18
       ],
       "isActive": true,
       "rank": 27
+    },
+    {
+      "puuid": "_mmOtTBkVsYlwNNrAwxwrxUD5H6ASDj-Ml_lKtQ5w6PTl7qA7JWyNsgQ37FF7ANlhbfb7bLkqulNKQ",
+      "summonerName": "killu2day",
+      "tagLine": "Low9",
+      "leaguePoints": 819,
+      "wins": 136,
+      "losses": 128,
+      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
+      "daysInChallenger": 24,
+      "currentStreak": 7,
+      "currentRank": 25,
+      "avgRank": 31.541666666666668,
+      "avgRankAll": 31.541666666666668,
+      "rankHistory": [
+        45,
+        37,
+        42,
+        46,
+        33,
+        27,
+        29,
+        48,
+        44,
+        27,
+        27,
+        24,
+        39,
+        25,
+        25,
+        38,
+        48,
+        31,
+        22,
+        20,
+        18,
+        23,
+        14,
+        25
+      ],
+      "isActive": true,
+      "rank": 28
+    },
+    {
+      "puuid": "uQLzM7mjwWdWvTZH1upvwYDRbFMYPjJFrSRAu64LnmTgPcjaGRe9pqX0ltHuaF_TvuMBnRevU68DTw",
+      "summonerName": "Милфхантер",
+      "tagLine": "333",
+      "leaguePoints": 767,
+      "wins": 70,
+      "losses": 40,
+      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
+      "daysInChallenger": 24,
+      "currentStreak": 21,
+      "currentRank": 35,
+      "avgRank": 29.083333333333332,
+      "avgRankAll": 29.083333333333332,
+      "rankHistory": [
+        41,
+        38,
+        50,
+        34,
+        37,
+        27,
+        27,
+        28,
+        33,
+        31,
+        28,
+        32,
+        20,
+        18,
+        13,
+        16,
+        18,
+        22,
+        26,
+        29,
+        31,
+        30,
+        34,
+        35
+      ],
+      "isActive": true,
+      "rank": 29
     },
     {
       "puuid": "XpFYf6GvDCr1IeGLBaqpVUlom7uaWM_jqgI4sWFpOX8x5S7y35qDgAvC2sGqzRaiiRpT8fxeDJQIsA",
@@ -1330,88 +1435,6 @@
         49
       ],
       "isActive": false,
-      "rank": 28
-    },
-    {
-      "puuid": "_mmOtTBkVsYlwNNrAwxwrxUD5H6ASDj-Ml_lKtQ5w6PTl7qA7JWyNsgQ37FF7ANlhbfb7bLkqulNKQ",
-      "summonerName": "killu2day",
-      "tagLine": "Low9",
-      "leaguePoints": 874,
-      "wins": 134,
-      "losses": 123,
-      "firstSeenDate": "2026-01-23T02:42:20.127211+00:00",
-      "daysInChallenger": 23,
-      "currentStreak": 6,
-      "currentRank": 14,
-      "avgRank": 31.82608695652174,
-      "avgRankAll": 31.82608695652174,
-      "rankHistory": [
-        45,
-        37,
-        42,
-        46,
-        33,
-        27,
-        29,
-        48,
-        44,
-        27,
-        27,
-        24,
-        39,
-        25,
-        25,
-        38,
-        48,
-        31,
-        22,
-        20,
-        18,
-        23,
-        14
-      ],
-      "isActive": true,
-      "rank": 29
-    },
-    {
-      "puuid": "uQLzM7mjwWdWvTZH1upvwYDRbFMYPjJFrSRAu64LnmTgPcjaGRe9pqX0ltHuaF_TvuMBnRevU68DTw",
-      "summonerName": "Милфхантер",
-      "tagLine": "333",
-      "leaguePoints": 767,
-      "wins": 70,
-      "losses": 40,
-      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
-      "daysInChallenger": 23,
-      "currentStreak": 20,
-      "currentRank": 34,
-      "avgRank": 28.82608695652174,
-      "avgRankAll": 28.82608695652174,
-      "rankHistory": [
-        41,
-        38,
-        50,
-        34,
-        37,
-        27,
-        27,
-        28,
-        33,
-        31,
-        28,
-        32,
-        20,
-        18,
-        13,
-        16,
-        18,
-        22,
-        26,
-        29,
-        31,
-        30,
-        34
-      ],
-      "isActive": true,
       "rank": 30
     },
     {
@@ -1454,6 +1477,45 @@
       "rank": 31
     },
     {
+      "puuid": "ZgDrApuyIEakbUNmjKQRTVEKKu9RD48AqaFotZpAorqTR1Md8921Sm-TR2iOUakmvWkh25NtOQz-Yg",
+      "summonerName": "Alisa Powder",
+      "tagLine": "Alica",
+      "leaguePoints": 1405,
+      "wins": 123,
+      "losses": 77,
+      "firstSeenDate": "2026-01-18T02:48:06.871617+00:00",
+      "daysInChallenger": 21,
+      "currentStreak": 15,
+      "currentRank": 1,
+      "avgRank": 16.952380952380953,
+      "avgRankAll": 16.952380952380953,
+      "rankHistory": [
+        17,
+        22,
+        32,
+        36,
+        37,
+        46,
+        37,
+        40,
+        37,
+        7,
+        3,
+        7,
+        4,
+        4,
+        5,
+        5,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "isActive": true,
+      "rank": 32
+    },
+    {
       "puuid": "XcLZFpkIQU4_zbEcDWUC_0YHOCwVUoK8R2jmKTVIyMHI7fN8DD9k6yjuuMjKnkm_5sleSMQq4jhaSQ",
       "summonerName": "NEFELIBATA",
       "tagLine": "SOON",
@@ -1489,45 +1551,83 @@
         50
       ],
       "isActive": false,
-      "rank": 32
+      "rank": 33
     },
     {
-      "puuid": "ZgDrApuyIEakbUNmjKQRTVEKKu9RD48AqaFotZpAorqTR1Md8921Sm-TR2iOUakmvWkh25NtOQz-Yg",
-      "summonerName": "Alisa Powder",
-      "tagLine": "Alica",
-      "leaguePoints": 1405,
-      "wins": 123,
-      "losses": 77,
-      "firstSeenDate": "2026-01-18T02:48:06.871617+00:00",
+      "puuid": "JDBqbpAECboBKhTRDdDzGoJCrR3IH2ttbb-jkdl5OBannt5v4aEgjXkAJ7njBXgY-Idx7TuRvNV8hw",
+      "summonerName": "DALVрот",
+      "tagLine": "ПИСЮН",
+      "leaguePoints": 1105,
+      "wins": 83,
+      "losses": 49,
+      "firstSeenDate": "2026-02-02T03:15:05.140782+00:00",
       "daysInChallenger": 20,
-      "currentStreak": 14,
-      "currentRank": 1,
-      "avgRank": 17.75,
-      "avgRankAll": 17.75,
+      "currentStreak": 20,
+      "currentRank": 7,
+      "avgRank": 13.2,
+      "avgRankAll": 13.2,
       "rankHistory": [
-        17,
-        22,
-        32,
-        36,
-        37,
-        46,
-        37,
-        40,
-        37,
+        28,
+        31,
+        30,
+        29,
+        26,
+        28,
+        8,
+        8,
+        6,
         7,
-        3,
+        6,
         7,
-        4,
-        4,
-        5,
-        5,
+        6,
+        7,
         6,
         5,
-        4,
-        1
+        6,
+        6,
+        7,
+        7
       ],
       "isActive": true,
-      "rank": 33
+      "rank": 34
+    },
+    {
+      "puuid": "IIUzUFFY0ga5cSxMKSIF3lpdKOhk4TGJLEzBsImaUychFXyDE-feaw0a9akC7UpRmn3oPaAqfnGGyw",
+      "summonerName": "pixel affection",
+      "tagLine": "RU1",
+      "leaguePoints": 790,
+      "wins": 106,
+      "losses": 95,
+      "firstSeenDate": "2026-02-02T03:15:05.140782+00:00",
+      "daysInChallenger": 20,
+      "currentStreak": 20,
+      "currentRank": 28,
+      "avgRank": 30.6,
+      "avgRankAll": 30.6,
+      "rankHistory": [
+        32,
+        30,
+        32,
+        32,
+        36,
+        23,
+        27,
+        29,
+        32,
+        25,
+        26,
+        28,
+        28,
+        30,
+        33,
+        34,
+        33,
+        35,
+        39,
+        28
+      ],
+      "isActive": true,
+      "rank": 35
     },
     {
       "puuid": "p_RHe98duWvK7huJmC0GreDAfIQqGKfiFS0LWtds0oJxZ6W91Jdl-2imKisBuLthCUj2iG1hMjNJVQ",
@@ -1564,80 +1664,6 @@
         48
       ],
       "isActive": false,
-      "rank": 34
-    },
-    {
-      "puuid": "JDBqbpAECboBKhTRDdDzGoJCrR3IH2ttbb-jkdl5OBannt5v4aEgjXkAJ7njBXgY-Idx7TuRvNV8hw",
-      "summonerName": "DALVрот",
-      "tagLine": "ПИСЮН",
-      "leaguePoints": 1105,
-      "wins": 83,
-      "losses": 49,
-      "firstSeenDate": "2026-02-02T03:15:05.140782+00:00",
-      "daysInChallenger": 19,
-      "currentStreak": 19,
-      "currentRank": 7,
-      "avgRank": 13.526315789473685,
-      "avgRankAll": 13.526315789473685,
-      "rankHistory": [
-        28,
-        31,
-        30,
-        29,
-        26,
-        28,
-        8,
-        8,
-        6,
-        7,
-        6,
-        7,
-        6,
-        7,
-        6,
-        5,
-        6,
-        6,
-        7
-      ],
-      "isActive": true,
-      "rank": 35
-    },
-    {
-      "puuid": "IIUzUFFY0ga5cSxMKSIF3lpdKOhk4TGJLEzBsImaUychFXyDE-feaw0a9akC7UpRmn3oPaAqfnGGyw",
-      "summonerName": "pixel affection",
-      "tagLine": "RU1",
-      "leaguePoints": 756,
-      "wins": 104,
-      "losses": 95,
-      "firstSeenDate": "2026-02-02T03:15:05.140782+00:00",
-      "daysInChallenger": 19,
-      "currentStreak": 19,
-      "currentRank": 39,
-      "avgRank": 30.736842105263158,
-      "avgRankAll": 30.736842105263158,
-      "rankHistory": [
-        32,
-        30,
-        32,
-        32,
-        36,
-        23,
-        27,
-        29,
-        32,
-        25,
-        26,
-        28,
-        28,
-        30,
-        33,
-        34,
-        33,
-        35,
-        39
-      ],
-      "isActive": true,
       "rank": 36
     },
     {
@@ -1749,6 +1775,42 @@
       "rank": 39
     },
     {
+      "puuid": "ipMYc6Z4_cwOpDomSlycup7a2Awg_ml4ymp9bPEcL4ONgVKIyPBbWmlWqZyof8QZIs9tdM7_vCkt3g",
+      "summonerName": "егор",
+      "tagLine": "броук",
+      "leaguePoints": 783,
+      "wins": 102,
+      "losses": 93,
+      "firstSeenDate": "2026-01-20T02:41:23.481409+00:00",
+      "daysInChallenger": 18,
+      "currentStreak": 2,
+      "currentRank": 29,
+      "avgRank": 29.555555555555557,
+      "avgRankAll": 29.555555555555557,
+      "rankHistory": [
+        21,
+        14,
+        14,
+        13,
+        24,
+        24,
+        28,
+        23,
+        29,
+        35,
+        32,
+        36,
+        40,
+        49,
+        41,
+        37,
+        43,
+        29
+      ],
+      "isActive": true,
+      "rank": 40
+    },
+    {
       "puuid": "JxIitQQArmAmGwnFsCiYvMeQsTuzXp2A6hXb7TJtHkLL4Kg_x12IWfye2y8hPHj8vbIkZct2gFGkGg",
       "summonerName": "Sailoren",
       "tagLine": "S24",
@@ -1781,42 +1843,77 @@
         34
       ],
       "isActive": false,
-      "rank": 40
+      "rank": 41
     },
     {
-      "puuid": "ipMYc6Z4_cwOpDomSlycup7a2Awg_ml4ymp9bPEcL4ONgVKIyPBbWmlWqZyof8QZIs9tdM7_vCkt3g",
-      "summonerName": "егор",
-      "tagLine": "броук",
-      "leaguePoints": 746,
-      "wins": 100,
-      "losses": 93,
+      "puuid": "Lxe12UjZwevwWWd_lu3u8NQZ5NeXT4kWrN1-syyqxdUDYOI9byBJKoD9a4RG_fK-00eITh6PFtlhIw",
+      "summonerName": "CabakaTabaka",
+      "tagLine": "ENFP",
+      "leaguePoints": 742,
+      "wins": 85,
+      "losses": 72,
       "firstSeenDate": "2026-01-20T02:41:23.481409+00:00",
       "daysInChallenger": 17,
-      "currentStreak": 1,
-      "currentRank": 43,
-      "avgRank": 29.58823529411765,
-      "avgRankAll": 29.58823529411765,
+      "currentStreak": 5,
+      "currentRank": 46,
+      "avgRank": 41.11764705882353,
+      "avgRankAll": 41.11764705882353,
       "rankHistory": [
-        21,
-        14,
-        14,
-        13,
-        24,
-        24,
-        28,
-        23,
         29,
-        35,
+        31,
         32,
-        36,
-        40,
-        49,
-        41,
         37,
-        43
+        43,
+        47,
+        37,
+        40,
+        40,
+        41,
+        39,
+        49,
+        44,
+        49,
+        49,
+        46,
+        46
       ],
       "isActive": true,
-      "rank": 41
+      "rank": 42
+    },
+    {
+      "puuid": "HZ7woGiMHvXt20JNZkMV8lSt_d1KKvfdT0g_Eg9sShQHjL_zKUth7nasYwAsSrwXelmYzJKcXjYnVA",
+      "summonerName": "twtv satanishka6",
+      "tagLine": "TOP1",
+      "leaguePoints": 946,
+      "wins": 79,
+      "losses": 41,
+      "firstSeenDate": "2026-02-01T03:41:36.888056+00:00",
+      "daysInChallenger": 17,
+      "currentStreak": 15,
+      "currentRank": 10,
+      "avgRank": 16.705882352941178,
+      "avgRankAll": 16.705882352941178,
+      "rankHistory": [
+        35,
+        49,
+        20,
+        17,
+        12,
+        15,
+        13,
+        12,
+        12,
+        11,
+        17,
+        13,
+        12,
+        11,
+        13,
+        12,
+        10
+      ],
+      "isActive": true,
+      "rank": 43
     },
     {
       "puuid": "FtVWGaE76XmDlDem6uUCi_wYFg_6JRnfUr2_c7PZmXS5P47oDkNhd90xvL9_NmJIUIAJ09MwFeU1pg",
@@ -1850,7 +1947,7 @@
         36
       ],
       "isActive": false,
-      "rank": 42
+      "rank": 44
     },
     {
       "puuid": "-x1hFUAj7dEHSqed3lCQjqcgFb87GbujWfXb8UczmJ22jncVfjVWt5p5aYNLO92EeLttRngZmHPUPw",
@@ -1884,7 +1981,7 @@
         49
       ],
       "isActive": false,
-      "rank": 43
+      "rank": 45
     },
     {
       "puuid": "ThIUJ5WZkhh3hr1KAgp9jLYP4CHnq8h8JSz9ZjZJrMAYzxrT8Me-u4eB8OxDRNXAz68aeuqGPsuzNw",
@@ -1918,7 +2015,7 @@
         49
       ],
       "isActive": false,
-      "rank": 44
+      "rank": 46
     },
     {
       "puuid": "SbgvIx-uVIVU_NVCxgcmtQEUs8vjWqqO39bYxlIcZQINNPz9NJ8MCErdZg_AOaFY3zF4Yw0r_BkcRw",
@@ -1952,75 +2049,41 @@
         50
       ],
       "isActive": false,
-      "rank": 45
+      "rank": 47
     },
     {
-      "puuid": "Lxe12UjZwevwWWd_lu3u8NQZ5NeXT4kWrN1-syyqxdUDYOI9byBJKoD9a4RG_fK-00eITh6PFtlhIw",
-      "summonerName": "CabakaTabaka",
-      "tagLine": "ENFP",
-      "leaguePoints": 742,
-      "wins": 85,
-      "losses": 71,
-      "firstSeenDate": "2026-01-20T02:41:23.481409+00:00",
+      "puuid": "Ug3xy0FHu9ALoHhzexymym8Ff36qkVZ9NmtOI20881zzUP32edYzTbdAg8TU4ffgWL4lswgchICjmg",
+      "summonerName": "Ice Prince",
+      "tagLine": "Icee",
+      "leaguePoints": 908,
+      "wins": 66,
+      "losses": 35,
+      "firstSeenDate": "2026-02-06T03:07:51.952445+00:00",
       "daysInChallenger": 16,
-      "currentStreak": 4,
-      "currentRank": 46,
-      "avgRank": 40.8125,
-      "avgRankAll": 40.8125,
+      "currentStreak": 16,
+      "currentRank": 11,
+      "avgRank": 20.125,
+      "avgRankAll": 20.125,
       "rankHistory": [
         29,
-        31,
-        32,
-        37,
-        43,
-        47,
-        37,
-        40,
-        40,
-        41,
-        39,
-        49,
-        44,
-        49,
-        49,
-        46
-      ],
-      "isActive": true,
-      "rank": 46
-    },
-    {
-      "puuid": "HZ7woGiMHvXt20JNZkMV8lSt_d1KKvfdT0g_Eg9sShQHjL_zKUth7nasYwAsSrwXelmYzJKcXjYnVA",
-      "summonerName": "twtv satanishka6",
-      "tagLine": "TOP1",
-      "leaguePoints": 888,
-      "wins": 74,
-      "losses": 39,
-      "firstSeenDate": "2026-02-01T03:41:36.888056+00:00",
-      "daysInChallenger": 16,
-      "currentStreak": 14,
-      "currentRank": 12,
-      "avgRank": 17.125,
-      "avgRankAll": 17.125,
-      "rankHistory": [
-        35,
-        49,
+        30,
+        33,
+        42,
+        21,
+        23,
+        19,
         20,
-        17,
+        30,
         12,
-        15,
-        13,
+        10,
+        10,
         12,
-        12,
-        11,
-        17,
-        13,
-        12,
-        11,
-        13,
-        12
+        10,
+        10,
+        11
       ],
       "isActive": true,
-      "rank": 47
+      "rank": 48
     },
     {
       "puuid": "9Atp3hVka_TCXdlPJ9rEJB3nTCq63uqSIu3FNckpbcZ_rCkUr0A3O2hV2rnpzoI6StdHk4hr584R5w",
@@ -2053,52 +2116,19 @@
         47
       ],
       "isActive": false,
-      "rank": 48
-    },
-    {
-      "puuid": "Ug3xy0FHu9ALoHhzexymym8Ff36qkVZ9NmtOI20881zzUP32edYzTbdAg8TU4ffgWL4lswgchICjmg",
-      "summonerName": "Ice Prince",
-      "tagLine": "Icee",
-      "leaguePoints": 908,
-      "wins": 66,
-      "losses": 35,
-      "firstSeenDate": "2026-02-06T03:07:51.952445+00:00",
-      "daysInChallenger": 15,
-      "currentStreak": 15,
-      "currentRank": 10,
-      "avgRank": 20.733333333333334,
-      "avgRankAll": 20.733333333333334,
-      "rankHistory": [
-        29,
-        30,
-        33,
-        42,
-        21,
-        23,
-        19,
-        20,
-        30,
-        12,
-        10,
-        10,
-        12,
-        10,
-        10
-      ],
-      "isActive": true,
       "rank": 49
     },
     {
       "puuid": "qhsdYoIMlTPcHQEY2hefiXIlfpmxSg00DZsJPoxZFVX8FHaGF1ekDb5L1aXQQssOSarZGRaozZka5Q",
       "summonerName": "ert0nik",
       "tagLine": "RU1",
-      "leaguePoints": 744,
+      "leaguePoints": null,
       "wins": 82,
       "losses": 41,
       "firstSeenDate": "2026-02-06T03:07:51.952445+00:00",
       "daysInChallenger": 15,
-      "currentStreak": 15,
-      "currentRank": 45,
+      "currentStreak": 0,
+      "currentRank": null,
       "avgRank": 39.6,
       "avgRankAll": 39.6,
       "rankHistory": [
@@ -2118,7 +2148,7 @@
         40,
         45
       ],
-      "isActive": true,
+      "isActive": false,
       "rank": 50
     },
     {
@@ -2129,11 +2159,11 @@
       "wins": 87,
       "losses": 65,
       "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
-      "daysInChallenger": 14,
-      "currentStreak": 14,
-      "currentRank": 50,
-      "avgRank": 33.285714285714285,
-      "avgRankAll": 33.285714285714285,
+      "daysInChallenger": 15,
+      "currentStreak": 15,
+      "currentRank": 49,
+      "avgRank": 34.333333333333336,
+      "avgRankAll": 34.333333333333336,
       "rankHistory": [
         18,
         22,
@@ -2148,7 +2178,8 @@
         40,
         44,
         46,
-        50
+        50,
+        49
       ],
       "isActive": true,
       "rank": 51
@@ -2157,15 +2188,15 @@
       "puuid": "AeZl9pPF19tv7kCjyuqcs82HWbCvkVn4_-VRYwBMnl06Ds4UHzEJK1KM5hKhvBxTVUP870Hj4pRxBA",
       "summonerName": "4rtj",
       "tagLine": "nnc9",
-      "leaguePoints": 834,
-      "wins": 74,
-      "losses": 19,
+      "leaguePoints": 894,
+      "wins": 77,
+      "losses": 20,
       "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
-      "daysInChallenger": 14,
-      "currentStreak": 14,
-      "currentRank": 21,
-      "avgRank": 20.785714285714285,
-      "avgRankAll": 20.785714285714285,
+      "daysInChallenger": 15,
+      "currentStreak": 15,
+      "currentRank": 14,
+      "avgRank": 20.333333333333332,
+      "avgRankAll": 20.333333333333332,
       "rankHistory": [
         34,
         19,
@@ -2180,10 +2211,75 @@
         21,
         22,
         19,
-        21
+        21,
+        14
       ],
       "isActive": true,
       "rank": 52
+    },
+    {
+      "puuid": "IMvNzsY2_nL61Y4nvCPOkvRRDdC2JiNwYCtqzzrb9jwfg_GhTQqUpmscnfXhBUdEYesBCGOVJVfewA",
+      "summonerName": "Misery",
+      "tagLine": "Broke",
+      "leaguePoints": 730,
+      "wins": 109,
+      "losses": 95,
+      "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
+      "daysInChallenger": 14,
+      "currentStreak": 1,
+      "currentRank": 50,
+      "avgRank": 36.857142857142854,
+      "avgRankAll": 36.857142857142854,
+      "rankHistory": [
+        42,
+        26,
+        27,
+        31,
+        32,
+        34,
+        31,
+        34,
+        37,
+        39,
+        41,
+        45,
+        47,
+        50
+      ],
+      "isActive": true,
+      "rank": 53
+    },
+    {
+      "puuid": "pTcxdr2yI05izSr6ZePmighQH-QxeEWJ2BNNJDVfEBn6uMnE3BEovCqYxxW-dR-MvuvjwI02XgWA8w",
+      "summonerName": "Anastasia Payne",
+      "tagLine": "isme",
+      "leaguePoints": 780,
+      "wins": 164,
+      "losses": 124,
+      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
+      "daysInChallenger": 14,
+      "currentStreak": 3,
+      "currentRank": 30,
+      "avgRank": 32.57142857142857,
+      "avgRankAll": 32.57142857142857,
+      "rankHistory": [
+        24,
+        26,
+        20,
+        21,
+        27,
+        47,
+        33,
+        37,
+        37,
+        42,
+        46,
+        31,
+        35,
+        30
+      ],
+      "isActive": true,
+      "rank": 54
     },
     {
       "puuid": "8lLyIorgNR7INJiKEne4YJtNxy10ArwPpdsCbG_q6ph0FnsACm9LNijMS4RMdc4rnxnnsZ1peyr0SQ",
@@ -2214,7 +2310,7 @@
         48
       ],
       "isActive": false,
-      "rank": 53
+      "rank": 55
     },
     {
       "puuid": "0urDYabRbdND0jPqSBmKOK_jyZfK_4dRtvGeYqhC-o2s2kHUO2JILcSOIJKLYRAwYYPnAyY5B-wzOA",
@@ -2245,7 +2341,7 @@
         42
       ],
       "isActive": false,
-      "rank": 54
+      "rank": 56
     },
     {
       "puuid": "5patE4eZpkxmDzioC3rPUnsLkQXtXd7eJcjIocB1sM6iBQdF7M56Y8QCKivui_bEywUDAPiJGi0jOg",
@@ -2276,81 +2372,19 @@
         49
       ],
       "isActive": false,
-      "rank": 55
-    },
-    {
-      "puuid": "IMvNzsY2_nL61Y4nvCPOkvRRDdC2JiNwYCtqzzrb9jwfg_GhTQqUpmscnfXhBUdEYesBCGOVJVfewA",
-      "summonerName": "Misery",
-      "tagLine": "Broke",
-      "leaguePoints": null,
-      "wins": 109,
-      "losses": 95,
-      "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
-      "daysInChallenger": 13,
-      "currentStreak": 0,
-      "currentRank": null,
-      "avgRank": 35.84615384615385,
-      "avgRankAll": 35.84615384615385,
-      "rankHistory": [
-        42,
-        26,
-        27,
-        31,
-        32,
-        34,
-        31,
-        34,
-        37,
-        39,
-        41,
-        45,
-        47
-      ],
-      "isActive": false,
-      "rank": 56
-    },
-    {
-      "puuid": "pTcxdr2yI05izSr6ZePmighQH-QxeEWJ2BNNJDVfEBn6uMnE3BEovCqYxxW-dR-MvuvjwI02XgWA8w",
-      "summonerName": "Anastasia Payne",
-      "tagLine": "isme",
-      "leaguePoints": 761,
-      "wins": 163,
-      "losses": 124,
-      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
-      "daysInChallenger": 13,
-      "currentStreak": 2,
-      "currentRank": 35,
-      "avgRank": 32.76923076923077,
-      "avgRankAll": 32.76923076923077,
-      "rankHistory": [
-        24,
-        26,
-        20,
-        21,
-        27,
-        47,
-        33,
-        37,
-        37,
-        42,
-        46,
-        31,
-        35
-      ],
-      "isActive": true,
       "rank": 57
     },
     {
       "puuid": "6hFH88SfqDThxtJTWGPWRGSLLHuYL5zjLpUI3sjuLb6evkmnGSpn_xxCnIPk7pwqnDFsodauuKtkrQ",
       "summonerName": "TheStormOfDeath",
       "tagLine": "RU1",
-      "leaguePoints": 829,
+      "leaguePoints": null,
       "wins": 93,
       "losses": 57,
       "firstSeenDate": "2026-02-08T03:48:42.258363+00:00",
       "daysInChallenger": 13,
-      "currentStreak": 13,
-      "currentRank": 24,
+      "currentStreak": 0,
+      "currentRank": null,
       "avgRank": 23.76923076923077,
       "avgRankAll": 23.76923076923077,
       "rankHistory": [
@@ -2368,8 +2402,39 @@
         26,
         24
       ],
-      "isActive": true,
+      "isActive": false,
       "rank": 58
+    },
+    {
+      "puuid": "Y_XrDSuPDmzSuKj9uwqeEHw9c6soex5P_sC0tfnwznFIwVl3D51WKXw3tjGx9c7LxZa2Uk7p63b-eg",
+      "summonerName": "Conor",
+      "tagLine": "Поля",
+      "leaguePoints": 761,
+      "wins": 70,
+      "losses": 41,
+      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
+      "daysInChallenger": 13,
+      "currentStreak": 5,
+      "currentRank": 37,
+      "avgRank": 43.0,
+      "avgRankAll": 43.0,
+      "rankHistory": [
+        50,
+        46,
+        40,
+        47,
+        44,
+        38,
+        43,
+        35,
+        43,
+        48,
+        41,
+        47,
+        37
+      ],
+      "isActive": true,
+      "rank": 59
     },
     {
       "puuid": "AldboVh5qHFP39IQtUZQ-04gs4FHX3_LMAuj43BixRs-I2YrxUSMWpT7u1eVIau5Qff6WntIUdpJbw",
@@ -2399,37 +2464,67 @@
         44
       ],
       "isActive": false,
-      "rank": 59
+      "rank": 60
     },
     {
-      "puuid": "Y_XrDSuPDmzSuKj9uwqeEHw9c6soex5P_sC0tfnwznFIwVl3D51WKXw3tjGx9c7LxZa2Uk7p63b-eg",
-      "summonerName": "Conor",
-      "tagLine": "Поля",
-      "leaguePoints": 742,
-      "wins": 69,
-      "losses": 41,
-      "firstSeenDate": "2026-01-28T02:44:41.923796+00:00",
+      "puuid": "Xju8x7rODPaO02MmVVP32NGae06YH3wiGWLMHIgj_BQp2z2OCOl5ZtlWqCd9NhHDwGLUVGcY_GS5QQ",
+      "summonerName": "Апелькот",
+      "tagLine": "RU1",
+      "leaguePoints": 755,
+      "wins": 99,
+      "losses": 76,
+      "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
       "daysInChallenger": 12,
-      "currentStreak": 4,
-      "currentRank": 47,
-      "avgRank": 43.5,
-      "avgRankAll": 43.5,
+      "currentStreak": 6,
+      "currentRank": 39,
+      "avgRank": 42.75,
+      "avgRankAll": 42.75,
       "rankHistory": [
-        50,
-        46,
-        40,
-        47,
-        44,
         38,
-        43,
         35,
+        37,
+        50,
+        50,
+        50,
         43,
-        48,
+        47,
         41,
-        47
+        43,
+        40,
+        39
       ],
       "isActive": true,
-      "rank": 60
+      "rank": 61
+    },
+    {
+      "puuid": "3JXuw33bmy5HpI0YgUXlAk4wN6ahASfcUBdJXkHEVgXhPfvcBpx6Z_SSGJKARwk0cgs788nXIpqPlQ",
+      "summonerName": "Forikon",
+      "tagLine": "RU1",
+      "leaguePoints": 759,
+      "wins": 89,
+      "losses": 81,
+      "firstSeenDate": "2026-02-10T03:40:24.029390+00:00",
+      "daysInChallenger": 12,
+      "currentStreak": 12,
+      "currentRank": 38,
+      "avgRank": 31.583333333333332,
+      "avgRankAll": 31.583333333333332,
+      "rankHistory": [
+        48,
+        37,
+        31,
+        23,
+        21,
+        25,
+        30,
+        33,
+        29,
+        28,
+        36,
+        38
+      ],
+      "isActive": true,
+      "rank": 62
     },
     {
       "puuid": "30oIEGxqAEvsm4FZUUUcmaW_OG4zxIjg2sN-MOhleC3dvRJm4BDMeB_yGJ7HWKzeTIKI4Nbt8bh5jA",
@@ -2458,65 +2553,36 @@
         49
       ],
       "isActive": false,
-      "rank": 61
+      "rank": 63
     },
     {
-      "puuid": "Xju8x7rODPaO02MmVVP32NGae06YH3wiGWLMHIgj_BQp2z2OCOl5ZtlWqCd9NhHDwGLUVGcY_GS5QQ",
-      "summonerName": "Апелькот",
-      "tagLine": "RU1",
-      "leaguePoints": 755,
-      "wins": 99,
-      "losses": 76,
-      "firstSeenDate": "2026-02-07T03:04:19.828434+00:00",
-      "daysInChallenger": 11,
-      "currentStreak": 5,
-      "currentRank": 40,
-      "avgRank": 43.09090909090909,
-      "avgRankAll": 43.09090909090909,
-      "rankHistory": [
-        38,
-        35,
-        37,
-        50,
-        50,
-        50,
-        43,
-        47,
-        41,
-        43,
-        40
-      ],
-      "isActive": true,
-      "rank": 62
-    },
-    {
-      "puuid": "3JXuw33bmy5HpI0YgUXlAk4wN6ahASfcUBdJXkHEVgXhPfvcBpx6Z_SSGJKARwk0cgs788nXIpqPlQ",
-      "summonerName": "Forikon",
-      "tagLine": "RU1",
-      "leaguePoints": 761,
-      "wins": 88,
-      "losses": 79,
-      "firstSeenDate": "2026-02-10T03:40:24.029390+00:00",
+      "puuid": "GlC472vc78cy3hX5E7VLdWP8pEqCa5AeYtU__D4ibw7EPaQZMWdN243KwvqBBb1_LPn3XuTgu4PFJA",
+      "summonerName": "Джеффри Эпштейн",
+      "tagLine": "суета",
+      "leaguePoints": 769,
+      "wins": 112,
+      "losses": 85,
+      "firstSeenDate": "2026-02-11T03:39:04.178506+00:00",
       "daysInChallenger": 11,
       "currentStreak": 11,
-      "currentRank": 36,
-      "avgRank": 31.0,
-      "avgRankAll": 31.0,
+      "currentRank": 33,
+      "avgRank": 36.0,
+      "avgRankAll": 36.0,
       "rankHistory": [
-        48,
-        37,
-        31,
-        23,
-        21,
-        25,
-        30,
-        33,
         29,
-        28,
-        36
+        38,
+        36,
+        32,
+        34,
+        35,
+        39,
+        43,
+        45,
+        32,
+        33
       ],
       "isActive": true,
-      "rank": 63
+      "rank": 64
     },
     {
       "puuid": "-tLJstCbFp_aU9LZDzZavcNn8sW4ERJaVufMFpxcv6NlEq7jhbyOwGw4LBCnY4TQOdAGLYLYrinEcQ",
@@ -2544,35 +2610,63 @@
         24
       ],
       "isActive": false,
-      "rank": 64
+      "rank": 65
     },
     {
-      "puuid": "GlC472vc78cy3hX5E7VLdWP8pEqCa5AeYtU__D4ibw7EPaQZMWdN243KwvqBBb1_LPn3XuTgu4PFJA",
-      "summonerName": "Джеффри Эпштейн",
-      "tagLine": "суета",
-      "leaguePoints": 769,
-      "wins": 112,
-      "losses": 85,
-      "firstSeenDate": "2026-02-11T03:39:04.178506+00:00",
+      "puuid": "ogBbv7GissZQ-dwzIBb9JJ-Z9qn_6B7K0npmvhYKXQS3zYd3X_BtzMVtli2xmyF2UH4HmlWMRbX-6w",
+      "summonerName": "Peyz",
+      "tagLine": "tryme",
+      "leaguePoints": 811,
+      "wins": 205,
+      "losses": 200,
+      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
       "daysInChallenger": 10,
-      "currentStreak": 10,
-      "currentRank": 32,
-      "avgRank": 36.3,
-      "avgRankAll": 36.3,
+      "currentStreak": 3,
+      "currentRank": 26,
+      "avgRank": 32.7,
+      "avgRankAll": 32.7,
       "rankHistory": [
-        29,
-        38,
-        36,
-        32,
-        34,
-        35,
-        39,
-        43,
-        45,
-        32
+        25,
+        16,
+        40,
+        27,
+        46,
+        48,
+        46,
+        27,
+        26,
+        26
       ],
       "isActive": true,
-      "rank": 65
+      "rank": 66
+    },
+    {
+      "puuid": "VjqRHuM7dF_JjSLYlq2R6qIv1JgtuCKMqlT8wppsVz3uEW-ZE9wo11E4BukxMB2XQJhhixGNFxKu9w",
+      "summonerName": "Sheesh",
+      "tagLine": "bbmon",
+      "leaguePoints": 833,
+      "wins": 118,
+      "losses": 92,
+      "firstSeenDate": "2026-02-05T03:07:20.518353+00:00",
+      "daysInChallenger": 10,
+      "currentStreak": 9,
+      "currentRank": 22,
+      "avgRank": 23.6,
+      "avgRankAll": 23.6,
+      "rankHistory": [
+        50,
+        27,
+        35,
+        32,
+        15,
+        15,
+        10,
+        11,
+        19,
+        22
+      ],
+      "isActive": true,
+      "rank": 67
     },
     {
       "puuid": "Iwx4_myoPluU5M2_XEDuEJEqH3bVaEN6nYdH02QN0yl5xiuq-pHI2DUus0boJsot7KWenJuCerKGsA",
@@ -2599,7 +2693,7 @@
         47
       ],
       "isActive": false,
-      "rank": 66
+      "rank": 68
     },
     {
       "puuid": "TTXn6JS_SKPO4S5eCvsk0sxCXrFEDYST7_HmB6jF3mya0vuc0Rb31dEC2K9watNwq1xrZaiFY0vK1g",
@@ -2626,61 +2720,34 @@
         45
       ],
       "isActive": false,
-      "rank": 67
-    },
-    {
-      "puuid": "ogBbv7GissZQ-dwzIBb9JJ-Z9qn_6B7K0npmvhYKXQS3zYd3X_BtzMVtli2xmyF2UH4HmlWMRbX-6w",
-      "summonerName": "Peyz",
-      "tagLine": "tryme",
-      "leaguePoints": 811,
-      "wins": 205,
-      "losses": 200,
-      "firstSeenDate": "2026-01-19T02:45:49.685932+00:00",
-      "daysInChallenger": 9,
-      "currentStreak": 2,
-      "currentRank": 26,
-      "avgRank": 33.44444444444444,
-      "avgRankAll": 33.44444444444444,
-      "rankHistory": [
-        25,
-        16,
-        40,
-        27,
-        46,
-        48,
-        46,
-        27,
-        26
-      ],
-      "isActive": true,
-      "rank": 68
-    },
-    {
-      "puuid": "VjqRHuM7dF_JjSLYlq2R6qIv1JgtuCKMqlT8wppsVz3uEW-ZE9wo11E4BukxMB2XQJhhixGNFxKu9w",
-      "summonerName": "Sheesh",
-      "tagLine": "bbmon",
-      "leaguePoints": 842,
-      "wins": 115,
-      "losses": 89,
-      "firstSeenDate": "2026-02-05T03:07:20.518353+00:00",
-      "daysInChallenger": 9,
-      "currentStreak": 8,
-      "currentRank": 19,
-      "avgRank": 23.77777777777778,
-      "avgRankAll": 23.77777777777778,
-      "rankHistory": [
-        50,
-        27,
-        35,
-        32,
-        15,
-        15,
-        10,
-        11,
-        19
-      ],
-      "isActive": true,
       "rank": 69
+    },
+    {
+      "puuid": "z_zphWm-I_8S09yRnnwsFtun3oUGW6Uff0z3b1enjcysNXqwSNdeYTNFGWoVXi5KfPNP3a8pa77spQ",
+      "summonerName": "Faith",
+      "tagLine": "608",
+      "leaguePoints": 748,
+      "wins": 112,
+      "losses": 90,
+      "firstSeenDate": "2026-02-13T03:17:51.105941+00:00",
+      "daysInChallenger": 9,
+      "currentStreak": 9,
+      "currentRank": 42,
+      "avgRank": 40.77777777777778,
+      "avgRankAll": 40.77777777777778,
+      "rankHistory": [
+        48,
+        49,
+        43,
+        38,
+        35,
+        34,
+        37,
+        41,
+        42
+      ],
+      "isActive": true,
+      "rank": 70
     },
     {
       "puuid": "h3czaMMCZzqSl_whgvmMLmnKxPOtZvOBddB9h36BjBhqNntFGm06j-pNYAputeZ04iqfEgnEpg_nDA",
@@ -2706,7 +2773,7 @@
         50
       ],
       "isActive": false,
-      "rank": 70
+      "rank": 71
     },
     {
       "puuid": "-7U99c8oKDFQVtKO6ASFPG4Vq7saTvqXntxw9TFqJmmeQJIvVjxG8I3F9Hnuu8_B-rOYO5RHWEyfnQ",
@@ -2732,7 +2799,7 @@
         49
       ],
       "isActive": false,
-      "rank": 71
+      "rank": 72
     },
     {
       "puuid": "N7AaFS63IaBpGlzHdrRJQRzk6ML7jSk07fEZKnOUL9rF2QD_vivvSDzgGUtQM3Nj02fUgVcBO2effA",
@@ -2758,7 +2825,7 @@
         38
       ],
       "isActive": false,
-      "rank": 72
+      "rank": 73
     },
     {
       "puuid": "ZmAuwaW729ospGY7bDGiqV09sS6sVXGJJwkitT1gz9uSnDDmTK7QCiUaoeo9uMakWuPur3_DBLZiSg",
@@ -2784,7 +2851,7 @@
         45
       ],
       "isActive": false,
-      "rank": 73
+      "rank": 74
     },
     {
       "puuid": "9Q2LfR17JeTB5t3x34QpelMQJfEvNTqKE41CaIXq4X72cqcaUvQw0VBA50SPc84EeVQeKPEH8m3rNg",
@@ -2810,32 +2877,6 @@
         48
       ],
       "isActive": false,
-      "rank": 74
-    },
-    {
-      "puuid": "z_zphWm-I_8S09yRnnwsFtun3oUGW6Uff0z3b1enjcysNXqwSNdeYTNFGWoVXi5KfPNP3a8pa77spQ",
-      "summonerName": "Faith",
-      "tagLine": "608",
-      "leaguePoints": 748,
-      "wins": 112,
-      "losses": 90,
-      "firstSeenDate": "2026-02-13T03:17:51.105941+00:00",
-      "daysInChallenger": 8,
-      "currentStreak": 8,
-      "currentRank": 41,
-      "avgRank": 40.625,
-      "avgRankAll": 40.625,
-      "rankHistory": [
-        48,
-        49,
-        43,
-        38,
-        35,
-        34,
-        37,
-        41
-      ],
-      "isActive": true,
       "rank": 75
     },
     {
@@ -3061,6 +3102,30 @@
       "rank": 84
     },
     {
+      "puuid": "bSPmQ0dhXJkIcbhyK6daOy5OApGXD_lTpKrjKjZB02L7IBQ9pLwwEqUJkJiuSiGbS7BjexLfHJaDlw",
+      "summonerName": "Revenant ruler",
+      "tagLine": "Kaito",
+      "leaguePoints": 851,
+      "wins": 84,
+      "losses": 62,
+      "firstSeenDate": "2026-02-15T03:35:33.984014+00:00",
+      "daysInChallenger": 6,
+      "currentStreak": 4,
+      "currentRank": 17,
+      "avgRank": 33.5,
+      "avgRankAll": 33.5,
+      "rankHistory": [
+        40,
+        45,
+        47,
+        36,
+        16,
+        17
+      ],
+      "isActive": true,
+      "rank": 85
+    },
+    {
       "puuid": "1bG20UHekHP6Vt2iwJoUxNNwgnv6S7gN1cwCLkDmmMFVYtq0BvpO6nbqAn0P4VtXcHmrqVMu34i6_Q",
       "summonerName": "s18",
       "tagLine": "sipan",
@@ -3081,7 +3146,7 @@
         50
       ],
       "isActive": false,
-      "rank": 85
+      "rank": 86
     },
     {
       "puuid": "jwRtU-ecJqBZtocJPJXDYEryE4eZB5Vw5LBdksARexQy9MRxxqkgbM-wvtWyLv761VEtGbbNhMlYRw",
@@ -3104,7 +3169,7 @@
         48
       ],
       "isActive": false,
-      "rank": 86
+      "rank": 87
     },
     {
       "puuid": "lJSUSKve8oB4aJqzUSGf_0hS0j5B8sZjVix_hR2RbP4MLTy3cbtHvPN0oAnd2gC1v1wyN5kx2Q4P5g",
@@ -3127,7 +3192,7 @@
         47
       ],
       "isActive": false,
-      "rank": 87
+      "rank": 88
     },
     {
       "puuid": "s4o1CfjVlEllOkWPDVp6xTmKMbkNZ3UwurQHwMNscKtjXVJAUu9Hbd9ehBsjCYKMSW5u523gXO8OGg",
@@ -3150,7 +3215,7 @@
         50
       ],
       "isActive": false,
-      "rank": 88
+      "rank": 89
     },
     {
       "puuid": "_7JQEuHYXRk4bGVstcdgudbQ-F1pZDnfoz5YP5aM-9G4ELNyrjY58PSQ8O4W-ZlX0AaldhggoAW0Ew",
@@ -3173,30 +3238,53 @@
         46
       ],
       "isActive": false,
-      "rank": 89
+      "rank": 90
     },
     {
-      "puuid": "bSPmQ0dhXJkIcbhyK6daOy5OApGXD_lTpKrjKjZB02L7IBQ9pLwwEqUJkJiuSiGbS7BjexLfHJaDlw",
-      "summonerName": "Revenant ruler",
-      "tagLine": "Kaito",
-      "leaguePoints": 853,
-      "wins": 81,
-      "losses": 59,
-      "firstSeenDate": "2026-02-15T03:35:33.984014+00:00",
+      "puuid": "sbP7uIMblSniD7bBFxv2j0GbG5OolmfziiAnggHr2yCx6LPlrPPu2_GnoN65VdPEABMx-9JqUODbqg",
+      "summonerName": "TheСАХАР",
+      "tagLine": "sweet",
+      "leaguePoints": 792,
+      "wins": 118,
+      "losses": 90,
+      "firstSeenDate": "2026-01-31T02:59:51.098928+00:00",
       "daysInChallenger": 5,
-      "currentStreak": 3,
-      "currentRank": 16,
-      "avgRank": 36.8,
-      "avgRankAll": 36.8,
+      "currentStreak": 4,
+      "currentRank": 27,
+      "avgRank": 34.6,
+      "avgRankAll": 34.6,
       "rankHistory": [
-        40,
-        45,
-        47,
-        36,
-        16
+        46,
+        35,
+        34,
+        31,
+        27
       ],
       "isActive": true,
-      "rank": 90
+      "rank": 91
+    },
+    {
+      "puuid": "VuWnOGt8aJAq6-xq2XB0ftOylRkpbBfb-KRl9Fjzry50iJjELor0M59rRao5BXzMrfl44qafdrtEnA",
+      "summonerName": "Сладкий3Шмелёнок",
+      "tagLine": "Vayne",
+      "leaguePoints": 776,
+      "wins": 53,
+      "losses": 36,
+      "firstSeenDate": "2026-02-17T03:11:51.247554+00:00",
+      "daysInChallenger": 5,
+      "currentStreak": 5,
+      "currentRank": 31,
+      "avgRank": 36.4,
+      "avgRankAll": 36.4,
+      "rankHistory": [
+        37,
+        38,
+        48,
+        28,
+        31
+      ],
+      "isActive": true,
+      "rank": 92
     },
     {
       "puuid": "CfwKabmChmhy8b78E0Vq1Gj6H_C0m342uAyXQ6YtQlp3isY22jfFesMipxHfcIAyLqFP8dBfA5llyA",
@@ -3218,7 +3306,7 @@
         45
       ],
       "isActive": false,
-      "rank": 91
+      "rank": 93
     },
     {
       "puuid": "hg3ZP7SGjJv6_1kd1oekjpURLkCgShLepaPfk2jUHB8M6-w4fJiIlXFBwyLHIhXrXIcY0I7qy1rI_Q",
@@ -3240,7 +3328,7 @@
         45
       ],
       "isActive": false,
-      "rank": 92
+      "rank": 94
     },
     {
       "puuid": "VJgq_gRA2Axm_lqcP5mbe-bG1NW5-xaNbDuIklZWn2xnwps2_-Fzw5Q2wqQdeBkM1JRf1ktrRvZTKg",
@@ -3262,7 +3350,7 @@
         49
       ],
       "isActive": false,
-      "rank": 93
+      "rank": 95
     },
     {
       "puuid": "IZCn_KktvLfhZ4FN9261eb-JCyouYNZjXgmAlsyoyzJITUZmEXH_Pw-u07tXI0ImgONnylWHLXj5Iw",
@@ -3284,50 +3372,6 @@
         47
       ],
       "isActive": false,
-      "rank": 94
-    },
-    {
-      "puuid": "sbP7uIMblSniD7bBFxv2j0GbG5OolmfziiAnggHr2yCx6LPlrPPu2_GnoN65VdPEABMx-9JqUODbqg",
-      "summonerName": "TheСАХАР",
-      "tagLine": "sweet",
-      "leaguePoints": 774,
-      "wins": 117,
-      "losses": 90,
-      "firstSeenDate": "2026-01-31T02:59:51.098928+00:00",
-      "daysInChallenger": 4,
-      "currentStreak": 3,
-      "currentRank": 31,
-      "avgRank": 36.5,
-      "avgRankAll": 36.5,
-      "rankHistory": [
-        46,
-        35,
-        34,
-        31
-      ],
-      "isActive": true,
-      "rank": 95
-    },
-    {
-      "puuid": "VuWnOGt8aJAq6-xq2XB0ftOylRkpbBfb-KRl9Fjzry50iJjELor0M59rRao5BXzMrfl44qafdrtEnA",
-      "summonerName": "Сладкий3Шмелёнок",
-      "tagLine": "Vayne",
-      "leaguePoints": 791,
-      "wins": 53,
-      "losses": 35,
-      "firstSeenDate": "2026-02-17T03:11:51.247554+00:00",
-      "daysInChallenger": 4,
-      "currentStreak": 4,
-      "currentRank": 28,
-      "avgRank": 37.75,
-      "avgRankAll": 37.75,
-      "rankHistory": [
-        37,
-        38,
-        48,
-        28
-      ],
-      "isActive": true,
       "rank": 96
     },
     {
@@ -3373,6 +3417,27 @@
       "rank": 98
     },
     {
+      "puuid": "6_MApxKZDRnfSfARTbgasEoRrwOJcklE_iiTn8QrOOx3PVqg_Kt2zvVtBvEgJudRHwbaJ1IszvBVog",
+      "summonerName": "GetCrazy",
+      "tagLine": "OoO",
+      "leaguePoints": 739,
+      "wins": 77,
+      "losses": 69,
+      "firstSeenDate": "2026-02-19T03:12:35.368492+00:00",
+      "daysInChallenger": 3,
+      "currentStreak": 3,
+      "currentRank": 47,
+      "avgRank": 45.666666666666664,
+      "avgRankAll": 45.666666666666664,
+      "rankHistory": [
+        42,
+        48,
+        47
+      ],
+      "isActive": true,
+      "rank": 99
+    },
+    {
       "puuid": "ZGs6u_6Z7NJNDYMjo9ZHaiGyAJN56G0t2UWpV54U9Rhy8zYwKq3b4Go6_fVrBm7XeDUkRbBcjRGojA",
       "summonerName": "LaseBrown",
       "tagLine": "RU1",
@@ -3390,7 +3455,7 @@
         42
       ],
       "isActive": false,
-      "rank": 99
+      "rank": 100
     },
     {
       "puuid": "eWWH4HzqDX9yTuK9Dbpe-2-Q5h1JDyzCUkfQvzfwIfcGbPMTE-xjsbw-B7vtAtSEJ2m_0yGTqUfNzQ",
@@ -3410,7 +3475,7 @@
         49
       ],
       "isActive": false,
-      "rank": 100
+      "rank": 101
     },
     {
       "puuid": "yIJ0X6_5bmMqQ8xLP8oCprTm1S62YH6hjKh21BdPs6g-G8HtUuaNczkDSQfupCbmKXSfoXqF1GKVPA",
@@ -3430,7 +3495,7 @@
         46
       ],
       "isActive": false,
-      "rank": 101
+      "rank": 102
     },
     {
       "puuid": "Nb9ZXMGGbqqH58fXAe1bD8nJVhiJ88ZBtsCdrzTL0mcyNLaDNvbTx7PJ2XgRT8qXCIM-QRU673h9VA",
@@ -3450,7 +3515,7 @@
         31
       ],
       "isActive": false,
-      "rank": 102
+      "rank": 103
     },
     {
       "puuid": "Xya08d0Hcz-18fPZZ7k_18G8F0nl6ibdHoGK79yMoCANFpreKdpde34i3I6OWsl4yWgJ1sXZA9rIVw",
@@ -3470,7 +3535,7 @@
         43
       ],
       "isActive": false,
-      "rank": 103
+      "rank": 104
     },
     {
       "puuid": "I9YoBU3QfweYFZDMx3S2tkSqBUvIDr8Ife7oiLLyqBMY2IuY7DNJoZ2Y7WKitcowUXPxFGzUwbjY6w",
@@ -3490,7 +3555,7 @@
         45
       ],
       "isActive": false,
-      "rank": 104
+      "rank": 105
     },
     {
       "puuid": "V6-NYAKZw8xJCPheJSEiACwCN7EWAOfcP10ec62lujwctGPsq-GhJhvQpFdyB0FNTe3AJyukytMy0g",
@@ -3510,7 +3575,7 @@
         48
       ],
       "isActive": false,
-      "rank": 105
+      "rank": 106
     },
     {
       "puuid": "vYSCAGEryYIEjy5xq18MANwukWesdRsUb7n21ghHOevdPJf_AR2Nay22lKCAgmh9uRJTcHWvuylkLw",
@@ -3530,7 +3595,7 @@
         50
       ],
       "isActive": false,
-      "rank": 106
+      "rank": 107
     },
     {
       "puuid": "IfPT49_zkaazUmpzl4GsXeyK1rahleeRwdSxtBo1W2hjqyW5zbs5-IptLG9Va-FPZ7AdSUrkQxW4Og",
@@ -3550,7 +3615,7 @@
         46
       ],
       "isActive": false,
-      "rank": 107
+      "rank": 108
     },
     {
       "puuid": "CZWyXrl3RsNwGluWWcaEvjWobcJmK0qcdIb3GyMomyp_QV5GiEfkkc2U7YfdSZ0Hshksl5MiA2hXrg",
@@ -3570,7 +3635,7 @@
         46
       ],
       "isActive": false,
-      "rank": 108
+      "rank": 109
     },
     {
       "puuid": "7dqWJmtqX1NCsE_vtyqNlm8B32Lu_ZUf1BucMke-McAj1ZCeU_7Eq5hHUnPX6Th0BBLOgsoO6l7Hhg",
@@ -3590,7 +3655,7 @@
         48
       ],
       "isActive": false,
-      "rank": 109
+      "rank": 110
     },
     {
       "puuid": "SBEEg3Z5f6LTE1UIE-Fk5PCH0bgrKaM-1OYe9dGHiwmJu0yUEbgDmPh61XkuXvOnP_UfWxviByWaBg",
@@ -3610,7 +3675,7 @@
         44
       ],
       "isActive": false,
-      "rank": 110
+      "rank": 111
     },
     {
       "puuid": "KUFp7XE9a_tw8hi2lsXgvntqwbn0XIq3NmG6mRnljVu42D3WIwof5y9-qyo_uZQmX423wgOAQp-Byg",
@@ -3630,7 +3695,7 @@
         49
       ],
       "isActive": false,
-      "rank": 111
+      "rank": 112
     },
     {
       "puuid": "7cPLxydrxZLcmvF8UFivGrNG3E3VfsWfbaW1vHFwk73pEE3NtCJRTDl1ZqW2-ApPrTBu3gA96-1MZg",
@@ -3650,67 +3715,67 @@
         32
       ],
       "isActive": false,
-      "rank": 112
+      "rank": 113
     },
     {
       "puuid": "nU6fXenDCy636tEzHymOngA51_VvP_HG26gWWQ6WMSNEl2EWtFa8rjWRjIosogb4DQ9GX6z_Qr_V-w",
       "summonerName": "Tankai",
       "tagLine": "ALD9R",
-      "leaguePoints": 738,
+      "leaguePoints": null,
       "wins": 71,
       "losses": 51,
       "firstSeenDate": "2026-02-19T03:12:35.368492+00:00",
       "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 49,
+      "currentStreak": 0,
+      "currentRank": null,
       "avgRank": 37.0,
       "avgRankAll": 37.0,
       "rankHistory": [
         25,
         49
       ],
-      "isActive": true,
-      "rank": 113
+      "isActive": false,
+      "rank": 114
     },
     {
       "puuid": "SqjbWopy-XGIOm_8jT4pyXtMfG7kF6t7eJuXpjpOJ55Ev3i47AYeGNsl0LYM0Spu6Ln6C_nIAmbCnw",
       "summonerName": "Рудэус Болотный",
       "tagLine": "JgDif",
-      "leaguePoints": 757,
+      "leaguePoints": null,
       "wins": 99,
       "losses": 85,
       "firstSeenDate": "2026-02-19T03:12:35.368492+00:00",
       "daysInChallenger": 2,
-      "currentStreak": 2,
-      "currentRank": 38,
+      "currentStreak": 0,
+      "currentRank": null,
       "avgRank": 35.5,
       "avgRankAll": 35.5,
       "rankHistory": [
         33,
         38
       ],
-      "isActive": true,
-      "rank": 114
+      "isActive": false,
+      "rank": 115
     },
     {
-      "puuid": "6_MApxKZDRnfSfARTbgasEoRrwOJcklE_iiTn8QrOOx3PVqg_Kt2zvVtBvEgJudRHwbaJ1IszvBVog",
-      "summonerName": "GetCrazy",
-      "tagLine": "OoO",
-      "leaguePoints": 739,
-      "wins": 77,
-      "losses": 69,
-      "firstSeenDate": "2026-02-19T03:12:35.368492+00:00",
+      "puuid": "J2eont-3RHNgjedDRk5S87ZrSP3lP56wZ0wJK81p3Ovx49IET9Nx0vYWf4fPjPIBAd0M0umA8sxVrA",
+      "summonerName": "Лаймик",
+      "tagLine": "Aser",
+      "leaguePoints": 824,
+      "wins": 65,
+      "losses": 43,
+      "firstSeenDate": "2026-02-20T03:08:37.443906+00:00",
       "daysInChallenger": 2,
       "currentStreak": 2,
-      "currentRank": 48,
-      "avgRank": 45.0,
-      "avgRankAll": 45.0,
+      "currentRank": 24,
+      "avgRank": 26.5,
+      "avgRankAll": 26.5,
       "rankHistory": [
-        42,
-        48
+        29,
+        24
       ],
       "isActive": true,
-      "rank": 115
+      "rank": 116
     },
     {
       "puuid": "eDIlWem_vwZl2GdI-EUgQXxzS1X9OrzhhcSqBOIiEUeOm9oFP8HKMgW7kBNOEJ1cktWeVr5EsNytoA",
@@ -3729,7 +3794,7 @@
         43
       ],
       "isActive": false,
-      "rank": 116
+      "rank": 117
     },
     {
       "puuid": "KAcXheDj2qH1BvyDRwpGykiYVukq2-C45NwhOjWVlmZJj3VZd40cnlivu_cH7XHhEkHKt_s-Rk5lcg",
@@ -3748,7 +3813,7 @@
         43
       ],
       "isActive": false,
-      "rank": 117
+      "rank": 118
     },
     {
       "puuid": "rSjcupakMpckmmWE6ELJvKrJ1GCb0XrXqQIkcwDQsfSyDqOcxfAcdgvvWteESQ9zd9JpkMPKhMh68g",
@@ -3767,27 +3832,84 @@
         47
       ],
       "isActive": false,
-      "rank": 118
+      "rank": 119
     },
     {
-      "puuid": "J2eont-3RHNgjedDRk5S87ZrSP3lP56wZ0wJK81p3Ovx49IET9Nx0vYWf4fPjPIBAd0M0umA8sxVrA",
-      "summonerName": "Лаймик",
-      "tagLine": "Aser",
-      "leaguePoints": 779,
-      "wins": 61,
-      "losses": 41,
-      "firstSeenDate": "2026-02-20T03:08:37.443906+00:00",
+      "puuid": "pTZLHNtPuv3lSA_YTl69aznXm01hodzDd-P2J_GNr8Nf1NqQkpgk0XuCOARiO4JoaIXxPg5n7An9NA",
+      "summonerName": "антистиль",
+      "tagLine": "стихи",
+      "leaguePoints": 763,
+      "wins": 135,
+      "losses": 92,
+      "firstSeenDate": "2026-02-21T03:01:56.630120+00:00",
       "daysInChallenger": 1,
       "currentStreak": 1,
-      "currentRank": 29,
-      "avgRank": 29,
-      "avgRankAll": 29,
+      "currentRank": 36,
+      "avgRank": 36,
+      "avgRankAll": 36,
       "rankHistory": [
-        29
+        36
       ],
       "isActive": true,
-      "rank": 119
+      "rank": 120
+    },
+    {
+      "puuid": "cTtCz22DH3v19QnadG4tAZWYja7zOCNxyn0TqgA6aDSV2wLN0pjwb_NGZ_FUa_OeV9GQMr2OSDsG0A",
+      "summonerName": "Devilаst",
+      "tagLine": "RU1",
+      "leaguePoints": 753,
+      "wins": 69,
+      "losses": 40,
+      "firstSeenDate": "2026-02-21T03:01:56.630120+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 41,
+      "avgRank": 41,
+      "avgRankAll": 41,
+      "rankHistory": [
+        41
+      ],
+      "isActive": true,
+      "rank": 121
+    },
+    {
+      "puuid": "l1diZN4pt0XfSZ_aV4Odq2n9qOy4KbDl9KE6sDsKYOTfI9ZCb0sgTAdyHVTSVnfUIZ52iePSWHWz3g",
+      "summonerName": "ингаливрот",
+      "tagLine": "eбли",
+      "leaguePoints": 743,
+      "wins": 110,
+      "losses": 85,
+      "firstSeenDate": "2026-02-21T03:01:56.630120+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 45,
+      "avgRank": 45,
+      "avgRankAll": 45,
+      "rankHistory": [
+        45
+      ],
+      "isActive": true,
+      "rank": 122
+    },
+    {
+      "puuid": "CL1M1KTMyMIQYwootuWBTgYnR_ZQmJFoM8a-fU6cIIv9gfhmuSuJFjT5xDqlTDtHTjxGeEmz7_b1Lg",
+      "summonerName": "Paska servu",
+      "tagLine": "haha",
+      "leaguePoints": 732,
+      "wins": 78,
+      "losses": 39,
+      "firstSeenDate": "2026-02-21T03:01:56.630120+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 48,
+      "avgRank": 48,
+      "avgRankAll": 48,
+      "rankHistory": [
+        48
+      ],
+      "isActive": true,
+      "rank": 123
     }
   ],
-  "lastUpdate": "2026-02-20T03:08:37.443906+00:00"
+  "lastUpdate": "2026-02-21T03:01:56.630120+00:00"
 }
