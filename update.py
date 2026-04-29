@@ -34,6 +34,8 @@ ROUTING_DISTRIBUTION = {
     ]
 }
 
+FORCE_ARCHIVE = os.environ.get('FORCE_ARCHIVE', 'no').lower() == 'yes'
+
 def get_challenger_league(platform_region):
     """Fetch current Challenger league data from platform-specific endpoint"""
     url = f'https://{platform_region}.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5'
@@ -353,7 +355,7 @@ def update_all_regions():
         return False
     
     # Check for season reset BEFORE updating
-    if detect_season_reset():
+    if FORCE_ARCHIVE or detect_season_reset():
         archive_name = get_next_archive_name()
         archive_current_data(archive_name)
     
